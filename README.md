@@ -2,7 +2,7 @@
 
 Automated trading bot built for SIG's **Predictions Cup**, the Midterm Elections tournament on
 `sig.thesuper.market`, a play-money prediction market ("SUSQies", 100k start). It ran live through the
-tournament (2026-10-01 → 2026-11-04) against ~1,600 other accounts.
+tournament (2026-10-01 → 2026-11-04) against ~2,00 other accounts and placed #169.
 
 The post-mortem is in [WRITEUP.md](WRITEUP.md).
 Development happened in a private repo during the comp, this repo is the finished tree.
