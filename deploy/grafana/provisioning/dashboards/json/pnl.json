@@ -1,0 +1,1884 @@
+{
+  "uid": "sigbot-pnl",
+  "title": "Sigbot - P&L",
+  "tags": [
+    "sigbot"
+  ],
+  "timezone": "utc",
+  "schemaVersion": 39,
+  "version": 1,
+  "editable": true,
+  "refresh": "30s",
+  "time": {
+    "from": "now-24h",
+    "to": "now"
+  },
+  "links": [
+    {
+      "type": "dashboards",
+      "tags": [
+        "sigbot"
+      ],
+      "asDropdown": false,
+      "title": "Sigbot"
+    }
+  ],
+  "annotations": {
+    "list": []
+  },
+  "templating": {
+    "list": []
+  },
+  "panels": [
+    {
+      "type": "stat",
+      "title": "P&L (SUSQ)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT pnl FROM equity WHERE pnl IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 1,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "P&L %",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT pnl / nullif(initial_balance, 0) FROM equity WHERE pnl / nullif(initial_balance, 0) IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "decimals": 2,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 2,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 4,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Realized",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT realized_pnl FROM equity WHERE realized_pnl IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 3,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Unrealized",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT unrealized_pnl FROM equity WHERE unrealized_pnl IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 4,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Equity (fair marks)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT equity_fair FROM equity WHERE equity_fair IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 5,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Cash",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT cash FROM equity WHERE cash IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 6,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 20,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Deployed",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT deployed FROM equity WHERE deployed IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 7,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 4,
+        "w": 3,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Open positions",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT count(*) FROM positions WHERE ts = (SELECT max(ts) FROM equity) AND quantity <> 0"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 8,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 3,
+        "y": 4,
+        "w": 3,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Leaderboard rank",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT rank FROM standing WHERE rank IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "unranked",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 9,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 6,
+        "y": 4,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Capital tier",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT tier FROM equity WHERE tier IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 10,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 10,
+        "y": 4,
+        "w": 3,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "SIG market",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT CASE sig_state WHEN 'OPEN' THEN 1 WHEN 'NOT STARTED' THEN 0 WHEN 'ENDED' THEN 2 END FROM equity WHERE CASE sig_state WHEN 'OPEN' THEN 1 WHEN 'NOT STARTED' THEN 0 WHEN 'ENDED' THEN 2 END IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "NOT OPEN YET",
+                  "color": "blue"
+                },
+                "1": {
+                  "text": "OPEN",
+                  "color": "green"
+                },
+                "2": {
+                  "text": "ENDED",
+                  "color": "text"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "id": 11,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 13,
+        "y": 4,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Trading",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT CASE WHEN halted THEN 1 ELSE 0 END FROM equity WHERE CASE WHEN halted THEN 1 ELSE 0 END IS NOT NULL ORDER BY ts DESC LIMIT 1"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": [
+            {
+              "type": "value",
+              "options": {
+                "0": {
+                  "text": "running",
+                  "color": "green"
+                },
+                "1": {
+                  "text": "HALTED",
+                  "color": "red"
+                }
+              }
+            }
+          ]
+        },
+        "overrides": []
+      },
+      "id": 12,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 17,
+        "y": 4,
+        "w": 4,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Fills today",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT count(*) FROM orders WHERE qty_traded > 0 AND ts >= date_trunc('day', now())"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 13,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 21,
+        "y": 4,
+        "w": 3,
+        "h": 4
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Equity",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, equity_fair AS \"Equity (fair marks)\", equity_sig AS \"Equity (SIG marks)\" FROM equity WHERE $__timeFilter(ts) ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 14,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 8,
+        "w": 12,
+        "h": 9
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "P&L",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, pnl AS \"P&L\", realized_pnl AS \"Realized\", unrealized_pnl AS \"Unrealized\" FROM equity WHERE $__timeFilter(ts) AND pnl IS NOT NULL ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 15,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 8,
+        "w": 12,
+        "h": 9
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "SIG latency (ms)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, p50_ms AS \"Data request p50\", p99_ms AS \"Data request p99\" FROM latency WHERE source = 'sig' AND metric = 'rest' AND $__timeFilter(ts) ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, p50_ms AS \"Order p50\" FROM latency WHERE source = 'sig' AND metric = 'order' AND $__timeFilter(ts) ORDER BY 1"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, p50_ms AS \"Live feed delay p50\", p99_ms AS \"Live feed delay p99\" FROM latency WHERE source = 'sig' AND metric = 'feed' AND $__timeFilter(ts) ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 16,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 17,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Polymarket feed delay (ms)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, p50_ms AS \"Feed delay p50\", p99_ms AS \"Feed delay p99\" FROM latency WHERE source = 'polymarket' AND metric = 'feed' AND $__timeFilter(ts) ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 17,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 17,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Kalshi poll round trip (ms)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, p50_ms AS \"Poll p50\", p99_ms AS \"Poll p99\" FROM latency WHERE source = 'kalshi' AND metric = 'rest' AND $__timeFilter(ts) ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ms",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 18,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 17,
+        "w": 8,
+        "h": 8
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Lost to speed today",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT count(*) FROM lost_races WHERE ts >= date_trunc('day', now())"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "text",
+                "value": null
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 19,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 25,
+        "w": 4,
+        "h": 6
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Snipe shares filled today",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT sum(qty_traded) / nullif(sum(quantity), 0) FROM orders WHERE strategy = 'snipe' AND NOT shadow AND ts >= date_trunc('day', now())"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value",
+        "justifyMode": "center"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "decimals": 0,
+          "noValue": "-",
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 0.5
+              },
+              {
+                "color": "green",
+                "value": 0.8
+              }
+            ]
+          },
+          "mappings": []
+        },
+        "overrides": []
+      },
+      "id": 20,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 4,
+        "y": 25,
+        "w": 4,
+        "h": 6
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Orders lost to faster traders (per 15 min)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '15m'), count(*) AS \"Lost races\" FROM lost_races WHERE $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "bars",
+            "lineWidth": 2,
+            "fillOpacity": 70,
+            "showPoints": "never",
+            "spanNulls": false,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 21,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 25,
+        "w": 16,
+        "h": 6
+      }
+    },
+    {
+      "type": "barchart",
+      "title": "Top paying races",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT coalesce(race, exchange_id) AS \"Race\",\n  round(sum(realized_pnl + unrealized_pnl)::numeric, 2) AS \"P&L\"\nFROM positions WHERE ts = (SELECT max(ts) FROM equity)\nGROUP BY 1 ORDER BY 2 DESC LIMIT 12"
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "xField": "Race",
+        "showValue": "auto",
+        "barWidth": 0.8,
+        "groupWidth": 0.7,
+        "legend": {
+          "showLegend": false,
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "id": 22,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 31,
+        "w": 12,
+        "h": 10
+      }
+    },
+    {
+      "type": "barchart",
+      "title": "Worst races",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT coalesce(race, exchange_id) AS \"Race\",\n  round(sum(realized_pnl + unrealized_pnl)::numeric, 2) AS \"P&L\"\nFROM positions WHERE ts = (SELECT max(ts) FROM equity)\nGROUP BY 1 ORDER BY 2 ASC LIMIT 12"
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "xField": "Race",
+        "showValue": "auto",
+        "barWidth": 0.8,
+        "groupWidth": 0.7,
+        "legend": {
+          "showLegend": false,
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "id": 23,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 31,
+        "w": 12,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Open positions",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT race AS \"Race\", party AS \"Party\",\n  CASE WHEN quantity > 0 THEN 'YES' ELSE 'NO' END AS \"Side\", abs(quantity) AS \"Shares\",\n  round(avg_cost::numeric, 3) AS \"Avg cost\", round(fair::numeric, 3) AS \"Fair (YES)\",\n  round(sig_price::numeric, 3) AS \"SIG mid (YES)\",\n  round(unrealized_pnl::numeric, 2) AS \"Unrealized\", round(realized_pnl::numeric, 2) AS \"Realized\"\nFROM positions WHERE ts = (SELECT max(ts) FROM equity) AND quantity <> 0\nORDER BY abs(unrealized_pnl) DESC"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Unrealized"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              },
+              {
+                "id": "color",
+                "value": {
+                  "mode": "thresholds"
+                }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "red",
+                      "value": null
+                    },
+                    {
+                      "color": "green",
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Realized"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              },
+              {
+                "id": "color",
+                "value": {
+                  "mode": "thresholds"
+                }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "red",
+                      "value": null
+                    },
+                    {
+                      "color": "green",
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "id": 24,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 41,
+        "w": 16,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Fills by trade reason",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT trade_reason AS \"Reason\", count(*) AS \"Fills\",\n  round(sum(total_cost)::numeric, 0) AS \"Notional\"\nFROM orders WHERE qty_traded > 0 AND $__timeFilter(ts)\nGROUP BY 1 ORDER BY 3 DESC"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 25,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 41,
+        "w": 8,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Recent fills",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT o.ts AS \"Time\", o.strategy AS \"Strategy\", o.trade_reason AS \"Reason\",\n  r.race AS \"Race\", r.party AS \"Party\", o.side AS \"Side\", o.price AS \"Limit\",\n  round(o.fill_price::numeric, 3) AS \"Fill\", o.qty_traded AS \"Shares\",\n  round(o.total_cost::numeric, 2) AS \"Cost\", CASE WHEN o.shadow THEN 'shadow' ELSE 'live' END AS \"Mode\"\nFROM orders o LEFT JOIN races r ON r.exchange_id = o.exchange_id\nWHERE o.qty_traded > 0 AND $__timeFilter(o.ts)\nORDER BY o.ts DESC LIMIT 100"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 26,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 51,
+        "w": 16,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Leaderboard (top 20)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT rank AS \"Rank\", coalesce(username, left(profile_id, 8)) AS \"Trader\",\n  round(pnl::numeric, 0) AS \"P&L\", round(roi::numeric, 4) AS \"ROI\", trades AS \"Trades\"\nFROM leaderboard WHERE ts = (SELECT max(ts) FROM leaderboard)\nORDER BY rank LIMIT 20"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "P&L"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              },
+              {
+                "id": "color",
+                "value": {
+                  "mode": "thresholds"
+                }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "red",
+                      "value": null
+                    },
+                    {
+                      "color": "green",
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "id": 27,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 51,
+        "w": 8,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Smart Score",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT market_type AS \"Market\", round(score::numeric, 3) AS \"Score\",\n  round(decayed::numeric, 3) AS \"Decayed\", rank AS \"Rank\", total AS \"Of\", elite AS \"Elite\"\nFROM smart_score WHERE ts = (SELECT max(ts) FROM smart_score)\nORDER BY market_type"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 28,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 61,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "table",
+      "title": "Capital tier changes",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS \"Time\", from_tier AS \"From\", to_tier AS \"To\", reason AS \"Why\" FROM ladder ORDER BY ts DESC LIMIT 20"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 29,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 61,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "table",
+      "title": "Latest warnings and errors (full log: Sigbot - Logs)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS \"Time\", level AS \"Level\", logger AS \"Source\", message AS \"Message\"\nFROM logs WHERE level IN ('WARNING', 'ERROR', 'CRITICAL') AND $__timeFilter(ts)\nORDER BY ts DESC LIMIT 20"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Level"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-text"
+                }
+              },
+              {
+                "id": "mappings",
+                "value": [
+                  {
+                    "type": "value",
+                    "options": {
+                      "CRITICAL": {
+                        "color": "red",
+                        "index": 0
+                      },
+                      "ERROR": {
+                        "color": "red",
+                        "index": 1
+                      },
+                      "WARNING": {
+                        "color": "orange",
+                        "index": 2
+                      },
+                      "INFO": {
+                        "color": "text",
+                        "index": 3
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "custom.width",
+                "value": 90
+              }
+            ]
+          }
+        ]
+      },
+      "id": 30,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 68,
+        "w": 24,
+        "h": 8
+      }
+    }
+  ]
+}

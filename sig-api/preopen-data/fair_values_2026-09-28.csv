@@ -1,0 +1,238 @@
+kind,race,party,marketId,exchangeId,k_bid,k_ask,pm_bid,pm_ask,fair,dmm_bid,dmm_ask,dmm_mid,dmm_minus_fair,buy_edge_vs_dmm,sell_edge_vs_dmm,title
+CHAMBER,U.S. House,D,151,840,0.915,0.916,0.92,0.93,0.9187,0.875,0.955,0.915,-0.0037,-0.0363,-0.0437,Will the Democratic Party win the U.S. House?
+CHAMBER,U.S. House,R,152,841,0.082,0.084,0.08,0.09,0.0837,0.045,0.125,0.085,0.0013,-0.0413,-0.0387,Will the Republican Party win the U.S. House?
+CHAMBER,U.S. Senate,D,153,842,0.61,0.62,0.62,0.63,0.62,0.575,0.655,0.615,-0.005,-0.035,-0.045,Will the Democratic Party win the U.S. Senate?
+CHAMBER,U.S. Senate,R,154,843,0.38,0.39,0.37,0.38,0.38,0.345,0.425,0.385,0.005,-0.045,-0.035,Will the Republican Party win the U.S. Senate?
+SEN,AK Senate,D,377,1066,0.7,0.71,0.72,0.73,0.715,0.665,0.745,0.705,-0.01,-0.03,-0.05,Will the Democratic Party win the Alaska Senate?
+SEN,AK Senate,R,378,1067,0.3,0.31,0.28,0.29,0.295,0.265,0.345,0.305,0.01,-0.05,-0.03,Will the Republican Party win the Alaska Senate?
+SEN,AL Senate,D,252,941,0.015,0.037,0.004,0.033,0.0228,,0.065,0.025,0.0022,-0.0422,,Will the Democratic Party win the Alabama Senate?
+SEN,AL Senate,R,253,942,0.965,0.985,0.957,0.98,0.972,0.935,,0.975,0.003,,-0.037,Will the Republican Party win the Alabama Senate?
+SEN,AR Senate,D,254,943,0.066,0.076,0.054,0.066,0.066,0.03,0.11,0.07,0.004,-0.044,-0.036,Will the Democratic Party win the Arkansas Senate?
+SEN,AR Senate,R,255,944,0.93,0.931,0.936,0.948,0.9339,0.89,0.97,0.93,-0.0039,-0.0361,-0.0439,Will the Republican Party win the Arkansas Senate?
+SEN,CO Senate,D,256,945,0.985,0.987,0.969,0.989,0.9846,0.945,,0.985,0.0004,,-0.0396,Will the Democratic Party win the Colorado Senate?
+SEN,CO Senate,R,257,946,0.014,0.015,0.014,0.027,0.0162,,0.055,0.015,-0.0012,-0.0388,,Will the Republican Party win the Colorado Senate?
+SEN,DE Senate,D,353,1042,0.987,0.998,0.98,0.995,0.9904,0.955,,0.995,0.0046,,-0.0354,Will the Democratic Party win the Delaware Senate?
+SEN,DE Senate,R,386,1075,0.002,0.014,0.006,0.021,0.0104,0.08,0.16,0.12,0.1096,-0.1496,0.0696,Will the Republican Party win the Delaware Senate?
+SEN,FL Senate,D,354,1043,,,0.08,0.09,0.085,0.06,0.14,0.1,0.015,-0.055,-0.025,Will the Democratic Party win the Florida Senate?
+SEN,FL Senate,R,355,1044,,,0.91,0.92,0.915,0.87,0.95,0.91,-0.005,-0.035,-0.045,Will the Republican Party win the Florida Senate?
+SEN,GA Senate,D,258,947,0.943,0.944,0.95,0.96,0.9473,0.905,0.985,0.945,-0.0023,-0.0377,-0.0423,Will the Democratic Party win the Georgia Senate?
+SEN,GA Senate,R,259,948,0.047,0.056,0.031,0.05,0.048,0.01,0.09,0.05,0.002,-0.042,-0.038,Will the Republican Party win the Georgia Senate?
+SEN,IA Senate,D,260,949,0.41,0.42,0.41,0.42,0.415,0.375,0.455,0.415,0.0,-0.04,-0.04,Will the Democratic Party win the Iowa Senate?
+SEN,IA Senate,R,261,950,0.57,0.58,0.58,0.59,0.58,0.535,0.615,0.575,-0.005,-0.035,-0.045,Will the Republican Party win the Iowa Senate?
+SEN,ID Senate,D,262,951,0.003,0.004,0.0,0.001,0.002,,0.045,0.005,0.003,-0.043,,Will the Democratic Party win the Idaho Senate?
+SEN,ID Senate,R,263,952,0.921,0.924,0.941,0.943,0.9322,0.88,0.96,0.92,-0.0122,-0.0278,-0.0522,Will the Republican Party win the Idaho Senate?
+SEN,IL Senate,D,264,953,0.978,0.984,0.973,0.984,0.9801,0.94,,0.98,-0.0001,,-0.0401,Will the Democratic Party win the Illinois Senate?
+SEN,IL Senate,R,265,954,0.019,0.023,0.022,0.026,0.0225,,0.06,0.02,-0.0025,-0.0375,,Will the Republican Party win the Illinois Senate?
+SEN,KS Senate,D,356,1045,0.29,0.3,0.29,0.3,0.295,0.255,0.335,0.295,0.0,-0.04,-0.04,Will the Democratic Party win the Kansas Senate?
+SEN,KS Senate,R,357,1046,0.7,0.71,0.7,0.71,0.705,0.665,0.745,0.705,0.0,-0.04,-0.04,Will the Republican Party win the Kansas Senate?
+SEN,KY Senate,D,266,955,0.044,0.05,0.031,0.042,0.0433,0.005,0.085,0.045,0.0017,-0.0417,-0.0383,Will the Democratic Party win the Kentucky Senate?
+SEN,KY Senate,R,267,956,0.95,0.955,0.953,0.965,0.9544,0.915,0.995,0.955,0.0006,-0.0406,-0.0394,Will the Republican Party win the Kentucky Senate?
+SEN,LA Senate,D,268,957,,,0.07,0.08,0.075,0.045,0.125,0.085,0.01,-0.05,-0.03,Will the Democratic Party win the Louisiana Senate?
+SEN,LA Senate,R,269,958,,,0.92,0.93,0.925,0.875,0.955,0.915,-0.01,-0.03,-0.05,Will the Republican Party win the Louisiana Senate?
+SEN,MA Senate,D,379,1068,0.985,0.988,0.975,0.983,0.9836,0.945,,0.985,0.0014,,-0.0386,Will the Democratic Party win the Massachusetts Senate?
+SEN,MA Senate,R,380,1069,0.013,0.015,0.012,0.022,0.015,,0.055,0.015,0.0,-0.04,,Will the Republican Party win the Massachusetts Senate?
+SEN,ME Senate,D,270,959,0.6,0.62,0.6,0.61,0.6067,0.57,0.65,0.61,0.0033,-0.0433,-0.0367,Will the Democratic Party win the Maine Senate?
+SEN,ME Senate,R,271,960,0.38,0.4,0.4,0.41,0.4,0.35,0.43,0.39,-0.01,-0.03,-0.05,Will the Republican Party win the Maine Senate?
+SEN,MI Senate,D,358,1047,0.71,0.72,0.7,0.71,0.71,0.675,0.755,0.715,0.005,-0.045,-0.035,Will the Democratic Party win the Michigan Senate?
+SEN,MI Senate,R,359,1048,0.28,0.29,0.29,0.3,0.29,0.245,0.325,0.285,-0.005,-0.035,-0.045,Will the Republican Party win the Michigan Senate?
+SEN,MN Senate,D,360,1049,0.88,0.89,0.91,0.92,0.9,0.845,0.925,0.885,-0.015,-0.025,-0.055,Will the Democratic Party win the Minnesota Senate?
+SEN,MN Senate,R,361,1050,0.1,0.12,0.08,0.09,0.0933,0.07,0.15,0.11,0.0167,-0.0567,-0.0233,Will the Republican Party win the Minnesota Senate?
+SEN,MS Senate,D,272,961,0.098,0.1,0.08,0.09,0.0943,0.06,0.14,0.1,0.0057,-0.0457,-0.0343,Will the Democratic Party win the Mississippi Senate?
+SEN,MS Senate,R,273,962,0.9,0.905,0.91,0.92,0.9067,0.865,0.945,0.905,-0.0017,-0.0383,-0.0417,Will the Republican Party win the Mississippi Senate?
+SEN,MT Senate,D,274,963,0.014,0.015,0.001,0.003,0.0083,,0.055,0.015,0.0067,-0.0467,,Will the Democratic Party win the Montana Senate?
+SEN,MT Senate,I,276,965,0.082,0.09,0.081,0.092,0.0862,0.045,0.125,0.085,-0.0012,-0.0388,-0.0412,Will the Independent Party win the Montana Senate?
+SEN,MT Senate,R,275,964,0.905,0.91,0.91,0.92,0.91,0.865,0.945,0.905,-0.005,-0.035,-0.045,Will the Republican Party win the Montana Senate?
+SEN,NC Senate,D,277,966,0.944,0.945,0.95,0.96,0.948,0.905,0.985,0.945,-0.003,-0.037,-0.043,Will the Democratic Party win the North Carolina Senate?
+SEN,NC Senate,R,278,967,0.053,0.059,0.05,0.06,0.0556,0.015,0.095,0.055,-0.0006,-0.0394,-0.0406,Will the Republican Party win the North Carolina Senate?
+SEN,NE Senate,D,279,968,0.0,0.004,0.0,0.002,0.0015,,0.04,0.0,-0.0015,-0.0385,,Will the Democratic Party win the Nebraska Senate?
+SEN,NE Senate,I,280,969,0.29,0.3,0.3,0.31,0.3,0.255,0.335,0.295,-0.005,-0.035,-0.045,Will the Independent Party win the Nebraska Senate?
+SEN,NE Senate,R,281,970,0.7,0.71,0.69,0.7,0.7,0.665,0.745,0.705,0.005,-0.045,-0.035,Will the Republican Party win the Nebraska Senate?
+SEN,NH Senate,D,381,1070,0.85,0.86,0.86,0.87,0.86,0.815,0.895,0.855,-0.005,-0.035,-0.045,Will the Democratic Party win the New Hampshire Senate?
+SEN,NH Senate,R,382,1071,0.14,0.15,0.13,0.14,0.14,0.105,0.185,0.145,0.005,-0.045,-0.035,Will the Republican Party win the New Hampshire Senate?
+SEN,NJ Senate,D,282,971,0.979,0.981,0.967,0.97,0.9742,0.94,,0.98,0.0058,,-0.0343,Will the Democratic Party win the New Jersey Senate?
+SEN,NJ Senate,R,283,972,0.019,0.02,0.031,0.036,0.0265,,0.06,0.02,-0.0065,-0.0335,,Will the Republican Party win the New Jersey Senate?
+SEN,NM Senate,D,284,973,0.979,0.98,0.968,0.971,0.9745,0.94,,0.98,0.0055,,-0.0345,Will the Democratic Party win the New Mexico Senate?
+SEN,NM Senate,R,285,974,0.011,0.02,0.005,0.026,0.0155,,0.055,0.015,-0.0005,-0.0395,,Will the Republican Party win the New Mexico Senate?
+SEN,OK Senate,D,383,1072,0.011,0.023,0.02,0.024,0.0205,,0.055,0.015,-0.0055,-0.0345,,Will the Democratic Party win the Oklahoma Senate?
+SEN,OK Senate,R,286,975,0.974,0.993,0.973,0.981,0.9789,0.945,,0.985,0.0061,,-0.0339,Will the Republican Party win the Oklahoma Senate?
+SEN,OR Senate,D,287,976,0.977,0.978,0.967,0.983,0.9769,0.94,,0.98,0.0031,,-0.0369,Will the Democratic Party win the Oregon Senate?
+SEN,OR Senate,R,288,977,0.02,0.022,0.018,0.024,0.021,,0.06,0.02,-0.001,-0.039,,Will the Republican Party win the Oregon Senate?
+SEN,RI Senate,D,387,1076,0.987,0.994,0.988,0.996,0.9912,0.95,,0.99,-0.0012,,-0.0412,Will the Democratic Party win the Rhode Island Senate?
+SEN,RI Senate,R,388,1077,0.007,0.014,0.004,0.014,0.0099,,0.05,0.01,0.0001,-0.0401,,Will the Republican Party win the Rhode Island Senate?
+SEN,SC Senate,D,289,978,0.12,0.13,0.14,0.15,0.135,0.085,0.165,0.125,-0.01,-0.03,-0.05,Will the Democratic Party win the South Carolina Senate?
+SEN,SC Senate,R,290,979,0.87,0.88,0.85,0.86,0.865,0.835,0.915,0.875,0.01,-0.05,-0.03,Will the Republican Party win the South Carolina Senate?
+SEN,SD Senate,D,291,980,0.003,0.004,0.001,0.002,0.0025,,0.045,0.005,0.0025,-0.0425,,Will the Democratic Party win the South Dakota Senate?
+SEN,SD Senate,R,292,981,0.907,0.923,0.932,0.942,0.9285,0.875,0.955,0.915,-0.0135,-0.0265,-0.0535,Will the Republican Party win the South Dakota Senate?
+SEN,TN Senate,D,362,1051,0.016,0.025,0.007,0.031,0.0201,,0.06,0.02,-0.0001,-0.0399,,Will the Democratic Party win the Tennessee Senate?
+SEN,TN Senate,R,363,1052,0.975,0.984,0.969,0.982,0.9779,0.94,,0.98,0.0021,,-0.0379,Will the Republican Party win the Tennessee Senate?
+SEN,TX Senate,D,293,982,0.59,0.6,0.6,0.61,0.6,0.555,0.635,0.595,-0.005,-0.035,-0.045,Will the Democratic Party win the Texas Senate?
+SEN,TX Senate,R,294,983,0.4,0.41,0.39,0.4,0.4,0.365,0.445,0.405,0.005,-0.045,-0.035,Will the Republican Party win the Texas Senate?
+SEN,VA Senate,D,295,984,0.975,0.99,0.974,0.98,0.9786,0.945,,0.985,0.0064,,-0.0336,Will the Democratic Party win the Virginia Senate?
+SEN,VA Senate,R,364,1053,0.005,0.025,0.002,0.028,0.015,,0.055,0.015,-0.0,-0.04,,Will the Republican Party win the Virginia Senate?
+SEN,WV Senate,D,296,985,0.022,0.025,0.007,0.019,0.0204,,0.065,0.025,0.0046,-0.0446,,Will the Democratic Party win the West Virginia Senate?
+SEN,WV Senate,R,297,986,0.978,0.983,0.975,0.997,0.9815,0.94,,0.98,-0.0015,,-0.0415,Will the Republican Party win the West Virginia Senate?
+SEN,WY Senate,D,365,1054,0.02,0.025,0.022,0.029,0.0238,,0.065,0.025,0.0013,-0.0413,,Will the Democratic Party win the Wyoming Senate?
+SEN,WY Senate,R,366,1055,0.974,0.975,0.968,0.97,0.9717,0.935,,0.975,0.0033,,-0.0367,Will the Republican Party win the Wyoming Senate?
+GOV,AK Governor,D,368,1057,0.74,0.75,0.79,0.796,0.775,0.705,0.785,0.745,-0.03,-0.01,-0.07,Will the Democratic Party win the Alaska Governor?
+GOV,AK Governor,R,369,1058,0.23,0.26,0.21000000000000002,0.232,0.2312,0.205,0.285,0.245,0.0138,-0.0538,-0.0262,Will the Republican Party win the Alaska Governor?
+GOV,AL Governor,D,155,844,0.095,0.1,0.086,0.09,0.0927,0.06,0.14,0.1,0.0073,-0.0473,-0.0327,Will the Democratic Party win the Alabama Governor?
+GOV,AL Governor,R,156,845,0.901,0.908,0.912,0.915,0.9098,0.865,0.945,0.905,-0.0048,-0.0352,-0.0448,Will the Republican Party win the Alabama Governor?
+GOV,AR Governor,D,157,846,0.016,0.045,0.017,0.039,0.0291,,0.07,0.03,0.0009,-0.0409,,Will the Democratic Party win the Arkansas Governor?
+GOV,AR Governor,R,158,847,0.955,0.978,0.963,0.979,0.9692,0.925,,0.965,-0.0042,,-0.0442,Will the Republican Party win the Arkansas Governor?
+GOV,AZ Governor,D,159,848,0.88,0.89,0.88,0.89,0.885,0.845,0.925,0.885,0.0,-0.04,-0.04,Will the Democratic Party win the Arizona Governor?
+GOV,AZ Governor,R,160,849,0.11,0.12,0.1,0.11,0.11,0.075,0.155,0.115,0.005,-0.045,-0.035,Will the Republican Party win the Arizona Governor?
+GOV,CA Governor,D,161,850,0.962,0.967,,,0.9645,0.925,,0.965,0.0005,,-0.0395,Will the Democratic Party win the California Governor?
+GOV,CA Governor,R,162,851,0.034,0.038,,,0.036,,0.075,0.035,-0.001,-0.039,,Will the Republican Party win the California Governor?
+GOV,CO Governor,D,163,852,0.959,0.975,0.962,0.97,0.9663,0.925,,0.965,-0.0013,,-0.0413,Will the Democratic Party win the Colorado Governor?
+GOV,CO Governor,R,164,853,0.027,0.041,0.026,0.031,0.0299,,0.075,0.035,0.0051,-0.0451,,Will the Republican Party win the Colorado Governor?
+GOV,CT Governor,D,298,987,0.951,0.974,0.96,0.971,0.9645,0.925,,0.965,0.0005,,-0.0395,Will the Democratic Party win the Connecticut Governor?
+GOV,CT Governor,R,165,854,0.026,0.047,0.022,0.027,0.0268,,0.075,0.035,0.0082,-0.0482,,Will the Republican Party win the Connecticut Governor?
+GOV,FL Governor,D,299,988,0.21,0.22,0.21,0.22,0.215,0.175,0.255,0.215,0.0,-0.04,-0.04,Will the Democratic Party win the Florida Governor?
+GOV,FL Governor,R,300,989,0.78,0.79,0.79,0.8,0.79,0.745,0.825,0.785,-0.005,-0.035,-0.045,Will the Republican Party win the Florida Governor?
+GOV,GA Governor,D,166,855,0.5,0.51,0.52,0.53,0.515,0.465,0.545,0.505,-0.01,-0.03,-0.05,Will the Democratic Party win the Georgia Governor?
+GOV,GA Governor,R,167,856,0.49,0.5,0.45,0.46,0.475,0.455,0.535,0.495,0.02,-0.06,-0.02,Will the Republican Party win the Georgia Governor?
+GOV,HI Governor,D,301,990,0.969,0.98,0.977,0.986,0.9784,0.935,,0.975,-0.0033,,-0.0433,Will the Democratic Party win the Hawaii Governor?
+GOV,HI Governor,R,302,991,0.02,0.039,0.003,0.025,0.0223,,0.07,0.03,0.0077,-0.0477,,Will the Republican Party win the Hawaii Governor?
+GOV,IA Governor,D,168,857,0.84,0.85,0.87,0.88,0.86,0.81,0.89,0.85,-0.01,-0.03,-0.05,Will the Democratic Party win the Iowa Governor?
+GOV,IA Governor,R,169,858,0.14,0.15,0.12,0.13,0.135,0.105,0.185,0.145,0.01,-0.05,-0.03,Will the Republican Party win the Iowa Governor?
+GOV,ID Governor,D,170,859,0.013,0.059,0.019,0.032,0.0278,,0.075,0.035,0.0072,-0.0472,,Will the Democratic Party win the Idaho Governor?
+GOV,ID Governor,R,171,860,0.958,0.987,0.962,0.984,0.9728,0.935,,0.975,0.0022,,-0.0378,Will the Republican Party win the Idaho Governor?
+GOV,IL Governor,D,172,861,0.967,0.98,0.973,0.985,0.9764,0.935,,0.975,-0.0014,,-0.0414,Will the Democratic Party win the Illinois Governor?
+GOV,IL Governor,R,173,862,0.025,0.039,0.016,0.029,0.0271,,0.07,0.03,0.0029,-0.0429,,Will the Republican Party win the Illinois Governor?
+GOV,KS Governor,D,303,992,,,0.27,0.28,0.275,0.225,0.305,0.265,-0.01,-0.03,-0.05,Will the Democratic Party win the Kansas Governor?
+GOV,KS Governor,R,304,993,,,0.73,0.74,0.735,0.695,0.775,0.735,0.0,-0.04,-0.04,Will the Republican Party win the Kansas Governor?
+GOV,MA Governor,D,370,1059,0.953,0.956,0.96,0.963,0.958,0.915,0.995,0.955,-0.003,-0.037,-0.043,Will the Democratic Party win the Massachusetts Governor?
+GOV,MA Governor,R,371,1060,0.044,0.047,0.023,0.035,0.0406,0.005,0.085,0.045,0.0044,-0.0444,-0.0356,Will the Republican Party win the Massachusetts Governor?
+GOV,MD Governor,D,174,863,0.956,0.973,0.965,0.968,0.966,0.925,,0.965,-0.001,,-0.041,Will the Democratic Party win the Maryland Governor?
+GOV,MD Governor,R,175,864,0.023,0.044,0.005,0.033,0.0273,,0.075,0.035,0.0077,-0.0477,,Will the Republican Party win the Maryland Governor?
+GOV,ME Governor,D,176,865,0.932,0.957,0.955,0.961,0.9554,0.905,0.985,0.945,-0.0104,-0.0296,-0.0504,Will the Democratic Party win the Maine Governor?
+GOV,ME Governor,R,177,866,0.034,0.078,0.031,0.049,0.0446,0.015,0.095,0.055,0.0104,-0.0504,-0.0296,Will the Republican Party win the Maine Governor?
+GOV,MI Governor,D,305,994,0.92,0.927,0.92,0.93,0.9241,0.885,0.965,0.925,0.0009,-0.0409,-0.0391,Will the Democratic Party win the Michigan Governor?
+GOV,MI Governor,R,306,995,0.069,0.082,0.06,0.07,0.0696,0.035,0.115,0.075,0.0054,-0.0454,-0.0346,Will the Republican Party win the Michigan Governor?
+GOV,MN Governor,D,307,996,0.946,0.951,0.95,0.96,0.9507,0.91,0.99,0.95,-0.0007,-0.0393,-0.0407,Will the Democratic Party win the Minnesota Governor?
+GOV,MN Governor,R,308,997,0.055,0.057,0.047,0.054,0.0537,0.015,0.095,0.055,0.0013,-0.0413,-0.0387,Will the Republican Party win the Minnesota Governor?
+GOV,NE Governor,D,178,867,0.076,0.091,0.06,0.07,0.0724,0.045,0.125,0.085,0.0126,-0.0526,-0.0274,Will the Democratic Party win the Nebraska Governor?
+GOV,NE Governor,R,179,868,0.902,0.935,0.93,0.94,0.9312,0.88,0.96,0.92,-0.0112,-0.0288,-0.0512,Will the Republican Party win the Nebraska Governor?
+GOV,NH Governor,D,372,1061,,,0.044,0.053,0.0485,0.045,0.125,0.085,0.0365,-0.0765,-0.0035,Will the Democratic Party win the New Hampshire Governor?
+GOV,NH Governor,R,373,1062,,,0.93,0.94,0.935,0.88,0.96,0.92,-0.015,-0.025,-0.055,Will the Republican Party win the New Hampshire Governor?
+GOV,NM Governor,D,180,869,0.921,0.937,0.95,0.96,0.945,0.89,0.97,0.93,-0.015,-0.025,-0.055,Will the Democratic Party win the New Mexico Governor?
+GOV,NM Governor,R,181,870,0.055,0.085,0.04,0.05,0.0512,0.03,0.11,0.07,0.0188,-0.0588,-0.0212,Will the Republican Party win the New Mexico Governor?
+GOV,NV Governor,D,182,871,0.46,0.47,0.48,0.49,0.475,0.425,0.505,0.465,-0.01,-0.03,-0.05,Will the Democratic Party win the Nevada Governor?
+GOV,NV Governor,R,183,872,0.53,0.54,0.5,0.51,0.52,0.495,0.575,0.535,0.015,-0.055,-0.025,Will the Republican Party win the Nevada Governor?
+GOV,NY Governor,D,184,873,0.944,0.945,0.95,0.96,0.948,0.905,0.985,0.945,-0.003,-0.037,-0.043,Will the Democratic Party win the New York Governor?
+GOV,NY Governor,R,185,874,0.055,0.06,0.04,0.05,0.0533,0.02,0.1,0.06,0.0067,-0.0467,-0.0333,Will the Republican Party win the New York Governor?
+GOV,OK Governor,D,186,875,0.072,0.086,0.07,0.08,0.0767,0.04,0.12,0.08,0.0033,-0.0433,-0.0367,Will the Democratic Party win the Oklahoma Governor?
+GOV,OK Governor,R,374,1063,0.914,0.92,0.93,0.94,0.9238,0.875,0.955,0.915,-0.0088,-0.0312,-0.0488,Will the Republican Party win the Oklahoma Governor?
+GOV,OR Governor,D,187,876,0.8,0.81,0.8,0.82,0.8067,0.765,0.845,0.805,-0.0017,-0.0383,-0.0417,Will the Democratic Party win the Oregon Governor?
+GOV,OR Governor,R,188,877,0.2,0.21,0.18,0.19,0.195,0.165,0.245,0.205,0.01,-0.05,-0.03,Will the Republican Party win the Oregon Governor?
+GOV,PA Governor,D,189,878,0.974,0.976,0.962,0.98,0.9741,0.935,,0.975,0.0009,,-0.0391,Will the Democratic Party win the Pennsylvania Governor?
+GOV,PA Governor,R,190,879,0.025,0.028,0.023,0.03,0.0265,,0.065,0.025,-0.0015,-0.0385,,Will the Republican Party win the Pennsylvania Governor?
+GOV,RI Governor,D,384,1073,0.969,0.978,0.953,0.971,0.9697,0.935,,0.975,0.0053,,-0.0347,Will the Democratic Party win the Rhode Island Governor?
+GOV,RI Governor,I,191,880,0.01,0.03,0.008,0.016,0.0143,,0.06,0.02,0.0057,-0.0457,,Will the Independent Party win the Rhode Island Governor?
+GOV,RI Governor,R,385,1074,0.009,0.022,0.012,0.027,0.0174,,0.055,0.015,-0.0024,-0.0376,,Will the Republican Party win the Rhode Island Governor?
+GOV,SC Governor,D,192,881,0.05,0.064,0.045,0.049,0.0496,0.015,0.095,0.055,0.0054,-0.0454,-0.0346,Will the Democratic Party win the South Carolina Governor?
+GOV,SC Governor,R,193,882,0.937,0.953,0.94,0.95,0.945,0.905,0.985,0.945,0.0,-0.04,-0.04,Will the Republican Party win the South Carolina Governor?
+GOV,SD Governor,D,194,883,0.002,0.053,0.021,0.03,0.0258,,0.07,0.03,0.0042,-0.0442,,Will the Democratic Party win the South Dakota Governor?
+GOV,SD Governor,R,309,998,0.956,0.998,0.965,0.97,0.9685,0.935,,0.975,0.0065,,-0.0335,Will the Republican Party win the South Dakota Governor?
+GOV,TN Governor,D,310,999,0.065,0.075,0.04,0.052,0.0591,0.03,0.11,0.07,0.0109,-0.0509,-0.0291,Will the Democratic Party win the Tennessee Governor?
+GOV,TN Governor,R,311,1000,0.925,0.929,0.941,0.953,0.9329,0.885,0.965,0.925,-0.0079,-0.0321,-0.0479,Will the Republican Party win the Tennessee Governor?
+GOV,TX Governor,D,195,884,0.19,0.2,0.17,0.18,0.185,0.155,0.235,0.195,0.01,-0.05,-0.03,Will the Democratic Party win the Texas Governor?
+GOV,TX Governor,R,196,885,0.81,0.82,0.83,0.831,0.8253,0.775,0.855,0.815,-0.0103,-0.0297,-0.0503,Will the Republican Party win the Texas Governor?
+GOV,VT Governor,D,312,1001,0.15,0.16,0.152,0.159,0.1553,0.115,0.195,0.155,-0.0003,-0.0397,-0.0403,Will the Democratic Party win the Vermont Governor?
+GOV,VT Governor,R,313,1002,0.84,0.85,0.84,0.86,0.8467,0.805,0.885,0.845,-0.0017,-0.0383,-0.0417,Will the Republican Party win the Vermont Governor?
+GOV,WI Governor,D,314,1003,0.83,0.84,0.85,0.86,0.845,0.795,0.875,0.835,-0.01,-0.03,-0.05,Will the Democratic Party win the Wisconsin Governor?
+GOV,WI Governor,R,315,1004,0.16,0.17,0.14,0.15,0.155,0.125,0.205,0.165,0.01,-0.05,-0.03,Will the Republican Party win the Wisconsin Governor?
+GOV,WY Governor,D,316,1005,0.03,0.04,0.025,0.036,0.0329,,0.075,0.035,0.0021,-0.0421,,Will the Democratic Party win the Wyoming Governor?
+GOV,WY Governor,R,317,1006,0.961,0.973,0.96,0.974,0.967,0.925,,0.965,-0.002,,-0.042,Will the Republican Party win the Wyoming Governor?
+HOUSE,AL-02 House,D,318,1007,,,0.25,0.26,0.255,0.2,0.28,0.24,-0.015,-0.025,-0.055,Will the Democratic Party win the AL-02 House race?
+HOUSE,AL-02 House,R,319,1008,,,0.74,0.75,0.745,0.725,0.805,0.765,0.02,-0.06,-0.02,Will the Republican Party win the AL-02 House race?
+HOUSE,AZ-01 House,D,197,886,0.76,0.78,0.76,0.77,0.7667,0.73,0.81,0.77,0.0033,-0.0433,-0.0367,Will the Democratic Party win the AZ-01 House race?
+HOUSE,AZ-01 House,R,198,887,0.22,0.23,0.22,0.24,0.2267,0.185,0.265,0.225,-0.0017,-0.0383,-0.0417,Will the Republican Party win the AZ-01 House race?
+HOUSE,AZ-06 House,D,199,888,0.84,0.85,0.82,0.83,0.835,0.805,0.885,0.845,0.01,-0.05,-0.03,Will the Democratic Party win the AZ-06 House race?
+HOUSE,AZ-06 House,R,200,889,0.16,0.17,0.17,0.18,0.17,0.125,0.205,0.165,-0.005,-0.035,-0.045,Will the Republican Party win the AZ-06 House race?
+HOUSE,CA-22 House,D,201,890,0.89,0.915,0.89,0.9,0.8971,0.865,0.945,0.905,0.0079,-0.0479,-0.0321,Will the Democratic Party win the CA-22 House race?
+HOUSE,CA-22 House,R,202,891,0.1,0.11,0.09,0.1,0.1,0.065,0.145,0.105,0.005,-0.045,-0.035,Will the Republican Party win the CA-22 House race?
+HOUSE,CA-48 House,D,203,892,,,0.88,0.89,0.885,0.87,0.95,0.91,0.025,-0.065,-0.015,Will the Democratic Party win the CA-48 House race?
+HOUSE,CA-48 House,R,204,893,,,0.1,0.11,0.105,0.05,0.13,0.09,-0.015,-0.025,-0.055,Will the Republican Party win the CA-48 House race?
+HOUSE,CO-03 House,D,205,894,0.36,0.38,0.37,0.38,0.3733,0.33,0.41,0.37,-0.0033,-0.0367,-0.0433,Will the Democratic Party win the CO-03 House race?
+HOUSE,CO-03 House,R,206,895,0.62,0.65,0.62,0.63,0.6275,0.59,0.67,0.63,0.0025,-0.0425,-0.0375,Will the Republican Party win the CO-03 House race?
+HOUSE,CO-04 House,D,207,896,,,0.29,0.3,0.295,0.255,0.335,0.295,0.0,-0.04,-0.04,Will the Democratic Party win the CO-04 House race?
+HOUSE,CO-04 House,R,208,897,,,0.68,0.7,0.69,0.67,0.75,0.71,0.02,-0.06,-0.02,Will the Republican Party win the CO-04 House race?
+HOUSE,CO-08 House,D,209,898,0.83,0.86,0.86,0.87,0.86,0.805,0.885,0.845,-0.015,-0.025,-0.055,Will the Democratic Party win the CO-08 House race?
+HOUSE,CO-08 House,R,210,899,0.14,0.17,0.13,0.15,0.146,0.115,0.195,0.155,0.009,-0.049,-0.031,Will the Republican Party win the CO-08 House race?
+HOUSE,FL-07 House,D,320,1009,,,0.33,0.34,0.335,0.285,0.365,0.325,-0.01,-0.03,-0.05,Will the Democratic Party win the FL-07 House race?
+HOUSE,FL-07 House,R,321,1010,,,0.66,0.67,0.665,0.64,0.72,0.68,0.015,-0.055,-0.025,Will the Republican Party win the FL-07 House race?
+HOUSE,FL-09 House,D,211,900,,,0.31,0.32,0.315,0.28,0.36,0.32,0.005,-0.045,-0.035,Will the Democratic Party win the FL-09 House race?
+HOUSE,FL-09 House,R,322,1011,,,0.68,0.69,0.685,0.635,0.715,0.675,-0.01,-0.03,-0.05,Will the Republican Party win the FL-09 House race?
+HOUSE,FL-13 House,D,323,1012,0.29,0.3,0.27,0.28,0.285,0.255,0.335,0.295,0.01,-0.05,-0.03,Will the Democratic Party win the FL-13 House race?
+HOUSE,FL-13 House,R,212,901,0.71,0.72,0.71,0.72,0.715,0.675,0.755,0.715,0.0,-0.04,-0.04,Will the Republican Party win the FL-13 House race?
+HOUSE,FL-16 House,D,324,1013,,,0.16,0.17,0.165,0.125,0.205,0.165,-0.0,-0.04,-0.04,Will the Democratic Party win the FL-16 House race?
+HOUSE,FL-16 House,R,325,1014,,,0.83,0.84,0.835,0.785,0.865,0.825,-0.01,-0.03,-0.05,Will the Republican Party win the FL-16 House race?
+HOUSE,FL-20 House,D,326,1015,,,0.95,0.96,0.955,0.935,,0.975,0.02,,-0.02,Will the Democratic Party win the FL-20 House race?
+HOUSE,FL-20 House,R,327,1016,,,0.025,0.043,0.034,,0.065,0.025,-0.009,-0.031,,Will the Republican Party win the FL-20 House race?
+HOUSE,FL-22 House,D,328,1017,,,0.51,0.52,0.515,0.475,0.555,0.515,0.0,-0.04,-0.04,Will the Democratic Party win the FL-22 House race?
+HOUSE,FL-22 House,R,329,1018,,,0.48,0.49,0.485,0.435,0.515,0.475,-0.01,-0.03,-0.05,Will the Republican Party win the FL-22 House race?
+HOUSE,IA-01 House,D,213,902,0.81,0.83,0.82,0.83,0.8233,0.78,0.86,0.82,-0.0033,-0.0367,-0.0433,Will the Democratic Party win the IA-01 House race?
+HOUSE,IA-01 House,R,214,903,0.16,0.18,0.16,0.18,0.17,0.13,0.21,0.17,0.0,-0.04,-0.04,Will the Republican Party win the IA-01 House race?
+HOUSE,IA-02 House,D,215,904,,,0.52,0.53,0.525,0.515,0.595,0.555,0.03,-0.07,-0.01,Will the Democratic Party win the IA-02 House race?
+HOUSE,IA-02 House,R,216,905,,,0.44,0.46,0.45,0.42,0.5,0.46,0.01,-0.05,-0.03,Will the Republican Party win the IA-02 House race?
+HOUSE,IA-03 House,D,217,906,0.75,0.76,0.76,0.77,0.76,0.715,0.795,0.755,-0.005,-0.035,-0.045,Will the Democratic Party win the IA-03 House race?
+HOUSE,IA-03 House,R,218,907,0.22,0.25,0.23,0.24,0.235,0.195,0.275,0.235,0.0,-0.04,-0.04,Will the Republican Party win the IA-03 House race?
+HOUSE,KY-04 House,D,219,908,,,0.011,0.027,0.019,,0.075,0.035,0.016,-0.056,,Will the Democratic Party win the KY-04 House race?
+HOUSE,KY-04 House,R,220,909,,,0.957,0.981,0.969,0.9,0.98,0.94,-0.029,-0.011,-0.069,Will the Republican Party win the KY-04 House race?
+HOUSE,ME-02 House,D,221,910,0.36,0.37,0.36,0.37,0.365,0.325,0.405,0.365,0.0,-0.04,-0.04,Will the Democratic Party win the ME-02 House race?
+HOUSE,ME-02 House,R,222,911,0.64,0.67,0.62,0.63,0.6325,0.615,0.695,0.655,0.0225,-0.0625,-0.0175,Will the Republican Party win the ME-02 House race?
+HOUSE,MI-07 House,D,330,1019,0.6,0.61,0.56,0.57,0.585,0.565,0.645,0.605,0.02,-0.06,-0.02,Will the Democratic Party win the MI-07 House race?
+HOUSE,MI-07 House,R,331,1020,0.41,0.42,0.43,0.45,0.4233,0.375,0.455,0.415,-0.0083,-0.0317,-0.0483,Will the Republican Party win the MI-07 House race?
+HOUSE,MI-10 House,D,332,1021,0.65,0.66,0.65,0.66,0.655,0.615,0.695,0.655,0.0,-0.04,-0.04,Will the Democratic Party win the MI-10 House race?
+HOUSE,MI-10 House,R,333,1022,0.34,0.35,0.34,0.35,0.345,0.305,0.385,0.345,0.0,-0.04,-0.04,Will the Republican Party win the MI-10 House race?
+HOUSE,MN-01 House,D,334,1023,,,0.24,0.25,0.245,0.2,0.28,0.24,-0.005,-0.035,-0.045,Will the Democratic Party win the MN-01 House race?
+HOUSE,MN-01 House,R,335,1024,,,0.75,0.76,0.755,0.725,0.805,0.765,0.01,-0.05,-0.03,Will the Republican Party win the MN-01 House race?
+HOUSE,MN-02 House,D,336,1025,0.901,0.94,0.92,0.94,0.9268,0.88,0.96,0.92,-0.0068,-0.0332,-0.0468,Will the Democratic Party win the MN-02 House race?
+HOUSE,MN-02 House,R,337,1026,0.06,0.099,0.066,0.068,0.0684,0.04,0.12,0.08,0.0116,-0.0516,-0.0284,Will the Republican Party win the MN-02 House race?
+HOUSE,MN-05 House,D,338,1027,,,0.93,0.961,0.9455,0.925,,0.965,0.0195,,-0.0205,Will the Democratic Party win the MN-05 House race?
+HOUSE,MN-05 House,R,339,1028,,,0.01,0.045,0.0275,,0.075,0.035,0.0075,-0.0475,,Will the Republican Party win the MN-05 House race?
+HOUSE,MT-01 House,D,223,912,0.28,0.29,0.32,0.33,0.305,0.245,0.325,0.285,-0.02,-0.02,-0.06,Will the Democratic Party win the MT-01 House race?
+HOUSE,MT-01 House,R,224,913,0.69,0.71,0.68,0.69,0.69,0.66,0.74,0.7,0.01,-0.05,-0.03,Will the Republican Party win the MT-01 House race?
+HOUSE,NE-02 House,D,225,914,0.927,0.935,0.93,0.94,0.9328,0.89,0.97,0.93,-0.0028,-0.0372,-0.0428,Will the Democratic Party win the NE-02 House race?
+HOUSE,NE-02 House,R,226,915,0.056,0.084,0.058,0.073,0.0671,0.03,0.11,0.07,0.0029,-0.0429,-0.0371,Will the Republican Party win the NE-02 House race?
+HOUSE,NH-01 House,D,375,1064,0.913,0.94,0.912,0.919,0.9178,0.885,0.965,0.925,0.0072,-0.0472,-0.0328,Will the Democratic Party win the NH-01 House race?
+HOUSE,NH-01 House,R,376,1065,0.044,0.077,0.05,0.07,0.0602,0.02,0.1,0.06,-0.0002,-0.0398,-0.0402,Will the Republican Party win the NH-01 House race?
+HOUSE,NJ-07 House,D,227,916,0.87,0.88,0.88,0.9,0.88,0.835,0.915,0.875,-0.005,-0.035,-0.045,Will the Democratic Party win the NJ-07 House race?
+HOUSE,NJ-07 House,R,228,917,0.12,0.13,0.1,0.11,0.115,0.085,0.165,0.125,0.01,-0.05,-0.03,Will the Republican Party win the NJ-07 House race?
+HOUSE,NY-13 House,D,229,918,,,0.972,0.973,0.9725,0.93,,0.97,-0.0025,,-0.0425,Will the Democratic Party win the NY-13 House race?
+HOUSE,NY-13 House,R,230,919,,,0.02,0.03,0.025,,0.065,0.025,0.0,-0.04,,Will the Republican Party win the NY-13 House race?
+HOUSE,NY-17 House,D,231,920,0.64,0.65,0.64,0.65,0.645,0.605,0.685,0.645,0.0,-0.04,-0.04,Will the Democratic Party win the NY-17 House race?
+HOUSE,NY-17 House,R,232,921,0.35,0.37,0.35,0.36,0.3567,0.32,0.4,0.36,0.0033,-0.0433,-0.0367,Will the Republican Party win the NY-17 House race?
+HOUSE,PA-01 House,D,233,922,0.36,0.37,0.33,0.34,0.35,0.325,0.405,0.365,0.015,-0.055,-0.025,Will the Democratic Party win the PA-01 House race?
+HOUSE,PA-01 House,R,234,923,0.63,0.65,0.64,0.65,0.6433,0.6,0.68,0.64,-0.0033,-0.0367,-0.0433,Will the Republican Party win the PA-01 House race?
+HOUSE,PA-07 House,D,235,924,0.82,0.83,0.81,0.82,0.82,0.785,0.865,0.825,0.005,-0.045,-0.035,Will the Democratic Party win the PA-07 House race?
+HOUSE,PA-07 House,R,236,925,0.17,0.18,0.16,0.17,0.17,0.135,0.215,0.175,0.005,-0.045,-0.035,Will the Republican Party win the PA-07 House race?
+HOUSE,PA-08 House,D,237,926,0.66,0.67,0.65,0.66,0.66,0.625,0.705,0.665,0.005,-0.045,-0.035,Will the Democratic Party win the PA-08 House race?
+HOUSE,PA-08 House,R,238,927,0.32,0.33,0.32,0.33,0.325,0.285,0.365,0.325,-0.0,-0.04,-0.04,Will the Republican Party win the PA-08 House race?
+HOUSE,PA-10 House,D,239,928,0.79,0.81,0.8,0.81,0.8033,0.76,0.84,0.8,-0.0033,-0.0367,-0.0433,Will the Democratic Party win the PA-10 House race?
+HOUSE,PA-10 House,R,240,929,0.19,0.21,0.19,0.21,0.2,0.16,0.24,0.2,-0.0,-0.04,-0.04,Will the Republican Party win the PA-10 House race?
+HOUSE,SC-01 House,D,241,930,,,0.29,0.3,0.295,0.245,0.325,0.285,-0.01,-0.03,-0.05,Will the Democratic Party win the SC-01 House race?
+HOUSE,SC-01 House,R,242,931,,,0.7,0.71,0.705,0.685,0.765,0.725,0.02,-0.06,-0.02,Will the Republican Party win the SC-01 House race?
+HOUSE,TN-05 House,D,340,1029,,,0.076,0.082,0.079,0.055,0.135,0.095,0.016,-0.056,-0.024,Will the Democratic Party win the TN-05 House race?
+HOUSE,TN-05 House,R,341,1030,,,0.9,0.92,0.91,0.865,0.945,0.905,-0.005,-0.035,-0.045,Will the Republican Party win the TN-05 House race?
+HOUSE,TX-15 House,D,243,932,0.74,0.75,0.75,0.76,0.75,0.705,0.785,0.745,-0.005,-0.035,-0.045,Will the Democratic Party win the TX-15 House race?
+HOUSE,TX-15 House,R,244,933,0.26,0.27,0.25,0.26,0.26,0.225,0.305,0.265,0.005,-0.045,-0.035,Will the Republican Party win the TX-15 House race?
+HOUSE,TX-23 House,D,245,934,,,0.38,0.39,0.385,0.325,0.405,0.365,-0.02,-0.02,-0.06,Will the Democratic Party win the TX-23 House race?
+HOUSE,TX-23 House,R,246,935,,,0.61,0.62,0.615,0.605,0.685,0.645,0.03,-0.07,-0.01,Will the Republican Party win the TX-23 House race?
+HOUSE,TX-28 House,D,247,936,0.87,0.88,0.88,0.9,0.88,0.835,0.915,0.875,-0.005,-0.035,-0.045,Will the Democratic Party win the TX-28 House race?
+HOUSE,TX-28 House,R,248,937,0.11,0.12,0.09,0.11,0.11,0.075,0.155,0.115,0.005,-0.045,-0.035,Will the Republican Party win the TX-28 House race?
+HOUSE,VA-01 House,D,342,1031,0.33,0.34,0.32,0.35,0.335,0.295,0.375,0.335,0.0,-0.04,-0.04,Will the Democratic Party win the VA-01 House race?
+HOUSE,VA-01 House,R,249,938,0.66,0.67,0.65,0.67,0.6633,0.625,0.705,0.665,0.0017,-0.0417,-0.0383,Will the Republican Party win the VA-01 House race?
+HOUSE,VA-02 House,D,343,1032,0.79,0.81,0.81,0.82,0.81,0.76,0.84,0.8,-0.01,-0.03,-0.05,Will the Democratic Party win the VA-02 House race?
+HOUSE,VA-02 House,R,250,939,0.18,0.19,0.18,0.19,0.185,0.145,0.225,0.185,0.0,-0.04,-0.04,Will the Republican Party win the VA-02 House race?
+HOUSE,VA-05 House,D,344,1033,,,0.2,0.21,0.205,0.155,0.235,0.195,-0.01,-0.03,-0.05,Will the Democratic Party win the VA-05 House race?
+HOUSE,VA-05 House,R,345,1034,,,0.8,0.81,0.805,0.765,0.845,0.805,-0.0,-0.04,-0.04,Will the Republican Party win the VA-05 House race?
+HOUSE,VA-07 House,D,251,940,0.921,0.955,0.93,0.94,0.9357,0.9,0.98,0.94,0.0043,-0.0443,-0.0357,Will the Democratic Party win the VA-07 House race?
+HOUSE,VA-07 House,R,346,1035,0.044,0.081,0.065,0.071,0.0672,0.025,0.105,0.065,-0.0022,-0.0378,-0.0422,Will the Republican Party win the VA-07 House race?
+HOUSE,WA-03 House,D,347,1036,0.9,0.905,0.89,0.91,0.902,0.865,0.945,0.905,0.003,-0.043,-0.037,Will the Democratic Party win the WA-03 House race?
+HOUSE,WA-03 House,R,348,1037,0.085,0.099,0.08,0.1,0.0912,0.05,0.13,0.09,-0.0012,-0.0388,-0.0412,Will the Republican Party win the WA-03 House race?
+HOUSE,WI-01 House,D,349,1038,0.32,0.34,0.33,0.34,0.3333,0.29,0.37,0.33,-0.0033,-0.0367,-0.0433,Will the Democratic Party win the WI-01 House race?
+HOUSE,WI-01 House,R,350,1039,0.66,0.67,0.66,0.67,0.665,0.625,0.705,0.665,0.0,-0.04,-0.04,Will the Republican Party win the WI-01 House race?
+HOUSE,WI-03 House,D,351,1040,0.71,0.73,0.72,0.73,0.7233,0.68,0.76,0.72,-0.0033,-0.0367,-0.0433,Will the Democratic Party win the WI-03 House race?
+HOUSE,WI-03 House,R,352,1041,0.28,0.3,0.25,0.26,0.2667,0.25,0.33,0.29,0.0233,-0.0633,-0.0167,Will the Republican Party win the WI-03 House race?

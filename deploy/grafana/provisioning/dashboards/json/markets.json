@@ -1,0 +1,938 @@
+{
+  "uid": "sigbot-markets",
+  "title": "Sigbot - Markets & signals",
+  "tags": [
+    "sigbot"
+  ],
+  "timezone": "utc",
+  "schemaVersion": 39,
+  "version": 1,
+  "editable": true,
+  "refresh": "30s",
+  "time": {
+    "from": "now-24h",
+    "to": "now"
+  },
+  "links": [
+    {
+      "type": "dashboards",
+      "tags": [
+        "sigbot"
+      ],
+      "asDropdown": false,
+      "title": "Sigbot"
+    }
+  ],
+  "annotations": {
+    "list": [
+      {
+        "name": "Our fills",
+        "datasource": {
+          "uid": "sigbot"
+        },
+        "enable": true,
+        "iconColor": "#ff7eb6",
+        "target": {
+          "refId": "Anno",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT o.ts AS time,\n  CASE WHEN (o.strategy = 'exits' OR o.trade_reason = 'INVENTORY_REBALANCE') THEN 'EXIT' ELSE 'ENTRY' END || ' \u00b7 ' || round(o.qty_traded)::int || ' '\n  || upper(o.side) || ' @ ' || round((o.fill_price * 100)::numeric, 1) || 'c'\n  || coalesce(' \u00b7 edge ' || CASE WHEN e.edge_c >= 0 THEN '+' ELSE '' END || e.edge_c || 'c vs fair '\n     || round((f.fair * 100)::numeric, 1) || 'c', '')\n  || ' \u00b7 cost ' || round(o.total_cost::numeric) || ' \u00b7 ' || o.strategy AS text,\n  o.strategy AS tags\nFROM orders o\nLEFT JOIN LATERAL (SELECT fair FROM fair_values fv WHERE fv.exchange_id = o.exchange_id AND fv.ts <= o.ts\n                   ORDER BY fv.ts DESC LIMIT 1) f ON true\nCROSS JOIN LATERAL (SELECT round(((CASE WHEN o.side = 'yes' THEN f.fair - o.fill_price\n                                        ELSE 1 - o.fill_price - f.fair END) * 100)::numeric, 1) AS edge_c) e\nWHERE o.exchange_id = '$exchange' AND o.qty_traded > 0 AND NOT o.shadow AND $__timeFilter(o.ts) ORDER BY 1"
+        }
+      }
+    ]
+  },
+  "templating": {
+    "list": [
+      {
+        "name": "exchange",
+        "label": "Market",
+        "type": "query",
+        "datasource": {
+          "uid": "sigbot"
+        },
+        "query": "SELECT exchange_id AS __value, race || ' ' || party AS __text FROM races ORDER BY race, party",
+        "definition": "SELECT exchange_id AS __value, race || ' ' || party AS __text FROM races ORDER BY race, party",
+        "refresh": 1,
+        "sort": 0,
+        "includeAll": false,
+        "multi": false
+      }
+    ]
+  },
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "$exchange: Kalshi \u00d7 Polymarket \u00d7 SIG book, with our entries and exits",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, fair AS \"Fair\", pm_mid AS \"Polymarket\", kalshi_mid AS \"Kalshi\" FROM fair_values WHERE exchange_id = '$exchange' AND $__timeFilter(ts) ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT time, bid AS \"SIG bid\", ask AS \"SIG ask\" FROM (\n  (SELECT $__timeFrom()::timestamptz AS time, bid, ask FROM sig_tob\n   WHERE exchange_id = '$exchange' AND ts < $__timeFrom()::timestamptz ORDER BY ts DESC LIMIT 1)\n  UNION ALL\n  SELECT ts, bid, ask FROM sig_tob WHERE exchange_id = '$exchange' AND $__timeFilter(ts)\n  UNION ALL\n  (SELECT least(now(), $__timeTo()::timestamptz), bid, ask FROM sig_tob\n   WHERE exchange_id = '$exchange' AND ts <= $__timeTo()::timestamptz ORDER BY ts DESC LIMIT 1)\n) AS span ORDER BY 1"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT o.ts AS time,\n  CASE WHEN NOT (o.strategy = 'exits' OR o.trade_reason = 'INVENTORY_REBALANCE') THEN CASE WHEN o.side = 'yes' THEN o.fill_price ELSE 1 - o.fill_price END END AS \"Entry\",\n  CASE WHEN (o.strategy = 'exits' OR o.trade_reason = 'INVENTORY_REBALANCE') THEN CASE WHEN o.side = 'yes' THEN o.fill_price ELSE 1 - o.fill_price END END AS \"Exit\"\nFROM orders o WHERE o.exchange_id = '$exchange' AND o.qty_traded > 0 AND NOT o.shadow AND $__timeFilter(o.ts) ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 0,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "stepAfter"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Fair"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#73bf69"
+                }
+              },
+              {
+                "id": "custom.lineWidth",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Kalshi"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#33b5e5"
+                }
+              },
+              {
+                "id": "custom.fillBelowTo",
+                "value": "Polymarket"
+              },
+              {
+                "id": "custom.fillOpacity",
+                "value": 22
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Polymarket"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#fade2a"
+                }
+              },
+              {
+                "id": "custom.lineStyle",
+                "value": {
+                  "fill": "dash",
+                  "dash": [
+                    8,
+                    6
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "SIG ask"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#f2495c"
+                }
+              },
+              {
+                "id": "custom.fillBelowTo",
+                "value": "SIG bid"
+              },
+              {
+                "id": "custom.fillOpacity",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "SIG bid"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#ff9830"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Entry"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#56d364"
+                }
+              },
+              {
+                "id": "custom.drawStyle",
+                "value": "points"
+              },
+              {
+                "id": "custom.pointSize",
+                "value": 14
+              },
+              {
+                "id": "custom.showPoints",
+                "value": "always"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Exit"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#ff5f7e"
+                }
+              },
+              {
+                "id": "custom.drawStyle",
+                "value": "points"
+              },
+              {
+                "id": "custom.pointSize",
+                "value": 14
+              },
+              {
+                "id": "custom.showPoints",
+                "value": "always"
+              }
+            ]
+          }
+        ]
+      },
+      "id": 1,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 12
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Gaps: Kalshi \u2212 Polymarket and SIG ask \u2212 bid",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS time, (kalshi_mid - pm_mid) * 100 AS \"Kalshi \u2212 Polymarket\" FROM fair_values WHERE exchange_id = '$exchange' AND kalshi_mid IS NOT NULL AND pm_mid IS NOT NULL AND $__timeFilter(ts) ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT time, (ask - bid) * 100 AS \"SIG ask \u2212 bid\" FROM (\n  (SELECT $__timeFrom()::timestamptz AS time, bid, ask FROM sig_tob\n   WHERE exchange_id = '$exchange' AND ts < $__timeFrom()::timestamptz ORDER BY ts DESC LIMIT 1)\n  UNION ALL\n  SELECT ts, bid, ask FROM sig_tob WHERE exchange_id = '$exchange' AND $__timeFilter(ts)\n  UNION ALL\n  (SELECT least(now(), $__timeTo()::timestamptz), bid, ask FROM sig_tob\n   WHERE exchange_id = '$exchange' AND ts <= $__timeTo()::timestamptz ORDER BY ts DESC LIMIT 1)\n) AS span ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "suffix:c",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "stepAfter"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Kalshi \u2212 Polymarket"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#33b5e5"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "SIG ask \u2212 bid"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#f2495c"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "id": 2,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 12,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Volume (shares per 5 min): our fills (+YES / \u2212NO) and all SIG trades",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(o.ts, '5m'), sum(CASE WHEN o.side = 'yes' THEN o.qty_traded ELSE -o.qty_traded END) AS \"Our fills\" FROM orders o WHERE o.exchange_id = '$exchange' AND o.qty_traded > 0 AND NOT o.shadow AND $__timeFilter(o.ts) GROUP BY 1 ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '5m'), sum(quantity) AS \"All SIG trades\" FROM sig_trades WHERE exchange_id = '$exchange' AND $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "bars",
+            "lineWidth": 2,
+            "fillOpacity": 70,
+            "showPoints": "never",
+            "spanNulls": false,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Our fills"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#56d364"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "All SIG trades"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#8e8e8e"
+                }
+              },
+              {
+                "id": "custom.fillOpacity",
+                "value": 40
+              }
+            ]
+          }
+        ]
+      },
+      "id": 3,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 12,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "table",
+      "title": "Signals by race",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT race AS \"Race\",\n  count(*) FILTER (WHERE decision = 'submitted') AS \"Submitted\",\n  count(*) FILTER (WHERE decision LIKE 'rejected%') AS \"Rejected\",\n  round((sum(edge * quantity) FILTER (WHERE decision = 'submitted') / 1000.0)::numeric, 2) AS \"Expected edge\"\nFROM intents WHERE $__timeFilter(ts)\nGROUP BY 1 ORDER BY 2 DESC, 3 DESC LIMIT 40"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 4,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 19,
+        "w": 12,
+        "h": 10
+      }
+    },
+    {
+      "type": "barchart",
+      "title": "Why signals were rejected",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT decision AS \"Reason\", count(*) AS \"Count\"\nFROM intents WHERE decision LIKE 'rejected%' AND $__timeFilter(ts)\nGROUP BY 1 ORDER BY 2 DESC LIMIT 15"
+        }
+      ],
+      "options": {
+        "orientation": "horizontal",
+        "xField": "Reason",
+        "showValue": "auto",
+        "barWidth": 0.8,
+        "groupWidth": 0.7,
+        "legend": {
+          "showLegend": false,
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "id": 5,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 19,
+        "w": 12,
+        "h": 10
+      }
+    },
+    {
+      "type": "table",
+      "title": "Sharp moves: confirmed by Kalshi or by waiting",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT count(*) FILTER (WHERE kind = 'sharp_move') AS \"Sharp moves\",\n  count(*) FILTER (WHERE kind = 'sharp_confirmed' AND data->>'by' = 'kalshi') AS \"By Kalshi\",\n  count(*) FILTER (WHERE kind = 'sharp_confirmed' AND data->>'by' = 'timeout') AS \"By timeout\",\n  round((percentile_cont(0.5) WITHIN GROUP (ORDER BY (data->>'after_s')::float)\n    FILTER (WHERE kind = 'sharp_confirmed' AND data->>'by' = 'kalshi'))::numeric, 2)\n    AS \"Median Kalshi confirm (s)\"\nFROM events WHERE kind IN ('sharp_move', 'sharp_confirmed') AND $__timeFilter(ts)"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 6,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 29,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "table",
+      "title": "Recent sharp moves",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT e.ts AS \"Time\", r.race AS \"Race\", r.party AS \"Party\",\n  e.kind AS \"Event\", e.message AS \"Detail\"\nFROM events e LEFT JOIN races r ON r.exchange_id = e.data->>'exchange_id'\nWHERE e.kind IN ('sharp_move', 'sharp_confirmed') AND $__timeFilter(e.ts)\nORDER BY e.ts DESC LIMIT 50"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 7,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 29,
+        "w": 12,
+        "h": 7
+      }
+    },
+    {
+      "type": "table",
+      "title": "Recent signals",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT i.ts AS \"Time\", i.strategy AS \"Strategy\", i.trade_reason AS \"Reason\",\n  i.race AS \"Race\", r.party AS \"Party\", i.side AS \"Side\", i.price AS \"Limit\", i.quantity AS \"Qty\",\n  round((i.edge / 10.0)::numeric, 1) AS \"Edge (c)\", i.decision AS \"Decision\", i.detail AS \"Detail\"\nFROM intents i LEFT JOIN races r ON r.exchange_id = i.exchange_id\nWHERE $__timeFilter(i.ts) ORDER BY i.ts DESC LIMIT 200"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 8,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 36,
+        "w": 24,
+        "h": 10
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "SIG activity (book changes, trades)",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '5m'), count(*) AS \"Book changes\" FROM book_events WHERE kind = 'dirty' AND $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '5m'), count(*) AS \"Books pushed by SIG\" FROM book_events WHERE kind = 'book' AND $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '5m'), count(*) AS \"Trades\" FROM sig_trades WHERE $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 9,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 46,
+        "w": 12,
+        "h": 8
+      }
+    },
+    {
+      "type": "table",
+      "title": "Lost races",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT l.ts AS \"Time\", l.strategy AS \"Strategy\",\n  r.race AS \"Race\", r.party AS \"Party\",\n  l.side AS \"Side\", l.price AS \"Price\", l.requested AS \"Wanted\", l.filled AS \"Got\",\n  round(l.send_to_resp_ms::numeric) AS \"Response ms\"\nFROM lost_races l LEFT JOIN races r ON r.exchange_id = l.exchange_id\nWHERE $__timeFilter(l.ts) ORDER BY l.ts DESC LIMIT 50"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 10,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 46,
+        "w": 12,
+        "h": 8
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Data flow per minute",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '1m'), count(*) AS \"Fair value updates\" FROM fair_values WHERE $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '1m'), count(*) AS \"SIG top-of-book changes\" FROM sig_tob WHERE $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "time_series",
+          "rawQuery": true,
+          "rawSql": "SELECT $__timeGroupAlias(ts, '1m'), count(*) AS \"Books pushed by SIG\" FROM book_events WHERE kind = 'book' AND $__timeFilter(ts) GROUP BY 1 ORDER BY 1"
+        }
+      ],
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 6,
+            "showPoints": "never",
+            "spanNulls": true,
+            "lineInterpolation": "linear"
+          }
+        },
+        "overrides": []
+      },
+      "id": 11,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 54,
+        "w": 12,
+        "h": 8
+      }
+    },
+    {
+      "type": "table",
+      "title": "Bot events",
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "uid": "sigbot"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "SELECT ts AS \"Time\", level AS \"Level\", kind AS \"Kind\", message AS \"Message\" FROM events WHERE $__timeFilter(ts) ORDER BY ts DESC LIMIT 100"
+        }
+      ],
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm",
+        "footer": {
+          "show": false
+        }
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "id": 12,
+      "datasource": {
+        "uid": "sigbot"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 54,
+        "w": 12,
+        "h": 8
+      }
+    }
+  ]
+}

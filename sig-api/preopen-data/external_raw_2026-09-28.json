@@ -1,0 +1,7065 @@
+{
+ "kalshi": {
+  "('SEN', 'RI', None)": {
+   "series": "SENATERI",
+   "markets": [
+    {
+     "ticker": "SENATERI-26-D",
+     "name": "Jack Reed",
+     "suffix": "D",
+     "bid": 0.987,
+     "ask": 0.994,
+     "last": 0.994,
+     "vol": 18701.06,
+     "oi": 9442.59
+    },
+    {
+     "ticker": "SENATERI-26-R",
+     "name": "Raymond McKay",
+     "suffix": "R",
+     "bid": 0.007,
+     "ask": 0.014,
+     "last": 0.019,
+     "vol": 4892.18,
+     "oi": 2396.97
+    }
+   ]
+  },
+  "('SEN', 'DE', None)": {
+   "series": "SENATEDE",
+   "markets": [
+    {
+     "ticker": "SENATEDE-26-R",
+     "name": "Republican party",
+     "suffix": "R",
+     "bid": 0.002,
+     "ask": 0.014,
+     "last": 0.01,
+     "vol": 18337.96,
+     "oi": 16418.3
+    },
+    {
+     "ticker": "SENATEDE-26-D",
+     "name": "Democratic party",
+     "suffix": "D",
+     "bid": 0.987,
+     "ask": 0.998,
+     "last": 0.99,
+     "vol": 7257.52,
+     "oi": 5494.88
+    }
+   ]
+  },
+  "('GOV', 'RI', None)": {
+   "series": "GOVPARTYRI",
+   "markets": [
+    {
+     "ticker": "GOVPARTYRI-26-KBLO",
+     "name": "Ken Block",
+     "suffix": "KBLO",
+     "bid": 0.01,
+     "ask": 0.03,
+     "last": 0.04,
+     "vol": 3025.53,
+     "oi": 2845.32
+    },
+    {
+     "ticker": "GOVPARTYRI-26-R",
+     "name": "Republican party",
+     "suffix": "R",
+     "bid": 0.009,
+     "ask": 0.022,
+     "last": 0.022,
+     "vol": 4022.08,
+     "oi": 3345.5
+    },
+    {
+     "ticker": "GOVPARTYRI-26-D",
+     "name": "Helena Foulkes",
+     "suffix": "D",
+     "bid": 0.969,
+     "ask": 0.978,
+     "last": 0.969,
+     "vol": 11233.69,
+     "oi": 7894.17
+    }
+   ]
+  },
+  "('SEN', 'OK', None)": {
+   "series": "SENATEOK",
+   "markets": [
+    {
+     "ticker": "SENATEOK-26-D",
+     "name": "N\u2019Kiyla Thomas",
+     "suffix": "D",
+     "bid": 0.011,
+     "ask": 0.023,
+     "last": 0.026,
+     "vol": 18389.54,
+     "oi": 12344.3
+    },
+    {
+     "ticker": "SENATEOK-26-R",
+     "name": "Kevin Hern",
+     "suffix": "R",
+     "bid": 0.974,
+     "ask": 0.993,
+     "last": 0.974,
+     "vol": 21243.46,
+     "oi": 14999.14
+    }
+   ]
+  },
+  "('SEN', 'NH', None)": {
+   "series": "SENATENH",
+   "markets": [
+    {
+     "ticker": "SENATENH-26-R",
+     "name": "John E. Sununu",
+     "suffix": "R",
+     "bid": 0.14,
+     "ask": 0.15,
+     "last": 0.14,
+     "vol": 981327.5,
+     "oi": 655649.45
+    },
+    {
+     "ticker": "SENATENH-26-D",
+     "name": "Chris Pappas",
+     "suffix": "D",
+     "bid": 0.85,
+     "ask": 0.86,
+     "last": 0.86,
+     "vol": 414358.97,
+     "oi": 193172.84
+    }
+   ]
+  },
+  "('SEN', 'MA', None)": {
+   "series": "SENATEMA",
+   "markets": [
+    {
+     "ticker": "SENATEMA-26-R",
+     "name": "John Deaton",
+     "suffix": "R",
+     "bid": 0.013,
+     "ask": 0.015,
+     "last": 0.015,
+     "vol": 7348.54,
+     "oi": 6482.54
+    },
+    {
+     "ticker": "SENATEMA-26-D",
+     "name": "Ed Markey",
+     "suffix": "D",
+     "bid": 0.985,
+     "ask": 0.988,
+     "last": 0.988,
+     "vol": 8531.77,
+     "oi": 7626.17
+    }
+   ]
+  },
+  "('SEN', 'AK', None)": {
+   "series": "SENATEAK",
+   "markets": [
+    {
+     "ticker": "SENATEAK-26-D",
+     "name": "Democratic party",
+     "suffix": "D",
+     "bid": 0.7,
+     "ask": 0.71,
+     "last": 0.71,
+     "vol": 644766.6,
+     "oi": 373214.47
+    },
+    {
+     "ticker": "SENATEAK-26-R",
+     "name": "Republican party",
+     "suffix": "R",
+     "bid": 0.3,
+     "ask": 0.31,
+     "last": 0.31,
+     "vol": 1182955.61,
+     "oi": 683688.79
+    }
+   ]
+  },
+  "('HOUSE', 'NH', 1)": {
+   "series": "HOUSENH1",
+   "markets": [
+    {
+     "ticker": "HOUSENH1-26-R",
+     "name": "Anthony DiLorenzo",
+     "suffix": "R",
+     "bid": 0.044,
+     "ask": 0.077,
+     "last": 0.052,
+     "vol": 6931.32,
+     "oi": 4149.02
+    },
+    {
+     "ticker": "HOUSENH1-26-D",
+     "name": "Stefany Shaheen",
+     "suffix": "D",
+     "bid": 0.913,
+     "ask": 0.94,
+     "last": 0.914,
+     "vol": 5729.66,
+     "oi": 2948.16
+    }
+   ]
+  },
+  "('GOV', 'OK', None)": {
+   "series": "GOVPARTYOK",
+   "markets": [
+    {
+     "ticker": "GOVPARTYOK-26-R",
+     "name": "Mike Mazzei",
+     "suffix": "R",
+     "bid": 0.914,
+     "ask": 0.92,
+     "last": 0.92,
+     "vol": 28763.55,
+     "oi": 16618.91
+    },
+    {
+     "ticker": "GOVPARTYOK-26-D",
+     "name": "Cyndi Munson",
+     "suffix": "D",
+     "bid": 0.072,
+     "ask": 0.086,
+     "last": 0.085,
+     "vol": 99912.95,
+     "oi": 65000.32
+    }
+   ]
+  },
+  "('GOV', 'MA', None)": {
+   "series": "GOVPARTYMA",
+   "markets": [
+    {
+     "ticker": "GOVPARTYMA-26-R",
+     "name": "Mike Minogue",
+     "suffix": "R",
+     "bid": 0.044,
+     "ask": 0.047,
+     "last": 0.047,
+     "vol": 418586.1,
+     "oi": 347751.29
+    },
+    {
+     "ticker": "GOVPARTYMA-26-D",
+     "name": "Maura Healey",
+     "suffix": "D",
+     "bid": 0.953,
+     "ask": 0.956,
+     "last": 0.954,
+     "vol": 59941.93,
+     "oi": 47883.81
+    }
+   ]
+  },
+  "('GOV', 'AK', None)": {
+   "series": "KXGOVPARTYAK",
+   "markets": [
+    {
+     "ticker": "KXGOVPARTYAK-26-R",
+     "name": "Republican party",
+     "suffix": "R",
+     "bid": 0.23,
+     "ask": 0.26,
+     "last": 0.25,
+     "vol": 70185.49,
+     "oi": 27754.7
+    },
+    {
+     "ticker": "KXGOVPARTYAK-26-D",
+     "name": "Democratic party",
+     "suffix": "D",
+     "bid": 0.74,
+     "ask": 0.75,
+     "last": 0.74,
+     "vol": 90556.1,
+     "oi": 30307.34
+    }
+   ]
+  },
+  "('SEN', 'WY', None)": {
+   "series": "SENATEWY",
+   "markets": [
+    {
+     "ticker": "SENATEWY-26-D",
+     "name": "James Byrd",
+     "suffix": "D",
+     "bid": 0.02,
+     "ask": 0.025,
+     "last": 0.026,
+     "vol": 9604.63,
+     "oi": 7959.58
+    },
+    {
+     "ticker": "SENATEWY-26-R",
+     "name": "Harriet Hageman",
+     "suffix": "R",
+     "bid": 0.974,
+     "ask": 0.975,
+     "last": 0.975,
+     "vol": 14242.21,
+     "oi": 9338.31
+    }
+   ]
+  },
+  "('SEN', 'VA', None)": {
+   "series": "SENATEVA",
+   "markets": [
+    {
+     "ticker": "SENATEVA-26-D",
+     "name": "Mark Warner",
+     "suffix": "D",
+     "bid": 0.975,
+     "ask": 0.99,
+     "last": 0.98,
+     "vol": 18736.99,
+     "oi": 4761.5
+    },
+    {
+     "ticker": "SENATEVA-26-R",
+     "name": "Bert Mizusawa",
+     "suffix": "R",
+     "bid": 0.005,
+     "ask": 0.025,
+     "last": 0.024,
+     "vol": 12440.22,
+     "oi": 9056.58
+    }
+   ]
+  },
+  "('SEN', 'TN', None)": {
+   "series": "SENATETN",
+   "markets": [
+    {
+     "ticker": "SENATETN-26-R",
+     "name": "Bill Hagerty",
+     "suffix": "R",
+     "bid": 0.975,
+     "ask": 0.984,
+     "last": 0.983,
+     "vol": 7620.18,
+     "oi": 5804.31
+    },
+    {
+     "ticker": "SENATETN-26-D",
+     "name": "Marquita Bradshaw",
+     "suffix": "D",
+     "bid": 0.016,
+     "ask": 0.025,
+     "last": 0.017,
+     "vol": 29245.32,
+     "oi": 12879.9
+    }
+   ]
+  },
+  "('SEN', 'MN', None)": {
+   "series": "SENATEMN",
+   "markets": [
+    {
+     "ticker": "SENATEMN-26-R",
+     "name": "Michele Tafoya",
+     "suffix": "R",
+     "bid": 0.1,
+     "ask": 0.12,
+     "last": 0.12,
+     "vol": 745755.66,
+     "oi": 599507.93
+    },
+    {
+     "ticker": "SENATEMN-26-D",
+     "name": "Peggy Flanagan",
+     "suffix": "D",
+     "bid": 0.88,
+     "ask": 0.89,
+     "last": 0.89,
+     "vol": 303973.18,
+     "oi": 221202.28
+    }
+   ]
+  },
+  "('SEN', 'MI', None)": {
+   "series": "SENATEMI",
+   "markets": [
+    {
+     "ticker": "SENATEMI-26-R",
+     "name": "Mike Rogers",
+     "suffix": "R",
+     "bid": 0.28,
+     "ask": 0.29,
+     "last": 0.29,
+     "vol": 2605930.34,
+     "oi": 1802870.39
+    },
+    {
+     "ticker": "SENATEMI-26-D",
+     "name": "Abdul El-Sayed",
+     "suffix": "D",
+     "bid": 0.71,
+     "ask": 0.72,
+     "last": 0.72,
+     "vol": 1958467.6,
+     "oi": 1272279.53
+    }
+   ]
+  },
+  "('SEN', 'KS', None)": {
+   "series": "SENATEKS",
+   "markets": [
+    {
+     "ticker": "SENATEKS-26-R",
+     "name": "Roger Marshall",
+     "suffix": "R",
+     "bid": 0.7,
+     "ask": 0.71,
+     "last": 0.7,
+     "vol": 715350.48,
+     "oi": 472912.05
+    },
+    {
+     "ticker": "SENATEKS-26-D",
+     "name": "Adam Hamilton",
+     "suffix": "D",
+     "bid": 0.29,
+     "ask": 0.3,
+     "last": 0.3,
+     "vol": 1172881.73,
+     "oi": 849723.22
+    }
+   ]
+  },
+  "('HOUSE', 'WI', 3)": {
+   "series": "HOUSEWI3",
+   "markets": [
+    {
+     "ticker": "HOUSEWI3-26-R",
+     "name": "Derrick Van Orden",
+     "suffix": "R",
+     "bid": 0.28,
+     "ask": 0.3,
+     "last": 0.29,
+     "vol": 20431.85,
+     "oi": 10777.17
+    },
+    {
+     "ticker": "HOUSEWI3-26-D",
+     "name": "Rebecca Cooke",
+     "suffix": "D",
+     "bid": 0.71,
+     "ask": 0.73,
+     "last": 0.73,
+     "vol": 116984.53,
+     "oi": 24534.49
+    }
+   ]
+  },
+  "('HOUSE', 'WI', 1)": {
+   "series": "HOUSEWI1",
+   "markets": [
+    {
+     "ticker": "HOUSEWI1-26-R",
+     "name": "Bryan Steil",
+     "suffix": "R",
+     "bid": 0.66,
+     "ask": 0.67,
+     "last": 0.67,
+     "vol": 8433.71,
+     "oi": 5628.83
+    },
+    {
+     "ticker": "HOUSEWI1-26-D",
+     "name": "Mitchell Berman",
+     "suffix": "D",
+     "bid": 0.32,
+     "ask": 0.34,
+     "last": 0.34,
+     "vol": 13907.88,
+     "oi": 9888.45
+    }
+   ]
+  },
+  "('HOUSE', 'WA', 3)": {
+   "series": "HOUSEWA3",
+   "markets": [
+    {
+     "ticker": "HOUSEWA3-26-R",
+     "name": "John Braun",
+     "suffix": "R",
+     "bid": 0.085,
+     "ask": 0.099,
+     "last": 0.11,
+     "vol": 90081.43,
+     "oi": 73242.45
+    },
+    {
+     "ticker": "HOUSEWA3-26-D",
+     "name": "Marie Gluesenkamp Perez",
+     "suffix": "D",
+     "bid": 0.9,
+     "ask": 0.905,
+     "last": 0.9,
+     "vol": 24662.73,
+     "oi": 10383.06
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 7)": {
+   "series": "HOUSEVA7",
+   "markets": [
+    {
+     "ticker": "HOUSEVA7-26-R",
+     "name": "Doug Ollivant",
+     "suffix": "R",
+     "bid": 0.044,
+     "ask": 0.081,
+     "last": 0.064,
+     "vol": 12046.97,
+     "oi": 8844.93
+    },
+    {
+     "ticker": "HOUSEVA7-26-D",
+     "name": "Eugene Vindman",
+     "suffix": "D",
+     "bid": 0.921,
+     "ask": 0.955,
+     "last": 0.92,
+     "vol": 12760.61,
+     "oi": 8468.99
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 2)": {
+   "series": "HOUSEVA2",
+   "markets": [
+    {
+     "ticker": "HOUSEVA2-26-R",
+     "name": "Jen Kiggans",
+     "suffix": "R",
+     "bid": 0.18,
+     "ask": 0.19,
+     "last": 0.19,
+     "vol": 49026.92,
+     "oi": 17445.92
+    },
+    {
+     "ticker": "HOUSEVA2-26-D",
+     "name": "Elaine Luria",
+     "suffix": "D",
+     "bid": 0.79,
+     "ask": 0.81,
+     "last": 0.79,
+     "vol": 59263.06,
+     "oi": 30269.06
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 1)": {
+   "series": "HOUSEVA1",
+   "markets": [
+    {
+     "ticker": "HOUSEVA1-26-R",
+     "name": "Rob Wittman",
+     "suffix": "R",
+     "bid": 0.66,
+     "ask": 0.67,
+     "last": 0.66,
+     "vol": 48420.92,
+     "oi": 35419.79
+    },
+    {
+     "ticker": "HOUSEVA1-26-D",
+     "name": "Shannon Taylor",
+     "suffix": "D",
+     "bid": 0.33,
+     "ask": 0.34,
+     "last": 0.33,
+     "vol": 51339.06,
+     "oi": 24493.66
+    }
+   ]
+  },
+  "('HOUSE', 'MN', 2)": {
+   "series": "HOUSEMN2",
+   "markets": [
+    {
+     "ticker": "HOUSEMN2-26-R",
+     "name": "Eric Pratt",
+     "suffix": "R",
+     "bid": 0.06,
+     "ask": 0.099,
+     "last": 0.099,
+     "vol": 901.68,
+     "oi": 713.68
+    },
+    {
+     "ticker": "HOUSEMN2-26-D",
+     "name": "Matt Little",
+     "suffix": "D",
+     "bid": 0.901,
+     "ask": 0.94,
+     "last": 0.94,
+     "vol": 5209.27,
+     "oi": 2125.04
+    }
+   ]
+  },
+  "('HOUSE', 'MI', 10)": {
+   "series": "HOUSEMI10",
+   "markets": [
+    {
+     "ticker": "HOUSEMI10-26-R",
+     "name": "Michael Bouchard Jr.",
+     "suffix": "R",
+     "bid": 0.34,
+     "ask": 0.35,
+     "last": 0.34,
+     "vol": 10524.9,
+     "oi": 3352.88
+    },
+    {
+     "ticker": "HOUSEMI10-26-D",
+     "name": "Christina Hines",
+     "suffix": "D",
+     "bid": 0.65,
+     "ask": 0.66,
+     "last": 0.66,
+     "vol": 12468.24,
+     "oi": 6775.14
+    }
+   ]
+  },
+  "('HOUSE', 'MI', 7)": {
+   "series": "HOUSEMI7",
+   "markets": [
+    {
+     "ticker": "HOUSEMI7-26-R",
+     "name": "Tom Barrett",
+     "suffix": "R",
+     "bid": 0.41,
+     "ask": 0.42,
+     "last": 0.41,
+     "vol": 32980.72,
+     "oi": 22916.64
+    },
+    {
+     "ticker": "HOUSEMI7-26-D",
+     "name": "William Lawrence",
+     "suffix": "D",
+     "bid": 0.6,
+     "ask": 0.61,
+     "last": 0.61,
+     "vol": 33234.02,
+     "oi": 24490.02
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 13)": {
+   "series": "HOUSEFL13",
+   "markets": [
+    {
+     "ticker": "HOUSEFL13-26-R",
+     "name": "Anna Paulina Luna",
+     "suffix": "R",
+     "bid": 0.71,
+     "ask": 0.72,
+     "last": 0.71,
+     "vol": 19167.51,
+     "oi": 14858.17
+    },
+    {
+     "ticker": "HOUSEFL13-26-D",
+     "name": "Leela Gray",
+     "suffix": "D",
+     "bid": 0.29,
+     "ask": 0.3,
+     "last": 0.29,
+     "vol": 7285.39,
+     "oi": 5018.33
+    }
+   ]
+  },
+  "('GOV', 'WY', None)": {
+   "series": "GOVPARTYWY",
+   "markets": [
+    {
+     "ticker": "GOVPARTYWY-26-R",
+     "name": "Eric Barlow",
+     "suffix": "R",
+     "bid": 0.961,
+     "ask": 0.973,
+     "last": 0.961,
+     "vol": 1611.1,
+     "oi": 1364.67
+    },
+    {
+     "ticker": "GOVPARTYWY-26-D",
+     "name": "Kenneth Casner",
+     "suffix": "D",
+     "bid": 0.03,
+     "ask": 0.04,
+     "last": 0.038,
+     "vol": 3265.67,
+     "oi": 3188.15
+    }
+   ]
+  },
+  "('GOV', 'WI', None)": {
+   "series": "GOVPARTYWI",
+   "markets": [
+    {
+     "ticker": "GOVPARTYWI-26-R",
+     "name": "Tom Tiffany",
+     "suffix": "R",
+     "bid": 0.16,
+     "ask": 0.17,
+     "last": 0.17,
+     "vol": 750663.14,
+     "oi": 446079.51
+    },
+    {
+     "ticker": "GOVPARTYWI-26-D",
+     "name": "David Crowley",
+     "suffix": "D",
+     "bid": 0.83,
+     "ask": 0.84,
+     "last": 0.84,
+     "vol": 478634.43,
+     "oi": 226343.69
+    }
+   ]
+  },
+  "('GOV', 'VT', None)": {
+   "series": "GOVPARTYVT",
+   "markets": [
+    {
+     "ticker": "GOVPARTYVT-26-R",
+     "name": "Phil Scott",
+     "suffix": "R",
+     "bid": 0.84,
+     "ask": 0.85,
+     "last": 0.84,
+     "vol": 134715.2,
+     "oi": 92228.96
+    },
+    {
+     "ticker": "GOVPARTYVT-26-D",
+     "name": "Amanda Janoo",
+     "suffix": "D",
+     "bid": 0.15,
+     "ask": 0.16,
+     "last": 0.16,
+     "vol": 144760.98,
+     "oi": 107352.01
+    }
+   ]
+  },
+  "('GOV', 'TN', None)": {
+   "series": "GOVPARTYTN",
+   "markets": [
+    {
+     "ticker": "GOVPARTYTN-26-R",
+     "name": "Marsha Blackburn",
+     "suffix": "R",
+     "bid": 0.925,
+     "ask": 0.929,
+     "last": 0.93,
+     "vol": 11857.0,
+     "oi": 8530.54
+    },
+    {
+     "ticker": "GOVPARTYTN-26-D",
+     "name": "Jerri Green",
+     "suffix": "D",
+     "bid": 0.065,
+     "ask": 0.075,
+     "last": 0.07,
+     "vol": 45649.79,
+     "oi": 32768.49
+    }
+   ]
+  },
+  "('GOV', 'SD', None)": {
+   "series": "GOVPARTYSD",
+   "markets": [
+    {
+     "ticker": "GOVPARTYSD-26-R",
+     "name": "Larry Rhoden",
+     "suffix": "R",
+     "bid": 0.956,
+     "ask": 0.998,
+     "last": 0.956,
+     "vol": 4502.45,
+     "oi": 3115.23
+    },
+    {
+     "ticker": "GOVPARTYSD-26-D",
+     "name": "Dan Ahlers",
+     "suffix": "D",
+     "bid": 0.002,
+     "ask": 0.053,
+     "last": 0.043,
+     "vol": 4728.33,
+     "oi": 3998.18
+    }
+   ]
+  },
+  "('GOV', 'MN', None)": {
+   "series": "GOVPARTYMN",
+   "markets": [
+    {
+     "ticker": "GOVPARTYMN-26-R",
+     "name": "Lisa Demuth",
+     "suffix": "R",
+     "bid": 0.055,
+     "ask": 0.057,
+     "last": 0.058,
+     "vol": 241655.53,
+     "oi": 166809.65
+    },
+    {
+     "ticker": "GOVPARTYMN-26-D",
+     "name": "Amy Klobuchar",
+     "suffix": "D",
+     "bid": 0.946,
+     "ask": 0.951,
+     "last": 0.951,
+     "vol": 181458.48,
+     "oi": 92585.78
+    }
+   ]
+  },
+  "('GOV', 'MI', None)": {
+   "series": "GOVPARTYMI",
+   "markets": [
+    {
+     "ticker": "GOVPARTYMI-26-MD",
+     "name": "Mike Duggan",
+     "suffix": "MD",
+     "bid": 0.002,
+     "ask": 0.006,
+     "last": 0.002,
+     "vol": 124338.0,
+     "oi": 58403.22
+    },
+    {
+     "ticker": "GOVPARTYMI-26-R",
+     "name": "John James",
+     "suffix": "R",
+     "bid": 0.069,
+     "ask": 0.082,
+     "last": 0.085,
+     "vol": 157139.72,
+     "oi": 101603.71
+    },
+    {
+     "ticker": "GOVPARTYMI-26-D",
+     "name": "Jocelyn Benson",
+     "suffix": "D",
+     "bid": 0.92,
+     "ask": 0.927,
+     "last": 0.936,
+     "vol": 77140.5,
+     "oi": 57576.38
+    }
+   ]
+  },
+  "('GOV', 'HI', None)": {
+   "series": "GOVPARTYHI",
+   "markets": [
+    {
+     "ticker": "GOVPARTYHI-26-R",
+     "name": "Gary Cordery",
+     "suffix": "R",
+     "bid": 0.02,
+     "ask": 0.039,
+     "last": 0.036,
+     "vol": 3433.31,
+     "oi": 2590.53
+    },
+    {
+     "ticker": "GOVPARTYHI-26-D",
+     "name": "Josh Green",
+     "suffix": "D",
+     "bid": 0.969,
+     "ask": 0.98,
+     "last": 0.98,
+     "vol": 6807.95,
+     "oi": 3264.52
+    }
+   ]
+  },
+  "('GOV', 'FL', None)": {
+   "series": "GOVPARTYFL",
+   "markets": [
+    {
+     "ticker": "GOVPARTYFL-26-R",
+     "name": "Byron Donalds",
+     "suffix": "R",
+     "bid": 0.78,
+     "ask": 0.79,
+     "last": 0.79,
+     "vol": 1574606.82,
+     "oi": 1332555.2
+    },
+    {
+     "ticker": "GOVPARTYFL-26-D",
+     "name": "David Jolly",
+     "suffix": "D",
+     "bid": 0.21,
+     "ask": 0.22,
+     "last": 0.21,
+     "vol": 692919.13,
+     "oi": 497738.83
+    }
+   ]
+  },
+  "('GOV', 'CT', None)": {
+   "series": "GOVPARTYCT",
+   "markets": [
+    {
+     "ticker": "GOVPARTYCT-26-R",
+     "name": "Ryan Fazio",
+     "suffix": "R",
+     "bid": 0.026,
+     "ask": 0.047,
+     "last": 0.047,
+     "vol": 25673.52,
+     "oi": 22510.59
+    },
+    {
+     "ticker": "GOVPARTYCT-26-D",
+     "name": "Ned Lamont",
+     "suffix": "D",
+     "bid": 0.951,
+     "ask": 0.974,
+     "last": 0.951,
+     "vol": 15835.94,
+     "oi": 12084.55
+    }
+   ]
+  },
+  "('SEN', 'WV', None)": {
+   "series": "SENATEWV",
+   "markets": [
+    {
+     "ticker": "SENATEWV-26-R",
+     "name": "Shelley Moore Capito",
+     "suffix": "R",
+     "bid": 0.978,
+     "ask": 0.983,
+     "last": 0.986,
+     "vol": 8909.77,
+     "oi": 6695.58
+    },
+    {
+     "ticker": "SENATEWV-26-D",
+     "name": "Rachel Fetty Anderson",
+     "suffix": "D",
+     "bid": 0.022,
+     "ask": 0.025,
+     "last": 0.022,
+     "vol": 12794.62,
+     "oi": 8878.04
+    }
+   ]
+  },
+  "('SEN', 'TX', None)": {
+   "series": "SENATETX",
+   "markets": [
+    {
+     "ticker": "SENATETX-26-D",
+     "name": "James Talarico",
+     "suffix": "D",
+     "bid": 0.59,
+     "ask": 0.6,
+     "last": 0.6,
+     "vol": 6219535.45,
+     "oi": 4250180.72
+    },
+    {
+     "ticker": "SENATETX-26-R",
+     "name": "Ken Paxton",
+     "suffix": "R",
+     "bid": 0.4,
+     "ask": 0.41,
+     "last": 0.41,
+     "vol": 8849454.07,
+     "oi": 5983483.03
+    }
+   ]
+  },
+  "('SEN', 'SD', None)": {
+   "series": "SENATESD",
+   "markets": [
+    {
+     "ticker": "SENATESD-26-BBEN",
+     "name": "Brian Bengs",
+     "suffix": "BBEN",
+     "bid": 0.06,
+     "ask": 0.09,
+     "last": 0.09,
+     "vol": 71499.6,
+     "oi": 70541.59
+    },
+    {
+     "ticker": "SENATESD-26-R",
+     "name": "Mike Rounds",
+     "suffix": "R",
+     "bid": 0.907,
+     "ask": 0.923,
+     "last": 0.921,
+     "vol": 58039.67,
+     "oi": 47906.14
+    },
+    {
+     "ticker": "SENATESD-26-D",
+     "name": "Julian Beaudion",
+     "suffix": "D",
+     "bid": 0.003,
+     "ask": 0.004,
+     "last": 0.004,
+     "vol": 28904.94,
+     "oi": 19488.25
+    }
+   ]
+  },
+  "('SEN', 'SC', None)": {
+   "series": "SENATESC",
+   "markets": [
+    {
+     "ticker": "SENATESC-26-R",
+     "name": "Darline Graham",
+     "suffix": "R",
+     "bid": 0.87,
+     "ask": 0.88,
+     "last": 0.88,
+     "vol": 652516.52,
+     "oi": 401836.64
+    },
+    {
+     "ticker": "SENATESC-26-D",
+     "name": "Annie Andrews",
+     "suffix": "D",
+     "bid": 0.12,
+     "ask": 0.13,
+     "last": 0.13,
+     "vol": 1058049.89,
+     "oi": 753269.19
+    }
+   ]
+  },
+  "('SEN', 'OR', None)": {
+   "series": "SENATEOR",
+   "markets": [
+    {
+     "ticker": "SENATEOR-26-R",
+     "name": "David Brock Smith",
+     "suffix": "R",
+     "bid": 0.02,
+     "ask": 0.022,
+     "last": 0.023,
+     "vol": 5971.01,
+     "oi": 5072.52
+    },
+    {
+     "ticker": "SENATEOR-26-D",
+     "name": "Jeff Merkley",
+     "suffix": "D",
+     "bid": 0.977,
+     "ask": 0.978,
+     "last": 0.978,
+     "vol": 4755.71,
+     "oi": 2910.27
+    }
+   ]
+  },
+  "('SEN', 'NM', None)": {
+   "series": "SENATENM",
+   "markets": [
+    {
+     "ticker": "SENATENM-26-R",
+     "name": "Larry E. Marker",
+     "suffix": "R",
+     "bid": 0.011,
+     "ask": 0.02,
+     "last": 0.02,
+     "vol": 14841.13,
+     "oi": 11457.24
+    },
+    {
+     "ticker": "SENATENM-26-D",
+     "name": "Ben Ray Luj\u00e1n",
+     "suffix": "D",
+     "bid": 0.979,
+     "ask": 0.98,
+     "last": 0.98,
+     "vol": 19908.06,
+     "oi": 8327.21
+    }
+   ]
+  },
+  "('SEN', 'NJ', None)": {
+   "series": "SENATENJ",
+   "markets": [
+    {
+     "ticker": "SENATENJ-26-D",
+     "name": "Cory Booker",
+     "suffix": "D",
+     "bid": 0.979,
+     "ask": 0.981,
+     "last": 0.979,
+     "vol": 11932.87,
+     "oi": 3904.21
+    },
+    {
+     "ticker": "SENATENJ-26-R",
+     "name": "Justin Murphy",
+     "suffix": "R",
+     "bid": 0.019,
+     "ask": 0.02,
+     "last": 0.024,
+     "vol": 30062.37,
+     "oi": 14094.87
+    }
+   ]
+  },
+  "('SEN', 'NE', None)": {
+   "series": "SENATENE",
+   "markets": [
+    {
+     "ticker": "SENATENE-26-DOSB",
+     "name": "Dan Osborn",
+     "suffix": "DOSB",
+     "bid": 0.29,
+     "ask": 0.3,
+     "last": 0.3,
+     "vol": 737407.21,
+     "oi": 417205.83
+    },
+    {
+     "ticker": "SENATENE-26-R",
+     "name": "Pete Ricketts",
+     "suffix": "R",
+     "bid": 0.7,
+     "ask": 0.71,
+     "last": 0.71,
+     "vol": 1087650.73,
+     "oi": 801479.15
+    },
+    {
+     "ticker": "SENATENE-26-D",
+     "name": "Cindy Burbank",
+     "suffix": "D",
+     "bid": 0.0,
+     "ask": 0.004,
+     "last": 0.002,
+     "vol": 60373.24,
+     "oi": 37243.17
+    }
+   ]
+  },
+  "('SEN', 'NC', None)": {
+   "series": "SENATENC",
+   "markets": [
+    {
+     "ticker": "SENATENC-26-R",
+     "name": "Michael Whatley",
+     "suffix": "R",
+     "bid": 0.053,
+     "ask": 0.059,
+     "last": 0.056,
+     "vol": 929744.59,
+     "oi": 775053.64
+    },
+    {
+     "ticker": "SENATENC-26-D",
+     "name": "Roy Cooper",
+     "suffix": "D",
+     "bid": 0.944,
+     "ask": 0.945,
+     "last": 0.945,
+     "vol": 1372833.58,
+     "oi": 1225885.36
+    }
+   ]
+  },
+  "('SEN', 'MT', None)": {
+   "series": "SENATEMT",
+   "markets": [
+    {
+     "ticker": "SENATEMT-26-IND",
+     "name": "Seth Bodnar",
+     "suffix": "IND",
+     "bid": 0.082,
+     "ask": 0.09,
+     "last": 0.09,
+     "vol": 231684.06,
+     "oi": 118912.59
+    },
+    {
+     "ticker": "SENATEMT-26-R",
+     "name": "Kurt Alme",
+     "suffix": "R",
+     "bid": 0.905,
+     "ask": 0.91,
+     "last": 0.91,
+     "vol": 223544.68,
+     "oi": 128984.24
+    },
+    {
+     "ticker": "SENATEMT-26-D",
+     "name": "Alani Bankhead",
+     "suffix": "D",
+     "bid": 0.014,
+     "ask": 0.015,
+     "last": 0.014,
+     "vol": 151463.32,
+     "oi": 122134.89
+    }
+   ]
+  },
+  "('SEN', 'MS', None)": {
+   "series": "SENATEMS",
+   "markets": [
+    {
+     "ticker": "SENATEMS-26-R",
+     "name": "Cindy Hyde-Smith",
+     "suffix": "R",
+     "bid": 0.9,
+     "ask": 0.905,
+     "last": 0.9,
+     "vol": 66129.74,
+     "oi": 50290.52
+    },
+    {
+     "ticker": "SENATEMS-26-D",
+     "name": "Scott Colom",
+     "suffix": "D",
+     "bid": 0.098,
+     "ask": 0.1,
+     "last": 0.1,
+     "vol": 117379.4,
+     "oi": 103753.02
+    }
+   ]
+  },
+  "('SEN', 'ME', None)": {
+   "series": "SENATEME",
+   "markets": [
+    {
+     "ticker": "SENATEME-26-R",
+     "name": "Susan Collins",
+     "suffix": "R",
+     "bid": 0.38,
+     "ask": 0.4,
+     "last": 0.4,
+     "vol": 3607492.88,
+     "oi": 1884993.01
+    },
+    {
+     "ticker": "SENATEME-26-D",
+     "name": "Troy Jackson",
+     "suffix": "D",
+     "bid": 0.6,
+     "ask": 0.62,
+     "last": 0.6,
+     "vol": 3324015.86,
+     "oi": 1090930.21
+    }
+   ]
+  },
+  "('SEN', 'LA', None)": {
+   "series": "SENATELA",
+   "markets": [
+    {
+     "ticker": "SENATELA-26-R",
+     "name": "Andy Barr",
+     "suffix": "R",
+     "bid": 0.95,
+     "ask": 0.955,
+     "last": 0.953,
+     "vol": 76230.27,
+     "oi": 35626.08
+    },
+    {
+     "ticker": "SENATELA-26-D",
+     "name": "Charles Booker",
+     "suffix": "D",
+     "bid": 0.044,
+     "ask": 0.05,
+     "last": 0.046,
+     "vol": 79626.01,
+     "oi": 45446.9
+    }
+   ]
+  },
+  "('SEN', 'IL', None)": {
+   "series": "SENATEIL",
+   "markets": [
+    {
+     "ticker": "SENATEIL-26-R",
+     "name": "Don Tracy",
+     "suffix": "R",
+     "bid": 0.019,
+     "ask": 0.023,
+     "last": 0.019,
+     "vol": 8383.13,
+     "oi": 6714.76
+    },
+    {
+     "ticker": "SENATEIL-26-D",
+     "name": "Juliana Stratton",
+     "suffix": "D",
+     "bid": 0.978,
+     "ask": 0.984,
+     "last": 0.973,
+     "vol": 9094.68,
+     "oi": 7827.6
+    }
+   ]
+  },
+  "('SEN', 'ID', None)": {
+   "series": "SENATEID",
+   "markets": [
+    {
+     "ticker": "SENATEID-26-TACH",
+     "name": "Todd Achilles",
+     "suffix": "TACH",
+     "bid": 0.07,
+     "ask": 0.08,
+     "last": 0.08,
+     "vol": 96337.8,
+     "oi": 86138.4
+    },
+    {
+     "ticker": "SENATEID-26-R",
+     "name": "Jim Risch",
+     "suffix": "R",
+     "bid": 0.921,
+     "ask": 0.924,
+     "last": 0.924,
+     "vol": 85617.23,
+     "oi": 63579.26
+    },
+    {
+     "ticker": "SENATEID-26-D",
+     "name": "David Roth",
+     "suffix": "D",
+     "bid": 0.003,
+     "ask": 0.004,
+     "last": 0.004,
+     "vol": 53427.63,
+     "oi": 25920.76
+    }
+   ]
+  },
+  "('SEN', 'IA', None)": {
+   "series": "SENATEIA",
+   "markets": [
+    {
+     "ticker": "SENATEIA-26-R",
+     "name": "Ashley Hinson",
+     "suffix": "R",
+     "bid": 0.57,
+     "ask": 0.58,
+     "last": 0.58,
+     "vol": 1453625.51,
+     "oi": 873043.83
+    },
+    {
+     "ticker": "SENATEIA-26-D",
+     "name": "Josh Turek",
+     "suffix": "D",
+     "bid": 0.41,
+     "ask": 0.42,
+     "last": 0.42,
+     "vol": 1967429.49,
+     "oi": 1110689.78
+    }
+   ]
+  },
+  "('SEN', 'GA', None)": {
+   "series": "SENATEGA",
+   "markets": [
+    {
+     "ticker": "SENATEGA-26-D",
+     "name": "Jon Ossoff",
+     "suffix": "D",
+     "bid": 0.943,
+     "ask": 0.944,
+     "last": 0.943,
+     "vol": 420280.19,
+     "oi": 230599.08
+    },
+    {
+     "ticker": "SENATEGA-26-R",
+     "name": "Mike Collins",
+     "suffix": "R",
+     "bid": 0.047,
+     "ask": 0.056,
+     "last": 0.047,
+     "vol": 1001087.61,
+     "oi": 697531.5
+    }
+   ]
+  },
+  "('SEN', 'CO', None)": {
+   "series": "SENATECO",
+   "markets": [
+    {
+     "ticker": "SENATECO-26-D",
+     "name": "John Hickenlooper",
+     "suffix": "D",
+     "bid": 0.985,
+     "ask": 0.987,
+     "last": 0.984,
+     "vol": 12221.53,
+     "oi": 9718.5
+    },
+    {
+     "ticker": "SENATECO-26-R",
+     "name": "Mark Baisley",
+     "suffix": "R",
+     "bid": 0.014,
+     "ask": 0.015,
+     "last": 0.016,
+     "vol": 17726.51,
+     "oi": 13161.75
+    }
+   ]
+  },
+  "('SEN', 'AR', None)": {
+   "series": "SENATEAR",
+   "markets": [
+    {
+     "ticker": "SENATEAR-26-R",
+     "name": "Tom Cotton",
+     "suffix": "R",
+     "bid": 0.93,
+     "ask": 0.931,
+     "last": 0.932,
+     "vol": 35077.56,
+     "oi": 25804.29
+    },
+    {
+     "ticker": "SENATEAR-26-D",
+     "name": "Hallie Shoffner",
+     "suffix": "D",
+     "bid": 0.066,
+     "ask": 0.076,
+     "last": 0.077,
+     "vol": 129956.93,
+     "oi": 104492.26
+    }
+   ]
+  },
+  "('SEN', 'AL', None)": {
+   "series": "SENATEAL",
+   "markets": [
+    {
+     "ticker": "SENATEAL-26-R",
+     "name": "Barry Moore",
+     "suffix": "R",
+     "bid": 0.965,
+     "ask": 0.985,
+     "last": 0.974,
+     "vol": 2084.14,
+     "oi": 1582.41
+    },
+    {
+     "ticker": "SENATEAL-26-D",
+     "name": "Everett Wess",
+     "suffix": "D",
+     "bid": 0.015,
+     "ask": 0.037,
+     "last": 0.037,
+     "vol": 7702.55,
+     "oi": 4588.86
+    }
+   ]
+  },
+  "('HOUSE', 'TX', 28)": {
+   "series": "HOUSETX28",
+   "markets": [
+    {
+     "ticker": "HOUSETX28-26-R",
+     "name": "Tano Tijerina",
+     "suffix": "R",
+     "bid": 0.11,
+     "ask": 0.12,
+     "last": 0.11,
+     "vol": 38176.09,
+     "oi": 26936.82
+    },
+    {
+     "ticker": "HOUSETX28-26-D",
+     "name": "Henry Cuellar",
+     "suffix": "D",
+     "bid": 0.87,
+     "ask": 0.88,
+     "last": 0.88,
+     "vol": 144578.59,
+     "oi": 79715.1
+    }
+   ]
+  },
+  "('HOUSE', 'TX', 15)": {
+   "series": "HOUSETX15",
+   "markets": [
+    {
+     "ticker": "HOUSETX15-26-R",
+     "name": "Monica De La Cruz",
+     "suffix": "R",
+     "bid": 0.26,
+     "ask": 0.27,
+     "last": 0.26,
+     "vol": 1814262.8,
+     "oi": 1394408.69
+    },
+    {
+     "ticker": "HOUSETX15-26-D",
+     "name": "Bobby Pulido",
+     "suffix": "D",
+     "bid": 0.74,
+     "ask": 0.75,
+     "last": 0.75,
+     "vol": 463596.17,
+     "oi": 296775.76
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 10)": {
+   "series": "HOUSEPA10",
+   "markets": [
+    {
+     "ticker": "HOUSEPA10-26-R",
+     "name": "Scott Perry",
+     "suffix": "R",
+     "bid": 0.19,
+     "ask": 0.21,
+     "last": 0.19,
+     "vol": 9797.38,
+     "oi": 3950.27
+    },
+    {
+     "ticker": "HOUSEPA10-26-D",
+     "name": "Janelle Stelson",
+     "suffix": "D",
+     "bid": 0.79,
+     "ask": 0.81,
+     "last": 0.8,
+     "vol": 9683.8,
+     "oi": 7628.33
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 8)": {
+   "series": "HOUSEPA8",
+   "markets": [
+    {
+     "ticker": "HOUSEPA8-26-R",
+     "name": "Rob Bresnahan",
+     "suffix": "R",
+     "bid": 0.32,
+     "ask": 0.33,
+     "last": 0.33,
+     "vol": 75707.43,
+     "oi": 73624.32
+    },
+    {
+     "ticker": "HOUSEPA8-26-D",
+     "name": "Paige Cognetti",
+     "suffix": "D",
+     "bid": 0.66,
+     "ask": 0.67,
+     "last": 0.67,
+     "vol": 27729.67,
+     "oi": 19827.98
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 7)": {
+   "series": "HOUSEPA7",
+   "markets": [
+    {
+     "ticker": "HOUSEPA7-26-R",
+     "name": "Ryan Mackenzie",
+     "suffix": "R",
+     "bid": 0.17,
+     "ask": 0.18,
+     "last": 0.17,
+     "vol": 86188.6,
+     "oi": 72199.3
+    },
+    {
+     "ticker": "HOUSEPA7-26-D",
+     "name": "Bob Brooks",
+     "suffix": "D",
+     "bid": 0.82,
+     "ask": 0.83,
+     "last": 0.83,
+     "vol": 228512.63,
+     "oi": 76428.67
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 1)": {
+   "series": "HOUSEPA1",
+   "markets": [
+    {
+     "ticker": "HOUSEPA1-26-R",
+     "name": "Brian Fitzpatrick",
+     "suffix": "R",
+     "bid": 0.63,
+     "ask": 0.65,
+     "last": 0.64,
+     "vol": 27251.82,
+     "oi": 19218.44
+    },
+    {
+     "ticker": "HOUSEPA1-26-D",
+     "name": "Bob Harvie",
+     "suffix": "D",
+     "bid": 0.36,
+     "ask": 0.37,
+     "last": 0.37,
+     "vol": 171587.25,
+     "oi": 164617.91
+    }
+   ]
+  },
+  "('HOUSE', 'NY', 17)": {
+   "series": "HOUSENY17",
+   "markets": [
+    {
+     "ticker": "HOUSENY17-26-R",
+     "name": "Mike Lawler",
+     "suffix": "R",
+     "bid": 0.35,
+     "ask": 0.37,
+     "last": 0.37,
+     "vol": 97058.67,
+     "oi": 61475.91
+    },
+    {
+     "ticker": "HOUSENY17-26-D",
+     "name": "Cait Conley",
+     "suffix": "D",
+     "bid": 0.64,
+     "ask": 0.65,
+     "last": 0.65,
+     "vol": 51217.22,
+     "oi": 38320.27
+    }
+   ]
+  },
+  "('HOUSE', 'NJ', 7)": {
+   "series": "HOUSENJ7",
+   "markets": [
+    {
+     "ticker": "HOUSENJ7-26-R",
+     "name": "Thomas Kean Jr.",
+     "suffix": "R",
+     "bid": 0.12,
+     "ask": 0.13,
+     "last": 0.12,
+     "vol": 77319.94,
+     "oi": 71078.48
+    },
+    {
+     "ticker": "HOUSENJ7-26-D",
+     "name": "Rebecca Bennett",
+     "suffix": "D",
+     "bid": 0.87,
+     "ask": 0.88,
+     "last": 0.88,
+     "vol": 129105.09,
+     "oi": 14794.32
+    }
+   ]
+  },
+  "('HOUSE', 'NE', 2)": {
+   "series": "HOUSENE2",
+   "markets": [
+    {
+     "ticker": "HOUSENE2-26-R",
+     "name": "Brinker Harding",
+     "suffix": "R",
+     "bid": 0.056,
+     "ask": 0.084,
+     "last": 0.056,
+     "vol": 48798.18,
+     "oi": 33550.29
+    },
+    {
+     "ticker": "HOUSENE2-26-D",
+     "name": "Denise Powell",
+     "suffix": "D",
+     "bid": 0.927,
+     "ask": 0.935,
+     "last": 0.914,
+     "vol": 19043.6,
+     "oi": 16317.44
+    }
+   ]
+  },
+  "('HOUSE', 'MT', 1)": {
+   "series": "HOUSEMT1",
+   "markets": [
+    {
+     "ticker": "HOUSEMT1-26-R",
+     "name": "Aaron Flint",
+     "suffix": "R",
+     "bid": 0.69,
+     "ask": 0.71,
+     "last": 0.7,
+     "vol": 136293.57,
+     "oi": 125602.45
+    },
+    {
+     "ticker": "HOUSEMT1-26-D",
+     "name": "Sam Forstag",
+     "suffix": "D",
+     "bid": 0.28,
+     "ask": 0.29,
+     "last": 0.29,
+     "vol": 130176.01,
+     "oi": 103753.9
+    }
+   ]
+  },
+  "('HOUSE', 'ME', 2)": {
+   "series": "HOUSEME2",
+   "markets": [
+    {
+     "ticker": "HOUSEME2-26-R",
+     "name": "Paul LePage",
+     "suffix": "R",
+     "bid": 0.64,
+     "ask": 0.67,
+     "last": 0.65,
+     "vol": 42550.07,
+     "oi": 28007.67
+    },
+    {
+     "ticker": "HOUSEME2-26-D",
+     "name": "Matt Dunlap",
+     "suffix": "D",
+     "bid": 0.36,
+     "ask": 0.37,
+     "last": 0.36,
+     "vol": 46308.22,
+     "oi": 24530.53
+    }
+   ]
+  },
+  "('HOUSE', 'IA', 3)": {
+   "series": "HOUSEIA3",
+   "markets": [
+    {
+     "ticker": "HOUSEIA3-26-R",
+     "name": "Zach Nunn",
+     "suffix": "R",
+     "bid": 0.22,
+     "ask": 0.25,
+     "last": 0.22,
+     "vol": 24997.12,
+     "oi": 20758.99
+    },
+    {
+     "ticker": "HOUSEIA3-26-D",
+     "name": "Sarah Trone Garriott",
+     "suffix": "D",
+     "bid": 0.75,
+     "ask": 0.76,
+     "last": 0.75,
+     "vol": 43169.58,
+     "oi": 35546.18
+    }
+   ]
+  },
+  "('HOUSE', 'IA', 1)": {
+   "series": "HOUSEIA1",
+   "markets": [
+    {
+     "ticker": "HOUSEIA1-26-I",
+     "name": "Michael Bridgford",
+     "suffix": "I",
+     "bid": 0.01,
+     "ask": 0.06,
+     "last": 0.0,
+     "vol": 0.0,
+     "oi": 0.0
+    },
+    {
+     "ticker": "HOUSEIA1-26-R",
+     "name": "Mariannette Miller-Meeks",
+     "suffix": "R",
+     "bid": 0.16,
+     "ask": 0.18,
+     "last": 0.17,
+     "vol": 44572.91,
+     "oi": 29713.9
+    },
+    {
+     "ticker": "HOUSEIA1-26-D",
+     "name": "Christina Bohannan",
+     "suffix": "D",
+     "bid": 0.81,
+     "ask": 0.83,
+     "last": 0.83,
+     "vol": 176330.12,
+     "oi": 58213.52
+    }
+   ]
+  },
+  "('HOUSE', 'CO', 8)": {
+   "series": "HOUSECO8",
+   "markets": [
+    {
+     "ticker": "HOUSECO8-26-R",
+     "name": "Gabe Evans",
+     "suffix": "R",
+     "bid": 0.14,
+     "ask": 0.17,
+     "last": 0.14,
+     "vol": 14361.41,
+     "oi": 8757.53
+    },
+    {
+     "ticker": "HOUSECO8-26-D",
+     "name": "Manny Rutinel",
+     "suffix": "D",
+     "bid": 0.83,
+     "ask": 0.86,
+     "last": 0.85,
+     "vol": 14475.17,
+     "oi": 9982.89
+    }
+   ]
+  },
+  "('HOUSE', 'CO', 3)": {
+   "series": "HOUSECO3",
+   "markets": [
+    {
+     "ticker": "HOUSECO3-26-R",
+     "name": "Jeff Hurd",
+     "suffix": "R",
+     "bid": 0.62,
+     "ask": 0.65,
+     "last": 0.62,
+     "vol": 13965.65,
+     "oi": 11673.86
+    },
+    {
+     "ticker": "HOUSECO3-26-D",
+     "name": "Dwayne Romero",
+     "suffix": "D",
+     "bid": 0.36,
+     "ask": 0.38,
+     "last": 0.36,
+     "vol": 9771.94,
+     "oi": 7230.37
+    }
+   ]
+  },
+  "('HOUSE', 'CA', 22)": {
+   "series": "HOUSECA22",
+   "markets": [
+    {
+     "ticker": "HOUSECA22-26-R",
+     "name": "David Valadao",
+     "suffix": "R",
+     "bid": 0.1,
+     "ask": 0.11,
+     "last": 0.11,
+     "vol": 58059.31,
+     "oi": 23555.77
+    },
+    {
+     "ticker": "HOUSECA22-26-D",
+     "name": "Randy Villegas",
+     "suffix": "D",
+     "bid": 0.89,
+     "ask": 0.915,
+     "last": 0.89,
+     "vol": 54605.99,
+     "oi": 40467.08
+    }
+   ]
+  },
+  "('HOUSE', 'AZ', 6)": {
+   "series": "HOUSEAZ6",
+   "markets": [
+    {
+     "ticker": "HOUSEAZ6-26-R",
+     "name": "Juan Ciscomani",
+     "suffix": "R",
+     "bid": 0.16,
+     "ask": 0.17,
+     "last": 0.16,
+     "vol": 14336.73,
+     "oi": 7393.72
+    },
+    {
+     "ticker": "HOUSEAZ6-26-D",
+     "name": "JoAnna Mendoza",
+     "suffix": "D",
+     "bid": 0.84,
+     "ask": 0.85,
+     "last": 0.85,
+     "vol": 7600.52,
+     "oi": 4169.13
+    }
+   ]
+  },
+  "('HOUSE', 'AZ', 1)": {
+   "series": "HOUSEAZ1",
+   "markets": [
+    {
+     "ticker": "HOUSEAZ1-26-R",
+     "name": "Jay Feely",
+     "suffix": "R",
+     "bid": 0.22,
+     "ask": 0.23,
+     "last": 0.22,
+     "vol": 47972.69,
+     "oi": 42783.38
+    },
+    {
+     "ticker": "HOUSEAZ1-26-D",
+     "name": "Amish Shah",
+     "suffix": "D",
+     "bid": 0.76,
+     "ask": 0.78,
+     "last": 0.77,
+     "vol": 33604.62,
+     "oi": 26530.72
+    }
+   ]
+  },
+  "('GOV', 'TX', None)": {
+   "series": "GOVPARTYTX",
+   "markets": [
+    {
+     "ticker": "GOVPARTYTX-26-R",
+     "name": "Greg Abbott",
+     "suffix": "R",
+     "bid": 0.81,
+     "ask": 0.82,
+     "last": 0.82,
+     "vol": 354502.47,
+     "oi": 233216.08
+    },
+    {
+     "ticker": "GOVPARTYTX-26-D",
+     "name": "Gina Hinojosa",
+     "suffix": "D",
+     "bid": 0.19,
+     "ask": 0.2,
+     "last": 0.2,
+     "vol": 974052.65,
+     "oi": 621043.87
+    }
+   ]
+  },
+  "('GOV', 'SC', None)": {
+   "series": "GOVPARTYSC",
+   "markets": [
+    {
+     "ticker": "GOVPARTYSC-26-R",
+     "name": "Alan Wilson",
+     "suffix": "R",
+     "bid": 0.937,
+     "ask": 0.953,
+     "last": 0.937,
+     "vol": 14998.96,
+     "oi": 12283.32
+    },
+    {
+     "ticker": "GOVPARTYSC-26-D",
+     "name": "Jermaine Johnson",
+     "suffix": "D",
+     "bid": 0.05,
+     "ask": 0.064,
+     "last": 0.063,
+     "vol": 16388.5,
+     "oi": 11753.5
+    }
+   ]
+  },
+  "('GOV', 'PA', None)": {
+   "series": "GOVPARTYPA",
+   "markets": [
+    {
+     "ticker": "GOVPARTYPA-26-R",
+     "name": "Stacy Garrity",
+     "suffix": "R",
+     "bid": 0.025,
+     "ask": 0.028,
+     "last": 0.025,
+     "vol": 405246.27,
+     "oi": 369577.16
+    },
+    {
+     "ticker": "GOVPARTYPA-26-D",
+     "name": "Josh Shapiro",
+     "suffix": "D",
+     "bid": 0.974,
+     "ask": 0.976,
+     "last": 0.977,
+     "vol": 104222.07,
+     "oi": 91859.51
+    }
+   ]
+  },
+  "('GOV', 'OR', None)": {
+   "series": "GOVPARTYOR",
+   "markets": [
+    {
+     "ticker": "GOVPARTYOR-26-R",
+     "name": "Christine Drazan",
+     "suffix": "R",
+     "bid": 0.2,
+     "ask": 0.21,
+     "last": 0.21,
+     "vol": 149451.44,
+     "oi": 98347.33
+    },
+    {
+     "ticker": "GOVPARTYOR-26-D",
+     "name": "Tina Kotek",
+     "suffix": "D",
+     "bid": 0.8,
+     "ask": 0.81,
+     "last": 0.8,
+     "vol": 70508.1,
+     "oi": 44500.31
+    }
+   ]
+  },
+  "('GOV', 'NY', None)": {
+   "series": "GOVPARTYNY",
+   "markets": [
+    {
+     "ticker": "GOVPARTYNY-26-R",
+     "name": "Bruce Blakeman",
+     "suffix": "R",
+     "bid": 0.055,
+     "ask": 0.06,
+     "last": 0.06,
+     "vol": 1250989.54,
+     "oi": 1022958.45
+    },
+    {
+     "ticker": "GOVPARTYNY-26-D",
+     "name": "Kathy Hochul",
+     "suffix": "D",
+     "bid": 0.944,
+     "ask": 0.945,
+     "last": 0.945,
+     "vol": 403779.56,
+     "oi": 317253.87
+    }
+   ]
+  },
+  "('GOV', 'NV', None)": {
+   "series": "GOVPARTYNV",
+   "markets": [
+    {
+     "ticker": "GOVPARTYNV-26-R",
+     "name": "Joe Lombardo",
+     "suffix": "R",
+     "bid": 0.53,
+     "ask": 0.54,
+     "last": 0.53,
+     "vol": 315726.81,
+     "oi": 160489.96
+    },
+    {
+     "ticker": "GOVPARTYNV-26-D",
+     "name": "Aaron Ford",
+     "suffix": "D",
+     "bid": 0.46,
+     "ask": 0.47,
+     "last": 0.47,
+     "vol": 565033.41,
+     "oi": 100461.77
+    }
+   ]
+  },
+  "('GOV', 'NM', None)": {
+   "series": "GOVPARTYNM",
+   "markets": [
+    {
+     "ticker": "GOVPARTYNM-26-R",
+     "name": "Greggory D. Hull",
+     "suffix": "R",
+     "bid": 0.055,
+     "ask": 0.085,
+     "last": 0.085,
+     "vol": 40028.24,
+     "oi": 23235.94
+    },
+    {
+     "ticker": "GOVPARTYNM-26-D",
+     "name": "Deb Haaland",
+     "suffix": "D",
+     "bid": 0.921,
+     "ask": 0.937,
+     "last": 0.941,
+     "vol": 19241.77,
+     "oi": 13795.63
+    }
+   ]
+  },
+  "('GOV', 'NE', None)": {
+   "series": "GOVPARTYNE",
+   "markets": [
+    {
+     "ticker": "GOVPARTYNE-26-R",
+     "name": "Jim Pillen",
+     "suffix": "R",
+     "bid": 0.902,
+     "ask": 0.935,
+     "last": 0.918,
+     "vol": 31577.56,
+     "oi": 24205.36
+    },
+    {
+     "ticker": "GOVPARTYNE-26-D",
+     "name": "Lynne Walz",
+     "suffix": "D",
+     "bid": 0.076,
+     "ask": 0.091,
+     "last": 0.093,
+     "vol": 25724.35,
+     "oi": 21152.44
+    }
+   ]
+  },
+  "('GOV', 'ME', None)": {
+   "series": "GOVPARTYME",
+   "markets": [
+    {
+     "ticker": "GOVPARTYME-26-RBEN",
+     "name": "Rick Bennett",
+     "suffix": "RBEN",
+     "bid": 0.0,
+     "ask": 0.02,
+     "last": 0.02,
+     "vol": 2955.69,
+     "oi": 2953.69
+    },
+    {
+     "ticker": "GOVPARTYME-26-R",
+     "name": "Robert Charles",
+     "suffix": "R",
+     "bid": 0.034,
+     "ask": 0.078,
+     "last": 0.078,
+     "vol": 28313.02,
+     "oi": 20165.18
+    },
+    {
+     "ticker": "GOVPARTYME-26-D",
+     "name": "Hannah Pingree",
+     "suffix": "D",
+     "bid": 0.932,
+     "ask": 0.957,
+     "last": 0.933,
+     "vol": 27357.15,
+     "oi": 17029.07
+    }
+   ]
+  },
+  "('GOV', 'MD', None)": {
+   "series": "GOVPARTYMD",
+   "markets": [
+    {
+     "ticker": "GOVPARTYMD-26-R",
+     "name": "Dan Cox",
+     "suffix": "R",
+     "bid": 0.023,
+     "ask": 0.044,
+     "last": 0.044,
+     "vol": 26652.6,
+     "oi": 21619.26
+    },
+    {
+     "ticker": "GOVPARTYMD-26-D",
+     "name": "Wes Moore",
+     "suffix": "D",
+     "bid": 0.956,
+     "ask": 0.973,
+     "last": 0.955,
+     "vol": 5275.02,
+     "oi": 4133.45
+    }
+   ]
+  },
+  "('GOV', 'IL', None)": {
+   "series": "GOVPARTYIL",
+   "markets": [
+    {
+     "ticker": "GOVPARTYIL-26-R",
+     "name": "Darren Bailey",
+     "suffix": "R",
+     "bid": 0.025,
+     "ask": 0.039,
+     "last": 0.038,
+     "vol": 27170.3,
+     "oi": 23184.99
+    },
+    {
+     "ticker": "GOVPARTYIL-26-D",
+     "name": "JB Pritzker",
+     "suffix": "D",
+     "bid": 0.967,
+     "ask": 0.98,
+     "last": 0.968,
+     "vol": 84237.06,
+     "oi": 67180.55
+    }
+   ]
+  },
+  "('GOV', 'ID', None)": {
+   "series": "GOVPARTYID",
+   "markets": [
+    {
+     "ticker": "GOVPARTYID-26-R",
+     "name": "Brad Little",
+     "suffix": "R",
+     "bid": 0.958,
+     "ask": 0.987,
+     "last": 0.958,
+     "vol": 4634.66,
+     "oi": 2717.45
+    },
+    {
+     "ticker": "GOVPARTYID-26-D",
+     "name": "Terri Pickens",
+     "suffix": "D",
+     "bid": 0.013,
+     "ask": 0.059,
+     "last": 0.055,
+     "vol": 1680.31,
+     "oi": 1252.48
+    }
+   ]
+  },
+  "('GOV', 'IA', None)": {
+   "series": "GOVPARTYIA",
+   "markets": [
+    {
+     "ticker": "GOVPARTYIA-26-R",
+     "name": "Zach Lahn",
+     "suffix": "R",
+     "bid": 0.14,
+     "ask": 0.15,
+     "last": 0.15,
+     "vol": 386596.38,
+     "oi": 252515.96
+    },
+    {
+     "ticker": "GOVPARTYIA-26-D",
+     "name": "Rob Sand",
+     "suffix": "D",
+     "bid": 0.84,
+     "ask": 0.85,
+     "last": 0.86,
+     "vol": 404343.55,
+     "oi": 281764.62
+    }
+   ]
+  },
+  "('GOV', 'GA', None)": {
+   "series": "GOVPARTYGA",
+   "markets": [
+    {
+     "ticker": "GOVPARTYGA-26-R",
+     "name": "Rick Jackson",
+     "suffix": "R",
+     "bid": 0.49,
+     "ask": 0.5,
+     "last": 0.5,
+     "vol": 531021.18,
+     "oi": 378374.93
+    },
+    {
+     "ticker": "GOVPARTYGA-26-D",
+     "name": "Keisha Lance Bottoms",
+     "suffix": "D",
+     "bid": 0.5,
+     "ask": 0.51,
+     "last": 0.51,
+     "vol": 592647.18,
+     "oi": 271279.77
+    }
+   ]
+  },
+  "('GOV', 'CO', None)": {
+   "series": "GOVPARTYCO",
+   "markets": [
+    {
+     "ticker": "GOVPARTYCO-26-R",
+     "name": "Victor Marx",
+     "suffix": "R",
+     "bid": 0.027,
+     "ask": 0.041,
+     "last": 0.041,
+     "vol": 77913.94,
+     "oi": 58401.94
+    },
+    {
+     "ticker": "GOVPARTYCO-26-D",
+     "name": "Phil Weiser",
+     "suffix": "D",
+     "bid": 0.959,
+     "ask": 0.975,
+     "last": 0.959,
+     "vol": 50049.22,
+     "oi": 38352.73
+    }
+   ]
+  },
+  "('GOV', 'CA', None)": {
+   "series": "GOVPARTYCA",
+   "markets": [
+    {
+     "ticker": "GOVPARTYCA-26-R",
+     "name": "Steve Hilton",
+     "suffix": "R",
+     "bid": 0.034,
+     "ask": 0.038,
+     "last": 0.033,
+     "vol": 1173256.87,
+     "oi": 600689.98
+    },
+    {
+     "ticker": "GOVPARTYCA-26-D",
+     "name": "Xavier Becerra",
+     "suffix": "D",
+     "bid": 0.962,
+     "ask": 0.967,
+     "last": 0.962,
+     "vol": 422798.35,
+     "oi": 228915.62
+    }
+   ]
+  },
+  "('GOV', 'AZ', None)": {
+   "series": "GOVPARTYAZ",
+   "markets": [
+    {
+     "ticker": "GOVPARTYAZ-26-R",
+     "name": "Andy Biggs",
+     "suffix": "R",
+     "bid": 0.11,
+     "ask": 0.12,
+     "last": 0.13,
+     "vol": 275125.41,
+     "oi": 193226.35
+    },
+    {
+     "ticker": "GOVPARTYAZ-26-D",
+     "name": "Katie Hobbs",
+     "suffix": "D",
+     "bid": 0.88,
+     "ask": 0.89,
+     "last": 0.89,
+     "vol": 344247.17,
+     "oi": 168393.93
+    }
+   ]
+  },
+  "('GOV', 'AR', None)": {
+   "series": "GOVPARTYAR",
+   "markets": [
+    {
+     "ticker": "GOVPARTYAR-26-R",
+     "name": "Sarah Huckabee Sanders",
+     "suffix": "R",
+     "bid": 0.955,
+     "ask": 0.978,
+     "last": 0.977,
+     "vol": 1742.45,
+     "oi": 1490.28
+    },
+    {
+     "ticker": "GOVPARTYAR-26-D",
+     "name": "Fred Love",
+     "suffix": "D",
+     "bid": 0.016,
+     "ask": 0.045,
+     "last": 0.045,
+     "vol": 3120.95,
+     "oi": 2036.67
+    }
+   ]
+  },
+  "('GOV', 'AL', None)": {
+   "series": "GOVPARTYAL",
+   "markets": [
+    {
+     "ticker": "GOVPARTYAL-26-R",
+     "name": "Tommy Tuberville",
+     "suffix": "R",
+     "bid": 0.901,
+     "ask": 0.908,
+     "last": 0.909,
+     "vol": 26240.05,
+     "oi": 19125.55
+    },
+    {
+     "ticker": "GOVPARTYAL-26-D",
+     "name": "Doug Jones",
+     "suffix": "D",
+     "bid": 0.095,
+     "ask": 0.1,
+     "last": 0.1,
+     "vol": 70108.53,
+     "oi": 51600.16
+    }
+   ]
+  },
+  "('CHAMBER', 'SENATE', None)": {
+   "series": "CONTROLS",
+   "markets": [
+    {
+     "ticker": "CONTROLS-2026-R",
+     "name": "Republican Party",
+     "suffix": "R",
+     "bid": 0.38,
+     "ask": 0.39,
+     "last": 0.39,
+     "vol": 5925346.02,
+     "oi": 3373290.03
+    },
+    {
+     "ticker": "CONTROLS-2026-D",
+     "name": "Democratic Party",
+     "suffix": "D",
+     "bid": 0.61,
+     "ask": 0.62,
+     "last": 0.62,
+     "vol": 4793161.48,
+     "oi": 2306174.4
+    }
+   ]
+  },
+  "('CHAMBER', 'HOUSE', None)": {
+   "series": "CONTROLH",
+   "markets": [
+    {
+     "ticker": "CONTROLH-2026-R",
+     "name": "Republican Party",
+     "suffix": "R",
+     "bid": 0.082,
+     "ask": 0.084,
+     "last": 0.084,
+     "vol": 24576971.13,
+     "oi": 16091005.5
+    },
+    {
+     "ticker": "CONTROLH-2026-D",
+     "name": "Democratic Party",
+     "suffix": "D",
+     "bid": 0.915,
+     "ask": 0.916,
+     "last": 0.916,
+     "vol": 13818581.7,
+     "oi": 9047822.41
+    }
+   ]
+  }
+ },
+ "polymarket": {
+  "('CHAMBER', 'SENATE', None)": {
+   "slug": "which-party-will-win-the-senate-in-2026",
+   "markets": [
+    {
+     "name": "Democratic Party",
+     "party": "D",
+     "bid": 0.62,
+     "ask": 0.63,
+     "liq": 444260.417,
+     "vol": 3169203.5872889995
+    },
+    {
+     "name": "Republican Party",
+     "party": "R",
+     "bid": 0.37,
+     "ask": 0.38,
+     "liq": 386341.0346,
+     "vol": 2164324.2050949996
+    }
+   ]
+  },
+  "('CHAMBER', 'HOUSE', None)": {
+   "slug": "which-party-will-win-the-house-in-2026",
+   "markets": [
+    {
+     "name": "Democratic Party",
+     "party": "D",
+     "bid": 0.92,
+     "ask": 0.93,
+     "liq": 578249.4981,
+     "vol": 7142284.613314001
+    },
+    {
+     "name": "Republican Party",
+     "party": "R",
+     "bid": 0.08,
+     "ask": 0.09,
+     "liq": 407900.0559,
+     "vol": 5365941.114902
+    }
+   ]
+  },
+  "('GOV', 'AZ', None)": {
+   "slug": "arizona-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Katie Hobbs (D)",
+     "party": "D",
+     "bid": 0.88,
+     "ask": 0.89,
+     "liq": 63387.8517,
+     "vol": 42434.38267700001
+    },
+    {
+     "name": "Andy Biggs (R)",
+     "party": "R",
+     "bid": 0.1,
+     "ask": 0.11,
+     "liq": 60154.935,
+     "vol": 45821.78394200001
+    }
+   ]
+  },
+  "('GOV', 'AL', None)": {
+   "slug": "alabama-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Doug Jones (D)",
+     "party": "D",
+     "bid": 0.086,
+     "ask": 0.09,
+     "liq": 13612.87939,
+     "vol": 11182.835812999996
+    },
+    {
+     "name": "Tommy Tuberville (R)",
+     "party": "R",
+     "bid": 0.912,
+     "ask": 0.915,
+     "liq": 16155.83997,
+     "vol": 12432.848560000002
+    }
+   ]
+  },
+  "('GOV', 'AR', None)": {
+   "slug": "arkansas-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Fredrick Love (D)",
+     "party": "D",
+     "bid": 0.017,
+     "ask": 0.039,
+     "liq": 14574.20502,
+     "vol": 1575.6877470000002
+    },
+    {
+     "name": "Sarah Huckabee Sanders (R)",
+     "party": "R",
+     "bid": 0.963,
+     "ask": 0.979,
+     "liq": 20079.00818,
+     "vol": 9458.868538999996
+    }
+   ]
+  },
+  "('GOV', 'CO', None)": {
+   "slug": "colorado-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Phil Weiser (D)",
+     "party": "D",
+     "bid": 0.962,
+     "ask": 0.97,
+     "liq": 22571.63731,
+     "vol": 10547.973217000002
+    },
+    {
+     "name": "Victor Marx (R)",
+     "party": "R",
+     "bid": 0.026,
+     "ask": 0.031,
+     "liq": 16625.4511,
+     "vol": 5880.383072
+    }
+   ]
+  },
+  "('GOV', 'CT', None)": {
+   "slug": "connecticut-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Ned Lamont (D)",
+     "party": "D",
+     "bid": 0.96,
+     "ask": 0.971,
+     "liq": 14691.02075,
+     "vol": 5555.258433000001
+    },
+    {
+     "name": "Ryan Fazio (R)",
+     "party": "R",
+     "bid": 0.022,
+     "ask": 0.027,
+     "liq": 19297.5776,
+     "vol": 3795.4482759999996
+    }
+   ]
+  },
+  "('GOV', 'FL', None)": {
+   "slug": "florida-governor-winner-2026",
+   "markets": [
+    {
+     "name": "David Jolly (D)",
+     "party": "D",
+     "bid": 0.21,
+     "ask": 0.22,
+     "liq": 81510.2837,
+     "vol": 120368.06471500001
+    },
+    {
+     "name": "Byron Donalds (R) ",
+     "party": "R",
+     "bid": 0.79,
+     "ask": 0.8,
+     "liq": 64467.04,
+     "vol": 105357.94303299999
+    }
+   ]
+  },
+  "('GOV', 'GA', None)": {
+   "slug": "georgia-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Keisha Lance Bottoms (D)",
+     "party": "D",
+     "bid": 0.52,
+     "ask": 0.53,
+     "liq": 60090.5579,
+     "vol": 72875.94010400001
+    },
+    {
+     "name": "Rick Jackson (R)",
+     "party": "R",
+     "bid": 0.45,
+     "ask": 0.46,
+     "liq": 51954.2202,
+     "vol": 60310.70671000001
+    }
+   ]
+  },
+  "('GOV', 'HI', None)": {
+   "slug": "hawaii-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Josh Green (D)",
+     "party": "D",
+     "bid": 0.977,
+     "ask": 0.986,
+     "liq": 15866.49641,
+     "vol": 7053.722167000003
+    },
+    {
+     "name": "Gary Cordery (R)",
+     "party": "R",
+     "bid": 0.003,
+     "ask": 0.025,
+     "liq": 14250.29455,
+     "vol": 9309.883987000001
+    }
+   ]
+  },
+  "('GOV', 'ID', None)": {
+   "slug": "idaho-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Terri Pickens (D)",
+     "party": "D",
+     "bid": 0.019,
+     "ask": 0.032,
+     "liq": 13762.14846,
+     "vol": 4315.027615
+    },
+    {
+     "name": "Brad Little (R)",
+     "party": "R",
+     "bid": 0.962,
+     "ask": 0.984,
+     "liq": 15336.32336,
+     "vol": 22212.421463000006
+    }
+   ]
+  },
+  "('GOV', 'IL', None)": {
+   "slug": "illinois-governor-winner-2026",
+   "markets": [
+    {
+     "name": "JB Pritzker (D)",
+     "party": "D",
+     "bid": 0.973,
+     "ask": 0.985,
+     "liq": 13600.08174,
+     "vol": 5590.473128
+    },
+    {
+     "name": "Darren Bailey (R)",
+     "party": "R",
+     "bid": 0.016,
+     "ask": 0.029,
+     "liq": 14960.00871,
+     "vol": 6307.915494
+    }
+   ]
+  },
+  "('GOV', 'IA', None)": {
+   "slug": "iowa-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Rob Sand (D)",
+     "party": "D",
+     "bid": 0.87,
+     "ask": 0.88,
+     "liq": 33926.9179,
+     "vol": 51246.64275000001
+    },
+    {
+     "name": "Zach Lahn (R)",
+     "party": "R",
+     "bid": 0.12,
+     "ask": 0.13,
+     "liq": 72115.1348,
+     "vol": 54236.214280000015
+    }
+   ]
+  },
+  "('GOV', 'KS', None)": {
+   "slug": "kansas-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Cindy Holscher (D)",
+     "party": "D",
+     "bid": 0.27,
+     "ask": 0.28,
+     "liq": 46824.1755,
+     "vol": 16880.869737000005
+    },
+    {
+     "name": "Ty Masterson (R)",
+     "party": "R",
+     "bid": 0.73,
+     "ask": 0.74,
+     "liq": 32734.1861,
+     "vol": 28766.887353000002
+    }
+   ]
+  },
+  "('GOV', 'ME', None)": {
+   "slug": "maine-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Hannah Pingree (D)",
+     "party": "D",
+     "bid": 0.955,
+     "ask": 0.961,
+     "liq": 19788.25451,
+     "vol": 26867.720428999994
+    },
+    {
+     "name": "Robert Charles (R)",
+     "party": "R",
+     "bid": 0.031,
+     "ask": 0.049,
+     "liq": 22405.94344,
+     "vol": 8006.511174999999
+    }
+   ]
+  },
+  "('GOV', 'MD', None)": {
+   "slug": "maryland-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Wes Moore (D)",
+     "party": "D",
+     "bid": 0.965,
+     "ask": 0.968,
+     "liq": 22980.28654,
+     "vol": 13501.844070000001
+    },
+    {
+     "name": "Dan Cox (R)",
+     "party": "R",
+     "bid": 0.005,
+     "ask": 0.033,
+     "liq": 20469.73345,
+     "vol": 9118.599646000002
+    }
+   ]
+  },
+  "('GOV', 'MA', None)": {
+   "slug": "massachusetts-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Maura Healey (D)",
+     "party": "D",
+     "bid": 0.96,
+     "ask": 0.963,
+     "liq": 17811.21841,
+     "vol": 34908.700418
+    },
+    {
+     "name": "Michael Minogue (R)",
+     "party": "R",
+     "bid": 0.023,
+     "ask": 0.035,
+     "liq": 49952.29956,
+     "vol": 60141.64775100001
+    }
+   ]
+  },
+  "('GOV', 'MI', None)": {
+   "slug": "michigan-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Jocelyn Benson (D)",
+     "party": "D",
+     "bid": 0.92,
+     "ask": 0.93,
+     "liq": 48657.2765,
+     "vol": 50762.178034
+    },
+    {
+     "name": "John James (R)",
+     "party": "R",
+     "bid": 0.06,
+     "ask": 0.07,
+     "liq": 63213.7298,
+     "vol": 157479.953439
+    },
+    {
+     "name": "Independent",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 12175.36892,
+     "vol": 752.971581
+    }
+   ]
+  },
+  "('GOV', 'MN', None)": {
+   "slug": "minnesota-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Amy Klobuchar (D)",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 26719.8836,
+     "vol": 41124.16279299998
+    },
+    {
+     "name": "Lisa Demuth (R)",
+     "party": "R",
+     "bid": 0.047,
+     "ask": 0.054,
+     "liq": 31817.06327,
+     "vol": 45319.875048
+    }
+   ]
+  },
+  "('GOV', 'NE', None)": {
+   "slug": "nebraska-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Lynne Walz (D)",
+     "party": "D",
+     "bid": 0.06,
+     "ask": 0.07,
+     "liq": 24500.5158,
+     "vol": 5187.701101
+    },
+    {
+     "name": "Jim Pillen (R)",
+     "party": "R",
+     "bid": 0.93,
+     "ask": 0.94,
+     "liq": 19124.3296,
+     "vol": 8873.207842000003
+    }
+   ]
+  },
+  "('GOV', 'NV', None)": {
+   "slug": "nevada-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Aaron Ford (D)",
+     "party": "D",
+     "bid": 0.48,
+     "ask": 0.49,
+     "liq": 49528.7379,
+     "vol": 55737.34848699999
+    },
+    {
+     "name": "Joe Lombardo (R)",
+     "party": "R",
+     "bid": 0.5,
+     "ask": 0.51,
+     "liq": 63596.4,
+     "vol": 117517.95001900001
+    }
+   ]
+  },
+  "('GOV', 'NH', None)": {
+   "slug": "new-hampshire-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Cinde Warmington (D)",
+     "party": "D",
+     "bid": 0.044,
+     "ask": 0.053,
+     "liq": 21233.85629,
+     "vol": 21466.388984
+    },
+    {
+     "name": "Kelly Ayotte (R)",
+     "party": "R",
+     "bid": 0.93,
+     "ask": 0.94,
+     "liq": 47510.553,
+     "vol": 17713.529005000004
+    }
+   ]
+  },
+  "('GOV', 'NM', None)": {
+   "slug": "new-mexico-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Deb Haaland (D)",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 17756.7215,
+     "vol": 23200.567402
+    },
+    {
+     "name": "Gregg Hull (R)",
+     "party": "R",
+     "bid": 0.04,
+     "ask": 0.05,
+     "liq": 18647.4471,
+     "vol": 17546.306971
+    }
+   ]
+  },
+  "('GOV', 'NY', None)": {
+   "slug": "new-york-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Kathy Hochul (D)",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 21913.1023,
+     "vol": 55426.98354299999
+    },
+    {
+     "name": "Bruce Blakeman (R)",
+     "party": "R",
+     "bid": 0.04,
+     "ask": 0.05,
+     "liq": 43989.3876,
+     "vol": 72016.39452999999
+    }
+   ]
+  },
+  "('GOV', 'OK', None)": {
+   "slug": "oklahoma-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Cyndi Munson (D)",
+     "party": "D",
+     "bid": 0.07,
+     "ask": 0.08,
+     "liq": 17732.7591,
+     "vol": 16877.79713
+    },
+    {
+     "name": "Mike Mazzei (R)",
+     "party": "R",
+     "bid": 0.93,
+     "ask": 0.94,
+     "liq": 16497.7479,
+     "vol": 14737.163385999998
+    }
+   ]
+  },
+  "('GOV', 'OR', None)": {
+   "slug": "oregon-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Tina Kotek (D)",
+     "party": "D",
+     "bid": 0.8,
+     "ask": 0.82,
+     "liq": 33243.5226,
+     "vol": 32715.326627000006
+    },
+    {
+     "name": "Christine Drazan (R)",
+     "party": "R",
+     "bid": 0.18,
+     "ask": 0.19,
+     "liq": 89444.9567,
+     "vol": 31198.901675999994
+    }
+   ]
+  },
+  "('GOV', 'PA', None)": {
+   "slug": "pennsylvania-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Josh Shapiro (D)",
+     "party": "D",
+     "bid": 0.962,
+     "ask": 0.98,
+     "liq": 17659.18905,
+     "vol": 7519.756956
+    },
+    {
+     "name": "Stacy Garrity (R)",
+     "party": "R",
+     "bid": 0.023,
+     "ask": 0.03,
+     "liq": 49177.21395,
+     "vol": 42434.98651699998
+    }
+   ]
+  },
+  "('GOV', 'RI', None)": {
+   "slug": "rhode-island-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Helena Foulkes (D)",
+     "party": "D",
+     "bid": 0.953,
+     "ask": 0.971,
+     "liq": 40722.57338,
+     "vol": 57124.60621400002
+    },
+    {
+     "name": "Republican",
+     "party": "R",
+     "bid": 0.012,
+     "ask": 0.027,
+     "liq": 16055.03037,
+     "vol": 10528.977798000002
+    },
+    {
+     "name": "Independent",
+     "party": null,
+     "bid": 0.008,
+     "ask": 0.016,
+     "liq": 12448.28807,
+     "vol": 2205.8961929999996
+    }
+   ]
+  },
+  "('GOV', 'SC', None)": {
+   "slug": "south-carolina-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Jermaine Johnson (D)",
+     "party": "D",
+     "bid": 0.045,
+     "ask": 0.049,
+     "liq": 22336.14507,
+     "vol": 8785.006929
+    },
+    {
+     "name": "Alan Wilson (R)",
+     "party": "R",
+     "bid": 0.94,
+     "ask": 0.95,
+     "liq": 20241.0669,
+     "vol": 10046.889976999997
+    }
+   ]
+  },
+  "('GOV', 'SD', None)": {
+   "slug": "south-dakota-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Dan Ahlers (D)",
+     "party": "D",
+     "bid": 0.021,
+     "ask": 0.03,
+     "liq": 22146.40169,
+     "vol": 17521.941258
+    },
+    {
+     "name": "Larry Rhoden (R)",
+     "party": "R",
+     "bid": 0.965,
+     "ask": 0.97,
+     "liq": 18872.45603,
+     "vol": 9093.248071
+    }
+   ]
+  },
+  "('GOV', 'TN', None)": {
+   "slug": "tennessee-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Jerri Green (D)",
+     "party": "D",
+     "bid": 0.04,
+     "ask": 0.052,
+     "liq": 18239.19121,
+     "vol": 6328.354571000001
+    },
+    {
+     "name": "Marsha Blackburn (R)",
+     "party": "R",
+     "bid": 0.941,
+     "ask": 0.953,
+     "liq": 15516.4632,
+     "vol": 6475.990672
+    }
+   ]
+  },
+  "('GOV', 'TX', None)": {
+   "slug": "texas-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Gina Hinojosa (D) ",
+     "party": "D",
+     "bid": 0.17,
+     "ask": 0.18,
+     "liq": 99812.0152,
+     "vol": 147959.570237
+    },
+    {
+     "name": "Greg Abbott (R)",
+     "party": "R",
+     "bid": 0.83,
+     "ask": 0.831,
+     "liq": 45761.75333,
+     "vol": 163411.77948600007
+    }
+   ]
+  },
+  "('GOV', 'VT', None)": {
+   "slug": "vermont-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Amanda Janoo (D)",
+     "party": "D",
+     "bid": 0.152,
+     "ask": 0.159,
+     "liq": 25661.44129,
+     "vol": 46746.154408
+    },
+    {
+     "name": "Phil Scott (R)",
+     "party": "R",
+     "bid": 0.84,
+     "ask": 0.86,
+     "liq": 18799.1258,
+     "vol": 53382.62066700002
+    }
+   ]
+  },
+  "('GOV', 'WI', None)": {
+   "slug": "wisconsin-governor-winner-2026",
+   "markets": [
+    {
+     "name": "David Crowley (D)",
+     "party": "D",
+     "bid": 0.85,
+     "ask": 0.86,
+     "liq": 89830.5685,
+     "vol": 330069.57245499984
+    },
+    {
+     "name": "Tom Tiffany (R)",
+     "party": "R",
+     "bid": 0.14,
+     "ask": 0.15,
+     "liq": 66822.2961,
+     "vol": 287354.71223700006
+    }
+   ]
+  },
+  "('GOV', 'WY', None)": {
+   "slug": "wyoming-governor-winner-2026",
+   "markets": [
+    {
+     "name": "Kenneth Casner (D)",
+     "party": "D",
+     "bid": 0.025,
+     "ask": 0.036,
+     "liq": 18191.62563,
+     "vol": 2392.3965009999997
+    },
+    {
+     "name": "Eric Barlow (R)",
+     "party": "R",
+     "bid": 0.96,
+     "ask": 0.974,
+     "liq": 19304.36568,
+     "vol": 9161.935657
+    }
+   ]
+  },
+  "('SEN', 'AL', None)": {
+   "slug": "alabama-senate-election-winner-154",
+   "markets": [
+    {
+     "name": "Everett Wess (D)",
+     "party": "D",
+     "bid": 0.004,
+     "ask": 0.033,
+     "liq": 15536.36061,
+     "vol": 5839.615706999999
+    },
+    {
+     "name": "Barry Moore (R)",
+     "party": "R",
+     "bid": 0.957,
+     "ask": 0.98,
+     "liq": 13305.58304,
+     "vol": 7128.441848
+    }
+   ]
+  },
+  "('SEN', 'AR', None)": {
+   "slug": "arkansas-senate-election-winner",
+   "markets": [
+    {
+     "name": "Hallie Shoffner (D)",
+     "party": "D",
+     "bid": 0.054,
+     "ask": 0.066,
+     "liq": 23130.42382,
+     "vol": 9121.014669
+    },
+    {
+     "name": "Tom Cotton (R) ",
+     "party": "R",
+     "bid": 0.936,
+     "ask": 0.948,
+     "liq": 45439.95548,
+     "vol": 18512.013552
+    }
+   ]
+  },
+  "('SEN', 'CO', None)": {
+   "slug": "colorado-senate-election-winner",
+   "markets": [
+    {
+     "name": "John Hickenlooper (D)",
+     "party": "D",
+     "bid": 0.969,
+     "ask": 0.989,
+     "liq": 18532.52436,
+     "vol": 13933.943195000002
+    },
+    {
+     "name": "Mark Baisley (R)",
+     "party": "R",
+     "bid": 0.014,
+     "ask": 0.027,
+     "liq": 22860.0291,
+     "vol": 37004.71475499999
+    }
+   ]
+  },
+  "('SEN', 'DE', None)": {
+   "slug": "delaware-senate-election-winner",
+   "markets": [
+    {
+     "name": "Democrat",
+     "party": "D",
+     "bid": 0.98,
+     "ask": 0.995,
+     "liq": 19720.20605,
+     "vol": 12065.903503000005
+    },
+    {
+     "name": "Republican",
+     "party": "R",
+     "bid": 0.006,
+     "ask": 0.021,
+     "liq": 25393.85831,
+     "vol": 19649.865721
+    }
+   ]
+  },
+  "('SEN', 'GA', None)": {
+   "slug": "georgia-senate-election-winner",
+   "markets": [
+    {
+     "name": "Jon Ossoff (D) ",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 45527.2649,
+     "vol": 84179.08992399997
+    },
+    {
+     "name": "Mike Collins (R)",
+     "party": "R",
+     "bid": 0.031,
+     "ask": 0.05,
+     "liq": 34166.66213,
+     "vol": 103491.00081700002
+    }
+   ]
+  },
+  "('SEN', 'ID', None)": {
+   "slug": "idaho-senate-election-winner",
+   "markets": [
+    {
+     "name": "Democrat",
+     "party": "D",
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 16314.14381,
+     "vol": 18825.407162999993
+    },
+    {
+     "name": "Jim Risch (R)",
+     "party": "R",
+     "bid": 0.941,
+     "ask": 0.943,
+     "liq": 70322.23268,
+     "vol": 60104.52290100001
+    },
+    {
+     "name": "Todd Achilles (I)",
+     "party": "I",
+     "bid": 0.058,
+     "ask": 0.059,
+     "liq": 95506.28312,
+     "vol": 8056.289292
+    }
+   ]
+  },
+  "('SEN', 'IL', None)": {
+   "slug": "illinois-senate-election-winner",
+   "markets": [
+    {
+     "name": "Juliana Stratton (D)",
+     "party": "D",
+     "bid": 0.973,
+     "ask": 0.984,
+     "liq": 18255.28053,
+     "vol": 16893.102889
+    },
+    {
+     "name": "Don Tracy (R)",
+     "party": "R",
+     "bid": 0.022,
+     "ask": 0.026,
+     "liq": 21639.21534,
+     "vol": 16580.21758
+    }
+   ]
+  },
+  "('SEN', 'IA', None)": {
+   "slug": "iowa-senate-election-winner",
+   "markets": [
+    {
+     "name": "Josh Turek (D)",
+     "party": "D",
+     "bid": 0.41,
+     "ask": 0.42,
+     "liq": 102925.2324,
+     "vol": 334577.7397829999
+    },
+    {
+     "name": "Ashley Hinson (R)",
+     "party": "R",
+     "bid": 0.58,
+     "ask": 0.59,
+     "liq": 110308.0364,
+     "vol": 292273.61381600006
+    }
+   ]
+  },
+  "('SEN', 'KS', None)": {
+   "slug": "kansas-senate-election-winner",
+   "markets": [
+    {
+     "name": "Adam Hamilton (D)",
+     "party": "D",
+     "bid": 0.29,
+     "ask": 0.3,
+     "liq": 152883.877,
+     "vol": 157846.87881900003
+    },
+    {
+     "name": "Roger Marshall (R)",
+     "party": "R",
+     "bid": 0.7,
+     "ask": 0.71,
+     "liq": 113873.5053,
+     "vol": 166012.037231
+    }
+   ]
+  },
+  "('SEN', 'KY', None)": {
+   "slug": "kentucky-senate-election-winner",
+   "markets": [
+    {
+     "name": "Charles Booker (D)",
+     "party": "D",
+     "bid": 0.031,
+     "ask": 0.042,
+     "liq": 25682.40586,
+     "vol": 7553.896246000002
+    },
+    {
+     "name": "Andy Barr (R)",
+     "party": "R",
+     "bid": 0.953,
+     "ask": 0.965,
+     "liq": 52224.99026,
+     "vol": 26995.582565
+    }
+   ]
+  },
+  "('SEN', 'ME', None)": {
+   "slug": "maine-senate-election-winner",
+   "markets": [
+    {
+     "name": "Troy Jackson (D)",
+     "party": "D",
+     "bid": 0.6,
+     "ask": 0.61,
+     "liq": 112011.6747,
+     "vol": 1156170.1065570004
+    },
+    {
+     "name": "Susan Collins (R)",
+     "party": "R",
+     "bid": 0.4,
+     "ask": 0.41,
+     "liq": 117460.0001,
+     "vol": 857667.6927489998
+    }
+   ]
+  },
+  "('SEN', 'MA', None)": {
+   "slug": "massachusetts-senate-election-winner",
+   "markets": [
+    {
+     "name": "Ed Markey (D)",
+     "party": "D",
+     "bid": 0.975,
+     "ask": 0.983,
+     "liq": 30387.8063,
+     "vol": 35482.31492399999
+    },
+    {
+     "name": "John Deaton (R)",
+     "party": "R",
+     "bid": 0.012,
+     "ask": 0.022,
+     "liq": 28695.48567,
+     "vol": 13097.271222999998
+    }
+   ]
+  },
+  "('SEN', 'MI', None)": {
+   "slug": "michigan-senate-election-winner",
+   "markets": [
+    {
+     "name": "Abdul El-Sayed (D)",
+     "party": "D",
+     "bid": 0.7,
+     "ask": 0.71,
+     "liq": 161421.6979,
+     "vol": 615843.4466739998
+    },
+    {
+     "name": "Mike Rogers (R)",
+     "party": "R",
+     "bid": 0.29,
+     "ask": 0.3,
+     "liq": 157798.1193,
+     "vol": 487205.9777939999
+    }
+   ]
+  },
+  "('SEN', 'MN', None)": {
+   "slug": "minnesota-senate-election-winner",
+   "markets": [
+    {
+     "name": "Peggy Flanagan (D)",
+     "party": "D",
+     "bid": 0.91,
+     "ask": 0.92,
+     "liq": 31226.2695,
+     "vol": 77248.78566200001
+    },
+    {
+     "name": "Michele Tafoya (R)",
+     "party": "R",
+     "bid": 0.08,
+     "ask": 0.09,
+     "liq": 39902.7455,
+     "vol": 43125.786167
+    }
+   ]
+  },
+  "('SEN', 'MT', None)": {
+   "slug": "montana-senate-election-winner",
+   "markets": [
+    {
+     "name": "Alani Bankhead (D)",
+     "party": "D",
+     "bid": 0.001,
+     "ask": 0.003,
+     "liq": 20564.90668,
+     "vol": 42475.573366000004
+    },
+    {
+     "name": "Kurt Alme (R) ",
+     "party": "R",
+     "bid": 0.91,
+     "ask": 0.92,
+     "liq": 28665.6728,
+     "vol": 72100.96987500002
+    },
+    {
+     "name": "Independent",
+     "party": null,
+     "bid": 0.081,
+     "ask": 0.092,
+     "liq": 33451.19215,
+     "vol": 23999.769142999998
+    }
+   ]
+  },
+  "('SEN', 'NH', None)": {
+   "slug": "new-hampshire-senate-election-winner",
+   "markets": [
+    {
+     "name": "Chris Pappas (D)",
+     "party": "D",
+     "bid": 0.86,
+     "ask": 0.87,
+     "liq": 132046.5119,
+     "vol": 128778.16846300008
+    },
+    {
+     "name": "John E. Sununu (R)",
+     "party": "R",
+     "bid": 0.13,
+     "ask": 0.14,
+     "liq": 170236.8549,
+     "vol": 125422.3259
+    }
+   ]
+  },
+  "('SEN', 'NJ', None)": {
+   "slug": "new-jersey-senate-election-winner",
+   "markets": [
+    {
+     "name": "Cory Booker (D)",
+     "party": "D",
+     "bid": 0.967,
+     "ask": 0.97,
+     "liq": 24039.89457,
+     "vol": 11581.314505
+    },
+    {
+     "name": "Justin Murphy (R)",
+     "party": "R",
+     "bid": 0.031,
+     "ask": 0.036,
+     "liq": 29645.53308,
+     "vol": 9703.710293
+    }
+   ]
+  },
+  "('SEN', 'NM', None)": {
+   "slug": "new-mexico-senate-election-winner",
+   "markets": [
+    {
+     "name": "Ben Ray Luj\u00e1n (D)",
+     "party": "D",
+     "bid": 0.968,
+     "ask": 0.971,
+     "liq": 19004.67443,
+     "vol": 16734.725415
+    },
+    {
+     "name": "Larry Marker (R)",
+     "party": "R",
+     "bid": 0.005,
+     "ask": 0.026,
+     "liq": 17691.64481,
+     "vol": 9270.991268
+    }
+   ]
+  },
+  "('SEN', 'NC', None)": {
+   "slug": "north-carolina-senate-election-winner",
+   "markets": [
+    {
+     "name": "Roy Cooper (D)",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 53674.2521,
+     "vol": 104250.20501999998
+    },
+    {
+     "name": "Michael Whatley (R)",
+     "party": "R",
+     "bid": 0.05,
+     "ask": 0.06,
+     "liq": 89333.1131,
+     "vol": 96875.25044899998
+    }
+   ]
+  },
+  "('SEN', 'OR', None)": {
+   "slug": "oregon-senate-election-winner",
+   "markets": [
+    {
+     "name": "Jeff Merkley (D)",
+     "party": "D",
+     "bid": 0.967,
+     "ask": 0.983,
+     "liq": 26171.32555,
+     "vol": 3659.3219640000007
+    },
+    {
+     "name": "David Brock Smith (R)",
+     "party": "R",
+     "bid": 0.018,
+     "ask": 0.024,
+     "liq": 28859.43925,
+     "vol": 3077.2892280000005
+    }
+   ]
+  },
+  "('SEN', 'RI', None)": {
+   "slug": "rhode-island-senate-election-winner",
+   "markets": [
+    {
+     "name": "Jack Reed (D)",
+     "party": "D",
+     "bid": 0.988,
+     "ask": 0.996,
+     "liq": 15270.59228,
+     "vol": 7515.532805999999
+    },
+    {
+     "name": "Raymond McKay (R)",
+     "party": "R",
+     "bid": 0.004,
+     "ask": 0.014,
+     "liq": 16012.90154,
+     "vol": 19055.489786
+    }
+   ]
+  },
+  "('SEN', 'SC', None)": {
+   "slug": "south-carolina-senate-election-winner",
+   "markets": [
+    {
+     "name": "Annie Andrews (D)",
+     "party": "D",
+     "bid": 0.14,
+     "ask": 0.15,
+     "liq": 94925.2244,
+     "vol": 258658.59399200004
+    },
+    {
+     "name": "Darline Graham Nordone (R)",
+     "party": "R",
+     "bid": 0.85,
+     "ask": 0.86,
+     "liq": 61072.7025,
+     "vol": 164832.297077
+    }
+   ]
+  },
+  "('SEN', 'SD', None)": {
+   "slug": "south-dakota-senate-election-winner",
+   "markets": [
+    {
+     "name": "Democrat",
+     "party": "D",
+     "bid": 0.001,
+     "ask": 0.002,
+     "liq": 15126.3587,
+     "vol": 12730.230559999998
+    },
+    {
+     "name": "Mike Rounds (R)",
+     "party": "R",
+     "bid": 0.932,
+     "ask": 0.942,
+     "liq": 23676.23991,
+     "vol": 26726.080709
+    },
+    {
+     "name": "Brian Bengs (I)",
+     "party": "I",
+     "bid": 0.04,
+     "ask": 0.048,
+     "liq": 19028.10343,
+     "vol": 1289.223949
+    }
+   ]
+  },
+  "('SEN', 'TN', None)": {
+   "slug": "tennessee-senate-election-winner",
+   "markets": [
+    {
+     "name": "Marquita Bradshaw (D)",
+     "party": "D",
+     "bid": 0.007,
+     "ask": 0.031,
+     "liq": 17984.99176,
+     "vol": 10493.034259
+    },
+    {
+     "name": "Bill Hagerty (R)",
+     "party": "R",
+     "bid": 0.969,
+     "ask": 0.982,
+     "liq": 20356.56992,
+     "vol": 19650.236581999998
+    }
+   ]
+  },
+  "('SEN', 'TX', None)": {
+   "slug": "texas-senate-election-winner",
+   "markets": [
+    {
+     "name": "James Talarico (D)",
+     "party": "D",
+     "bid": 0.6,
+     "ask": 0.61,
+     "liq": 160987.2975,
+     "vol": 729290.2010889997
+    },
+    {
+     "name": "Ken Paxton (R)",
+     "party": "R",
+     "bid": 0.39,
+     "ask": 0.4,
+     "liq": 231799.8006,
+     "vol": 818397.3855750002
+    }
+   ]
+  },
+  "('SEN', 'VA', None)": {
+   "slug": "virginia-senate-election-winner",
+   "markets": [
+    {
+     "name": "Mark Warner (D)",
+     "party": "D",
+     "bid": 0.974,
+     "ask": 0.98,
+     "liq": 21326.03412,
+     "vol": 16193.49505
+    },
+    {
+     "name": "Bert Mizusawa (R)",
+     "party": "R",
+     "bid": 0.002,
+     "ask": 0.028,
+     "liq": 21113.98488,
+     "vol": 7454.679110000001
+    }
+   ]
+  },
+  "('SEN', 'WV', None)": {
+   "slug": "west-virginia-senate-election-winner",
+   "markets": [
+    {
+     "name": "Rachel Fetty Anderson (D)",
+     "party": "D",
+     "bid": 0.007,
+     "ask": 0.019,
+     "liq": 15324.81733,
+     "vol": 5351.339320000001
+    },
+    {
+     "name": "Shelley Moore Capito (R)",
+     "party": "R",
+     "bid": 0.975,
+     "ask": 0.997,
+     "liq": 17990.98671,
+     "vol": 10846.194514000003
+    }
+   ]
+  },
+  "('SEN', 'WY', None)": {
+   "slug": "wyoming-senate-election-winner",
+   "markets": [
+    {
+     "name": "James W. Byrd (D)",
+     "party": "D",
+     "bid": 0.022,
+     "ask": 0.029,
+     "liq": 28887.9359,
+     "vol": 5684.753125
+    },
+    {
+     "name": "Harriet Hageman (R) ",
+     "party": "R",
+     "bid": 0.968,
+     "ask": 0.97,
+     "liq": 28413.43545,
+     "vol": 13631.274726999998
+    }
+   ]
+  },
+  "('SEN', 'MS', None)": {
+   "slug": "mississippi-senate-election-winner",
+   "markets": [
+    {
+     "name": "Scott Colom (D)",
+     "party": "D",
+     "bid": 0.08,
+     "ask": 0.09,
+     "liq": 36816.4877,
+     "vol": 39233.289624
+    },
+    {
+     "name": "Cindy Hyde-Smith (R)",
+     "party": "R",
+     "bid": 0.91,
+     "ask": 0.92,
+     "liq": 28463.2606,
+     "vol": 59229.730683000016
+    }
+   ]
+  },
+  "('SEN', 'OK', None)": {
+   "slug": "oklahoma-senate-election-winner",
+   "markets": [
+    {
+     "name": "N\u2019Kiyla \u201cJasmine\u201d Thomas (D)",
+     "party": "D",
+     "bid": 0.02,
+     "ask": 0.024,
+     "liq": 14592.14474,
+     "vol": 6845.741003000002
+    },
+    {
+     "name": "Kevin Hern (R)",
+     "party": "R",
+     "bid": 0.973,
+     "ask": 0.981,
+     "liq": 16114.31038,
+     "vol": 19636.15527
+    }
+   ]
+  },
+  "('SEN', 'FL', None)": {
+   "slug": "florida-senate-election-winner",
+   "markets": [
+    {
+     "name": "Angie Nixon (D)",
+     "party": "D",
+     "bid": 0.08,
+     "ask": 0.09,
+     "liq": 91885.2453,
+     "vol": 65572.99935299999
+    },
+    {
+     "name": "Ashley Moody (R)",
+     "party": "R",
+     "bid": 0.91,
+     "ask": 0.92,
+     "liq": 54369.0707,
+     "vol": 82118.06989699996
+    }
+   ]
+  },
+  "('SEN', 'LA', None)": {
+   "slug": "louisiana-senate-election-winner",
+   "markets": [
+    {
+     "name": "Jamie Davis (D)",
+     "party": "D",
+     "bid": 0.07,
+     "ask": 0.08,
+     "liq": 36982.8343,
+     "vol": 23425.941531999997
+    },
+    {
+     "name": "Julia Letlow (R)",
+     "party": "R",
+     "bid": 0.92,
+     "ask": 0.93,
+     "liq": 41087.2343,
+     "vol": 17657.015627000004
+    }
+   ]
+  },
+  "('SEN', 'NE', None)": {
+   "slug": "nebraska-senate-election-winner",
+   "markets": [
+    {
+     "name": "Democrat",
+     "party": "D",
+     "bid": 0.0,
+     "ask": 0.002,
+     "liq": 38066.73351,
+     "vol": 103624.10643100001
+    },
+    {
+     "name": "Pete Ricketts (R)",
+     "party": "R",
+     "bid": 0.69,
+     "ask": 0.7,
+     "liq": 109066.2117,
+     "vol": 241307.168569
+    },
+    {
+     "name": "Independent",
+     "party": null,
+     "bid": 0.3,
+     "ask": 0.31,
+     "liq": 141640.2756,
+     "vol": 112272.80601800003
+    }
+   ]
+  },
+  "('SEN', 'AK', None)": {
+   "slug": "alaska-senate-election-winner",
+   "markets": [
+    {
+     "name": "Sen. Dan Sullivan",
+     "party": null,
+     "bid": 0.28,
+     "ask": 0.29,
+     "liq": 91659.031,
+     "vol": 295760.753879
+    },
+    {
+     "name": "Ann Diener",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 42382.51982,
+     "vol": 37064.20757800001
+    },
+    {
+     "name": "Mary Peltola",
+     "party": null,
+     "bid": 0.72,
+     "ask": 0.73,
+     "liq": 93879.8679,
+     "vol": 662220.353718
+    },
+    {
+     "name": "Dustin Darden",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 38042.30139,
+     "vol": 24336.347311999994
+    },
+    {
+     "name": "Richard Grayson",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 38753.16409,
+     "vol": 24856.937521000007
+    },
+    {
+     "name": "Daniel J. Sullivan Jr.",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 29852.24915,
+     "vol": 0.0
+    },
+    {
+     "name": "David Leslie",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 30799.55311,
+     "vol": 2405.94
+    }
+   ]
+  },
+  "('GOV', 'AK', None)": {
+   "slug": "alaska-governor-election-winner",
+   "markets": [
+    {
+     "name": "Click Bishop",
+     "party": null,
+     "bid": 0.001,
+     "ask": 0.002,
+     "liq": 21179.36444,
+     "vol": 31737.621413999997
+    },
+    {
+     "name": "David Bronson",
+     "party": null,
+     "bid": 0.017,
+     "ask": 0.018,
+     "liq": 16526.45204,
+     "vol": 26513.169160999998
+    },
+    {
+     "name": "Adam Crum",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 15526.28606,
+     "vol": 52171.95690099999
+    },
+    {
+     "name": "Nancy Dahlstrom",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 19148.93882,
+     "vol": 131122.15730299999
+    },
+    {
+     "name": "Edna DeVries",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.003,
+     "liq": 17354.21026,
+     "vol": 29460.527506000002
+    },
+    {
+     "name": "Matt Heilala",
+     "party": null,
+     "bid": 0.001,
+     "ask": 0.002,
+     "liq": 21609.79535,
+     "vol": 42955.350325999985
+    },
+    {
+     "name": "Shelley Hughes",
+     "party": null,
+     "bid": 0.001,
+     "ask": 0.004,
+     "liq": 19386.00559,
+     "vol": 17123.834035000003
+    },
+    {
+     "name": "James Parkin",
+     "party": null,
+     "bid": 0.001,
+     "ask": 0.002,
+     "liq": 20643.99958,
+     "vol": 117566.264952
+    },
+    {
+     "name": "Treg Taylor",
+     "party": null,
+     "bid": 0.002,
+     "ask": 0.004,
+     "liq": 15381.5527,
+     "vol": 40006.148711
+    },
+    {
+     "name": "Bernadette Wilson",
+     "party": null,
+     "bid": 0.19,
+     "ask": 0.2,
+     "liq": 43955.4088,
+     "vol": 183353.806401
+    },
+    {
+     "name": "Lisa Murkowski",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.003,
+     "liq": 16784.84047,
+     "vol": 28433.799504000002
+    },
+    {
+     "name": "Tom Begich",
+     "party": null,
+     "bid": 0.011,
+     "ask": 0.015,
+     "liq": 14809.29719,
+     "vol": 165545.626278
+    },
+    {
+     "name": "Mary Peltola",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 20073.39195,
+     "vol": 339241.64129099995
+    },
+    {
+     "name": "Jonathan Kreiss-Tomkins",
+     "party": null,
+     "bid": 0.779,
+     "ask": 0.78,
+     "liq": 39826.25393,
+     "vol": 90328.39042999998
+    },
+    {
+     "name": "Hank Kroll",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 20534.81436,
+     "vol": 20448.468199000003
+    },
+    {
+     "name": "Bruce Walden",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 20996.84043,
+     "vol": 13144.109632
+    },
+    {
+     "name": "Matt Claman",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.002,
+     "liq": 18204.48736,
+     "vol": 21348.063914
+    },
+    {
+     "name": "Lesil McGuire",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 17927.12169,
+     "vol": 6540.987
+    },
+    {
+     "name": "Gregg Brelsford",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 18772.47779,
+     "vol": 3936.4213330000002
+    },
+    {
+     "name": "Jessica Faircloth",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 17621.46407,
+     "vol": 4287.5472
+    },
+    {
+     "name": "Destry J. Payne Sr.",
+     "party": null,
+     "bid": 0.0,
+     "ask": 0.001,
+     "liq": 17789.0871,
+     "vol": 3827.87575
+    },
+    {
+     "name": "Bill Walker",
+     "party": null,
+     "bid": 0.001,
+     "ask": 0.002,
+     "liq": 20626.00749,
+     "vol": 10219.461314
+    }
+   ]
+  },
+  "('HOUSE', 'CA', 22)": {
+   "slug": "which-party-will-win-the-house-race-for-the-ca-22-seat",
+   "markets": [
+    {
+     "name": "David Valadao (R)",
+     "party": "R",
+     "bid": 0.09,
+     "ask": 0.1,
+     "liq": 22021.2886,
+     "vol": 10324.781189999998
+    },
+    {
+     "name": "Randy Villegas (D)",
+     "party": "D",
+     "bid": 0.89,
+     "ask": 0.9,
+     "liq": 18829.9317,
+     "vol": 7216.842231999999
+    }
+   ]
+  },
+  "('HOUSE', 'AZ', 1)": {
+   "slug": "az-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Jay Feely (R)",
+     "party": "R",
+     "bid": 0.22,
+     "ask": 0.24,
+     "liq": 13405.9273,
+     "vol": 21814.717473000004
+    },
+    {
+     "name": "Amish Shah (D)",
+     "party": "D",
+     "bid": 0.76,
+     "ask": 0.77,
+     "liq": 15224.1928,
+     "vol": 41012.537443
+    }
+   ]
+  },
+  "('HOUSE', 'AZ', 6)": {
+   "slug": "az-06-house-election-winner",
+   "markets": [
+    {
+     "name": "Juan Ciscomani (R)",
+     "party": "R",
+     "bid": 0.17,
+     "ask": 0.18,
+     "liq": 19335.3684,
+     "vol": 7904.899991
+    },
+    {
+     "name": "JoAnna Mendoza (D)",
+     "party": "D",
+     "bid": 0.82,
+     "ask": 0.83,
+     "liq": 19507.8614,
+     "vol": 4292.5886470000005
+    }
+   ]
+  },
+  "('HOUSE', 'CO', 3)": {
+   "slug": "co-03-house-election-winner",
+   "markets": [
+    {
+     "name": "Jeff Hurd (R)",
+     "party": "R",
+     "bid": 0.62,
+     "ask": 0.63,
+     "liq": 60118.397,
+     "vol": 3383.1388000000006
+    },
+    {
+     "name": "Dwayne Romero (D)",
+     "party": "D",
+     "bid": 0.37,
+     "ask": 0.38,
+     "liq": 63171.4418,
+     "vol": 8604.725471
+    }
+   ]
+  },
+  "('HOUSE', 'CO', 8)": {
+   "slug": "co-08-house-election-winner",
+   "markets": [
+    {
+     "name": "Gabe Evans (R)",
+     "party": "R",
+     "bid": 0.13,
+     "ask": 0.15,
+     "liq": 16803.5786,
+     "vol": 10227.444267000003
+    },
+    {
+     "name": "Manny Rutinel (D)",
+     "party": "D",
+     "bid": 0.86,
+     "ask": 0.87,
+     "liq": 18596.0554,
+     "vol": 13619.280906999995
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 13)": {
+   "slug": "fl-13-house-election-winner",
+   "markets": [
+    {
+     "name": "Anna Paulina Luna (R)",
+     "party": "R",
+     "bid": 0.71,
+     "ask": 0.72,
+     "liq": 14735.2165,
+     "vol": 4744.116424
+    },
+    {
+     "name": "Leela Gray (D)",
+     "party": "D",
+     "bid": 0.27,
+     "ask": 0.28,
+     "liq": 16418.6905,
+     "vol": 6939.079226
+    }
+   ]
+  },
+  "('HOUSE', 'IA', 1)": {
+   "slug": "ia-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Mariannette Miller-Meeks (R)",
+     "party": "R",
+     "bid": 0.16,
+     "ask": 0.18,
+     "liq": 27506.9786,
+     "vol": 13227.275152999997
+    },
+    {
+     "name": "Christina Bohannan (D)",
+     "party": "D",
+     "bid": 0.82,
+     "ask": 0.83,
+     "liq": 30018.3177,
+     "vol": 25057.147834
+    }
+   ]
+  },
+  "('HOUSE', 'IA', 3)": {
+   "slug": "ia-03-house-election-winner",
+   "markets": [
+    {
+     "name": "Zach Nunn (R)",
+     "party": "R",
+     "bid": 0.23,
+     "ask": 0.24,
+     "liq": 14266.2846,
+     "vol": 6376.740707
+    },
+    {
+     "name": "Sarah Trone Garriott (D)",
+     "party": "D",
+     "bid": 0.76,
+     "ask": 0.77,
+     "liq": 14986.181,
+     "vol": 4654.872615
+    }
+   ]
+  },
+  "('HOUSE', 'MI', 7)": {
+   "slug": "mi-07-house-election-winner",
+   "markets": [
+    {
+     "name": "Tom Barrett (R)",
+     "party": "R",
+     "bid": 0.43,
+     "ask": 0.45,
+     "liq": 43409.2668,
+     "vol": 10162.435606000001
+    },
+    {
+     "name": "William Lawrence (D)",
+     "party": "D",
+     "bid": 0.56,
+     "ask": 0.57,
+     "liq": 42602.4194,
+     "vol": 22033.387627999997
+    }
+   ]
+  },
+  "('HOUSE', 'MI', 10)": {
+   "slug": "mi-10-house-election-winner",
+   "markets": [
+    {
+     "name": "Mike Bouchard (R)",
+     "party": "R",
+     "bid": 0.34,
+     "ask": 0.35,
+     "liq": 47014.6582,
+     "vol": 2881.0839039999996
+    },
+    {
+     "name": "Christina Hines (D)",
+     "party": "D",
+     "bid": 0.65,
+     "ask": 0.66,
+     "liq": 44499.0964,
+     "vol": 5218.910822
+    }
+   ]
+  },
+  "('HOUSE', 'MN', 2)": {
+   "slug": "mn-02-house-election-winner",
+   "markets": [
+    {
+     "name": "Eric Pratt (R)",
+     "party": "R",
+     "bid": 0.066,
+     "ask": 0.068,
+     "liq": 27364.6833,
+     "vol": 28361.594402000002
+    },
+    {
+     "name": "Matt Little (D)",
+     "party": "D",
+     "bid": 0.92,
+     "ask": 0.94,
+     "liq": 21929.4801,
+     "vol": 10101.326502999998
+    }
+   ]
+  },
+  "('HOUSE', 'MT', 1)": {
+   "slug": "mt-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Aaron Flint (R)",
+     "party": "R",
+     "bid": 0.68,
+     "ask": 0.69,
+     "liq": 38747.5031,
+     "vol": 8392.460892000001
+    },
+    {
+     "name": "Sam Forstag (D)",
+     "party": "D",
+     "bid": 0.32,
+     "ask": 0.33,
+     "liq": 51816.6818,
+     "vol": 18525.652226000002
+    }
+   ]
+  },
+  "('HOUSE', 'NE', 2)": {
+   "slug": "ne-02-house-election-winner",
+   "markets": [
+    {
+     "name": "Brinker Harding (R)",
+     "party": "R",
+     "bid": 0.058,
+     "ask": 0.073,
+     "liq": 21317.46632,
+     "vol": 8417.18109
+    },
+    {
+     "name": "Denise Powell (D)",
+     "party": "D",
+     "bid": 0.93,
+     "ask": 0.94,
+     "liq": 19536.966,
+     "vol": 37089.121513000006
+    }
+   ]
+  },
+  "('HOUSE', 'NH', 1)": {
+   "slug": "nh-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Anthony DiLorenzo (R)",
+     "party": "R",
+     "bid": 0.05,
+     "ask": 0.07,
+     "liq": 22114.7623,
+     "vol": 8125.054853000001
+    },
+    {
+     "name": "Stefany Shaheen (D)",
+     "party": "D",
+     "bid": 0.912,
+     "ask": 0.919,
+     "liq": 15963.43152,
+     "vol": 7916.235601000002
+    }
+   ]
+  },
+  "('HOUSE', 'NJ', 7)": {
+   "slug": "nj-07-house-election-winner",
+   "markets": [
+    {
+     "name": "Thomas Kean Jr. (R)",
+     "party": "R",
+     "bid": 0.1,
+     "ask": 0.11,
+     "liq": 57708.1343,
+     "vol": 21258.843099
+    },
+    {
+     "name": "Rebecca Bennett (D)",
+     "party": "D",
+     "bid": 0.88,
+     "ask": 0.9,
+     "liq": 35499.7697,
+     "vol": 21860.460579000002
+    }
+   ]
+  },
+  "('HOUSE', 'NY', 17)": {
+   "slug": "ny-17-house-election-winner",
+   "markets": [
+    {
+     "name": "Mike Lawler (R)",
+     "party": "R",
+     "bid": 0.35,
+     "ask": 0.36,
+     "liq": 44465.9944,
+     "vol": 13097.677131
+    },
+    {
+     "name": "Cait Conley (D)",
+     "party": "D",
+     "bid": 0.64,
+     "ask": 0.65,
+     "liq": 38036.2975,
+     "vol": 8091.798351
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 1)": {
+   "slug": "pa-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Brian Fitzpatrick (R)",
+     "party": "R",
+     "bid": 0.64,
+     "ask": 0.65,
+     "liq": 49247.5037,
+     "vol": 7606.583868999999
+    },
+    {
+     "name": "Bob Harvie (D)",
+     "party": "D",
+     "bid": 0.33,
+     "ask": 0.34,
+     "liq": 46381.3068,
+     "vol": 5446.491987999998
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 7)": {
+   "slug": "pa-07-house-election-winner",
+   "markets": [
+    {
+     "name": "Ryan Mackenzie (R)",
+     "party": "R",
+     "bid": 0.16,
+     "ask": 0.17,
+     "liq": 13574.728,
+     "vol": 7945.330765000001
+    },
+    {
+     "name": "Bob Brooks (D)",
+     "party": "D",
+     "bid": 0.81,
+     "ask": 0.82,
+     "liq": 11510.1236,
+     "vol": 24949.298615
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 8)": {
+   "slug": "pa-08-house-election-winner",
+   "markets": [
+    {
+     "name": "Rob Bresnahan (R)",
+     "party": "R",
+     "bid": 0.32,
+     "ask": 0.33,
+     "liq": 46998.2429,
+     "vol": 9369.566203999999
+    },
+    {
+     "name": "Paige Cognetti (D)",
+     "party": "D",
+     "bid": 0.65,
+     "ask": 0.66,
+     "liq": 39608.2528,
+     "vol": 6075.096425
+    }
+   ]
+  },
+  "('HOUSE', 'PA', 10)": {
+   "slug": "pa-10-house-election-winner",
+   "markets": [
+    {
+     "name": "Scott Perry (R)",
+     "party": "R",
+     "bid": 0.19,
+     "ask": 0.21,
+     "liq": 23888.3182,
+     "vol": 5159.634880000001
+    },
+    {
+     "name": "Janelle Stelson (D)",
+     "party": "D",
+     "bid": 0.8,
+     "ask": 0.81,
+     "liq": 16638.0392,
+     "vol": 4250.042144000001
+    }
+   ]
+  },
+  "('HOUSE', 'TX', 15)": {
+   "slug": "tx-15-house-election-winner",
+   "markets": [
+    {
+     "name": "Monica De La Cruz (R)",
+     "party": "R",
+     "bid": 0.25,
+     "ask": 0.26,
+     "liq": 51224.6097,
+     "vol": 20606.082092000004
+    },
+    {
+     "name": "Bobby Pulido (D)",
+     "party": "D",
+     "bid": 0.75,
+     "ask": 0.76,
+     "liq": 36498.0813,
+     "vol": 13196.631606000003
+    }
+   ]
+  },
+  "('HOUSE', 'TX', 28)": {
+   "slug": "tx-28-house-election-winner",
+   "markets": [
+    {
+     "name": "Tano Tijerina (R)",
+     "party": "R",
+     "bid": 0.09,
+     "ask": 0.11,
+     "liq": 17884.375,
+     "vol": 6160.46095
+    },
+    {
+     "name": "Henry Cuellar (D)",
+     "party": "D",
+     "bid": 0.88,
+     "ask": 0.9,
+     "liq": 21507.9344,
+     "vol": 4824.1872570000005
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 1)": {
+   "slug": "va-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Rob Wittman (R)",
+     "party": "R",
+     "bid": 0.65,
+     "ask": 0.67,
+     "liq": 30447.625,
+     "vol": 7550.576402
+    },
+    {
+     "name": "Shannon Taylor (D)",
+     "party": "D",
+     "bid": 0.32,
+     "ask": 0.35,
+     "liq": 33721.1743,
+     "vol": 22425.21673
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 2)": {
+   "slug": "va-02-house-election-winner",
+   "markets": [
+    {
+     "name": "Jen Kiggans (R)",
+     "party": "R",
+     "bid": 0.18,
+     "ask": 0.19,
+     "liq": 32146.8795,
+     "vol": 24821.814052000005
+    },
+    {
+     "name": "Elaine Luria (D)",
+     "party": "D",
+     "bid": 0.81,
+     "ask": 0.82,
+     "liq": 30032.5443,
+     "vol": 19181.937948
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 7)": {
+   "slug": "va-07-house-election-winner",
+   "markets": [
+    {
+     "name": "Doug Ollivant (R)",
+     "party": "R",
+     "bid": 0.065,
+     "ask": 0.071,
+     "liq": 23749.2056,
+     "vol": 7894.643283999999
+    },
+    {
+     "name": "Eugene Vindman (D)",
+     "party": "D",
+     "bid": 0.93,
+     "ask": 0.94,
+     "liq": 22061.9797,
+     "vol": 4772.218986999999
+    }
+   ]
+  },
+  "('HOUSE', 'WA', 3)": {
+   "slug": "wa-03-house-election-winner",
+   "markets": [
+    {
+     "name": "John Braun (R)",
+     "party": "R",
+     "bid": 0.08,
+     "ask": 0.1,
+     "liq": 20312.6115,
+     "vol": 11230.890781999997
+    },
+    {
+     "name": "Marie Gluesenkamp Perez (D)",
+     "party": "D",
+     "bid": 0.89,
+     "ask": 0.91,
+     "liq": 18365.9439,
+     "vol": 24698.791806999998
+    }
+   ]
+  },
+  "('HOUSE', 'WI', 1)": {
+   "slug": "wi-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Bryan Steil (R)",
+     "party": "R",
+     "bid": 0.66,
+     "ask": 0.67,
+     "liq": 49253.0854,
+     "vol": 5553.555369999999
+    },
+    {
+     "name": "Mitchell Berman (D)",
+     "party": "D",
+     "bid": 0.33,
+     "ask": 0.34,
+     "liq": 52397.5515,
+     "vol": 6129.540184999999
+    }
+   ]
+  },
+  "('HOUSE', 'WI', 3)": {
+   "slug": "wi-03-house-election-winner",
+   "markets": [
+    {
+     "name": "Derrick Van Orden (R)",
+     "party": "R",
+     "bid": 0.25,
+     "ask": 0.26,
+     "liq": 12485.0215,
+     "vol": 2362.758309
+    },
+    {
+     "name": "Rebecca Cooke (D)",
+     "party": "D",
+     "bid": 0.72,
+     "ask": 0.73,
+     "liq": 11906.8098,
+     "vol": 4987.955490999999
+    }
+   ]
+  },
+  "('HOUSE', 'AL', 2)": {
+   "slug": "al-02-house-election-winner",
+   "markets": [
+    {
+     "name": "Rhett Marques (R)",
+     "party": "R",
+     "bid": 0.74,
+     "ask": 0.75,
+     "liq": 32118.229,
+     "vol": 27854.944677
+    },
+    {
+     "name": "Shomari Figures (D)",
+     "party": "D",
+     "bid": 0.25,
+     "ask": 0.26,
+     "liq": 42049.7168,
+     "vol": 37466.094434000006
+    }
+   ]
+  },
+  "('HOUSE', 'CA', 48)": {
+   "slug": "ca-48-house-election-winner",
+   "markets": [
+    {
+     "name": "Jim Desmond (R)",
+     "party": "R",
+     "bid": 0.1,
+     "ask": 0.11,
+     "liq": 21799.7391,
+     "vol": 15283.373746
+    },
+    {
+     "name": "Marni von Wilpert (D)",
+     "party": "D",
+     "bid": 0.88,
+     "ask": 0.89,
+     "liq": 20013.1133,
+     "vol": 17327.408004
+    }
+   ]
+  },
+  "('HOUSE', 'CO', 4)": {
+   "slug": "co-04-house-election-winner",
+   "markets": [
+    {
+     "name": "Lauren Boebert (R)",
+     "party": "R",
+     "bid": 0.68,
+     "ask": 0.7,
+     "liq": 32043.8348,
+     "vol": 25756.739317000003
+    },
+    {
+     "name": "Eileen Laubacher (D)",
+     "party": "D",
+     "bid": 0.29,
+     "ask": 0.3,
+     "liq": 42192.627,
+     "vol": 14774.125277999998
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 7)": {
+   "slug": "fl-07-house-election-winner",
+   "markets": [
+    {
+     "name": "Ryan Elijah (R)",
+     "party": "R",
+     "bid": 0.66,
+     "ask": 0.67,
+     "liq": 47585.962,
+     "vol": 14618.184639000001
+    },
+    {
+     "name": "Bale Dalton (D)",
+     "party": "D",
+     "bid": 0.33,
+     "ask": 0.34,
+     "liq": 55723.0874,
+     "vol": 11263.517357
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 9)": {
+   "slug": "fl-09-house-election-winner",
+   "markets": [
+    {
+     "name": "Dan Green (R)",
+     "party": "R",
+     "bid": 0.68,
+     "ask": 0.69,
+     "liq": 50423.6156,
+     "vol": 12933.093556999998
+    },
+    {
+     "name": "Darren Soto (D)",
+     "party": "D",
+     "bid": 0.31,
+     "ask": 0.32,
+     "liq": 57120.0921,
+     "vol": 9190.122286000002
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 16)": {
+   "slug": "fl-16-house-election-winner",
+   "markets": [
+    {
+     "name": "Sydney Gruters (R)",
+     "party": "R",
+     "bid": 0.83,
+     "ask": 0.84,
+     "liq": 17798.0214,
+     "vol": 10436.647827
+    },
+    {
+     "name": "Kelly Kirschner (D)",
+     "party": "D",
+     "bid": 0.16,
+     "ask": 0.17,
+     "liq": 23000.7408,
+     "vol": 16296.395745
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 20)": {
+   "slug": "fl-20-house-election-winner",
+   "markets": [
+    {
+     "name": "Brent Andersen (R)",
+     "party": "R",
+     "bid": 0.025,
+     "ask": 0.043,
+     "liq": 13009.50495,
+     "vol": 14951.678402000001
+    },
+    {
+     "name": "Debbie Wasserman Schultz (D)",
+     "party": "D",
+     "bid": 0.95,
+     "ask": 0.96,
+     "liq": 11018.6911,
+     "vol": 19234.423659000007
+    }
+   ]
+  },
+  "('HOUSE', 'FL', 22)": {
+   "slug": "fl-22-house-election-winner",
+   "markets": [
+    {
+     "name": "Casey Askar (R)",
+     "party": "R",
+     "bid": 0.48,
+     "ask": 0.49,
+     "liq": 48304.0562,
+     "vol": 26597.263433999997
+    },
+    {
+     "name": "Pia Dandiya (D)",
+     "party": "D",
+     "bid": 0.51,
+     "ask": 0.52,
+     "liq": 44105.7914,
+     "vol": 22309.546547
+    }
+   ]
+  },
+  "('HOUSE', 'IA', 2)": {
+   "slug": "ia-02-house-election-winner",
+   "markets": [
+    {
+     "name": "Joe Mitchell (R)",
+     "party": "R",
+     "bid": 0.44,
+     "ask": 0.46,
+     "liq": 34429.3888,
+     "vol": 15366.505868999997
+    },
+    {
+     "name": "Lindsay James (D)",
+     "party": "D",
+     "bid": 0.52,
+     "ask": 0.53,
+     "liq": 36860.6497,
+     "vol": 7945.9700809999995
+    }
+   ]
+  },
+  "('HOUSE', 'KY', 4)": {
+   "slug": "ky-04-house-election-winner",
+   "markets": [
+    {
+     "name": "Ed Gallrein (R)",
+     "party": "R",
+     "bid": 0.957,
+     "ask": 0.981,
+     "liq": 16387.01713,
+     "vol": 29554.481369
+    },
+    {
+     "name": "Melissa Strange (D)",
+     "party": "D",
+     "bid": 0.011,
+     "ask": 0.027,
+     "liq": 20617.20917,
+     "vol": 16523.998063
+    }
+   ]
+  },
+  "('HOUSE', 'MN', 1)": {
+   "slug": "mn-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Brad Finstad (R)",
+     "party": "R",
+     "bid": 0.75,
+     "ask": 0.76,
+     "liq": 12064.6648,
+     "vol": 17232.907240999997
+    },
+    {
+     "name": "Jake Johnson (D)",
+     "party": "D",
+     "bid": 0.24,
+     "ask": 0.25,
+     "liq": 13704.705,
+     "vol": 30301.489210000003
+    }
+   ]
+  },
+  "('HOUSE', 'MN', 5)": {
+   "slug": "mn-05-house-election-winner",
+   "markets": [
+    {
+     "name": "John Nagel (R)",
+     "party": "R",
+     "bid": 0.01,
+     "ask": 0.045,
+     "liq": 10839.36895,
+     "vol": 31672.674981
+    },
+    {
+     "name": "Ilhan Omar (D)",
+     "party": "D",
+     "bid": 0.93,
+     "ask": 0.961,
+     "liq": 10273.45737,
+     "vol": 18423.450769000003
+    }
+   ]
+  },
+  "('HOUSE', 'NY', 13)": {
+   "slug": "ny-13-house-election-winner",
+   "markets": [
+    {
+     "name": "Jomo Williams (R)",
+     "party": "R",
+     "bid": 0.02,
+     "ask": 0.03,
+     "liq": 11052.74796,
+     "vol": 12516.370769999998
+    },
+    {
+     "name": "Darializa Avila Chevalier (D)",
+     "party": "D",
+     "bid": 0.972,
+     "ask": 0.973,
+     "liq": 15870.4921,
+     "vol": 27408.546033
+    }
+   ]
+  },
+  "('HOUSE', 'SC', 1)": {
+   "slug": "sc-01-house-election-winner",
+   "markets": [
+    {
+     "name": "Jenny Costa Honeycutt (R)",
+     "party": "R",
+     "bid": 0.7,
+     "ask": 0.71,
+     "liq": 26876.952,
+     "vol": 14009.591699
+    },
+    {
+     "name": "Nancy Lacore (D)",
+     "party": "D",
+     "bid": 0.29,
+     "ask": 0.3,
+     "liq": 34290.7127,
+     "vol": 42060.886938
+    }
+   ]
+  },
+  "('HOUSE', 'TN', 5)": {
+   "slug": "tn-05-house-election-winner",
+   "markets": [
+    {
+     "name": "Charlie Hatcher (R)",
+     "party": "R",
+     "bid": 0.9,
+     "ask": 0.92,
+     "liq": 20446.3675,
+     "vol": 29186.601069999993
+    },
+    {
+     "name": "Chaz Molder (D)",
+     "party": "D",
+     "bid": 0.076,
+     "ask": 0.082,
+     "liq": 26543.58381,
+     "vol": 34544.718169
+    }
+   ]
+  },
+  "('HOUSE', 'TX', 23)": {
+   "slug": "tx-23-house-election-winner",
+   "markets": [
+    {
+     "name": "Brandon Herrera (R)",
+     "party": "R",
+     "bid": 0.61,
+     "ask": 0.62,
+     "liq": 42547.4143,
+     "vol": 37391.514575999994
+    },
+    {
+     "name": "Katy Padilla Stout (D)",
+     "party": "D",
+     "bid": 0.38,
+     "ask": 0.39,
+     "liq": 50523.7384,
+     "vol": 29579.037939
+    }
+   ]
+  },
+  "('HOUSE', 'VA', 5)": {
+   "slug": "va-05-house-election-winner",
+   "markets": [
+    {
+     "name": "John McGuire (R)",
+     "party": "R",
+     "bid": 0.8,
+     "ask": 0.81,
+     "liq": 18851.0331,
+     "vol": 39749.182146
+    },
+    {
+     "name": "Tom Perriello (D)",
+     "party": "D",
+     "bid": 0.2,
+     "ask": 0.21,
+     "liq": 28458.1614,
+     "vol": 43672.78348800001
+    }
+   ]
+  },
+  "('HOUSE', 'ME', 2)": {
+   "slug": "me-02-house-election-winner-20260720160226434",
+   "markets": [
+    {
+     "name": "Paul LePage (R)",
+     "party": "R",
+     "bid": 0.62,
+     "ask": 0.63,
+     "liq": 32420.5573,
+     "vol": 10968.660828
+    },
+    {
+     "name": "Matthew Dunlap (D)",
+     "party": "D",
+     "bid": 0.36,
+     "ask": 0.37,
+     "liq": 45558.1152,
+     "vol": 14605.244009999999
+    }
+   ]
+  }
+ },
+ "platform": {
+  "('SEN', 'RI', None)": {
+   "R": {
+    "marketId": "388",
+    "exchangeId": "1077",
+    "title": "Will the Republican Party win the Rhode Island Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.05
+   },
+   "D": {
+    "marketId": "387",
+    "exchangeId": "1076",
+    "title": "Will the Democratic Party win the Rhode Island Senate?",
+    "dmm_bid": 0.95,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'DE', None)": {
+   "R": {
+    "marketId": "386",
+    "exchangeId": "1075",
+    "title": "Will the Republican Party win the Delaware Senate?",
+    "dmm_bid": 0.08,
+    "dmm_ask": 0.16
+   },
+   "D": {
+    "marketId": "353",
+    "exchangeId": "1042",
+    "title": "Will the Democratic Party win the Delaware Senate?",
+    "dmm_bid": 0.955,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'RI', None)": {
+   "R": {
+    "marketId": "385",
+    "exchangeId": "1074",
+    "title": "Will the Republican Party win the Rhode Island Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "D": {
+    "marketId": "384",
+    "exchangeId": "1073",
+    "title": "Will the Democratic Party win the Rhode Island Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   },
+   "I": {
+    "marketId": "191",
+    "exchangeId": "880",
+    "title": "Will the Independent Party win the Rhode Island Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.06
+   }
+  },
+  "('SEN', 'OK', None)": {
+   "D": {
+    "marketId": "383",
+    "exchangeId": "1072",
+    "title": "Will the Democratic Party win the Oklahoma Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "R": {
+    "marketId": "286",
+    "exchangeId": "975",
+    "title": "Will the Republican Party win the Oklahoma Senate?",
+    "dmm_bid": 0.945,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'NH', None)": {
+   "R": {
+    "marketId": "382",
+    "exchangeId": "1071",
+    "title": "Will the Republican Party win the New Hampshire Senate?",
+    "dmm_bid": 0.105,
+    "dmm_ask": 0.185
+   },
+   "D": {
+    "marketId": "381",
+    "exchangeId": "1070",
+    "title": "Will the Democratic Party win the New Hampshire Senate?",
+    "dmm_bid": 0.815,
+    "dmm_ask": 0.895
+   }
+  },
+  "('SEN', 'MA', None)": {
+   "R": {
+    "marketId": "380",
+    "exchangeId": "1069",
+    "title": "Will the Republican Party win the Massachusetts Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "D": {
+    "marketId": "379",
+    "exchangeId": "1068",
+    "title": "Will the Democratic Party win the Massachusetts Senate?",
+    "dmm_bid": 0.945,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'AK', None)": {
+   "R": {
+    "marketId": "378",
+    "exchangeId": "1067",
+    "title": "Will the Republican Party win the Alaska Senate?",
+    "dmm_bid": 0.265,
+    "dmm_ask": 0.345
+   },
+   "D": {
+    "marketId": "377",
+    "exchangeId": "1066",
+    "title": "Will the Democratic Party win the Alaska Senate?",
+    "dmm_bid": 0.665,
+    "dmm_ask": 0.745
+   }
+  },
+  "('HOUSE', 'NH', 1)": {
+   "R": {
+    "marketId": "376",
+    "exchangeId": "1065",
+    "title": "Will the Republican Party win the NH-01 House race?",
+    "dmm_bid": 0.02,
+    "dmm_ask": 0.1
+   },
+   "D": {
+    "marketId": "375",
+    "exchangeId": "1064",
+    "title": "Will the Democratic Party win the NH-01 House race?",
+    "dmm_bid": 0.885,
+    "dmm_ask": 0.965
+   }
+  },
+  "('GOV', 'OK', None)": {
+   "R": {
+    "marketId": "374",
+    "exchangeId": "1063",
+    "title": "Will the Republican Party win the Oklahoma Governor?",
+    "dmm_bid": 0.875,
+    "dmm_ask": 0.955
+   },
+   "D": {
+    "marketId": "186",
+    "exchangeId": "875",
+    "title": "Will the Democratic Party win the Oklahoma Governor?",
+    "dmm_bid": 0.04,
+    "dmm_ask": 0.12
+   }
+  },
+  "('GOV', 'NH', None)": {
+   "R": {
+    "marketId": "373",
+    "exchangeId": "1062",
+    "title": "Will the Republican Party win the New Hampshire Governor?",
+    "dmm_bid": 0.88,
+    "dmm_ask": 0.96
+   },
+   "D": {
+    "marketId": "372",
+    "exchangeId": "1061",
+    "title": "Will the Democratic Party win the New Hampshire Governor?",
+    "dmm_bid": 0.045,
+    "dmm_ask": 0.125
+   }
+  },
+  "('GOV', 'MA', None)": {
+   "R": {
+    "marketId": "371",
+    "exchangeId": "1060",
+    "title": "Will the Republican Party win the Massachusetts Governor?",
+    "dmm_bid": 0.005,
+    "dmm_ask": 0.085
+   },
+   "D": {
+    "marketId": "370",
+    "exchangeId": "1059",
+    "title": "Will the Democratic Party win the Massachusetts Governor?",
+    "dmm_bid": 0.915,
+    "dmm_ask": 0.995
+   }
+  },
+  "('GOV', 'AK', None)": {
+   "R": {
+    "marketId": "369",
+    "exchangeId": "1058",
+    "title": "Will the Republican Party win the Alaska Governor?",
+    "dmm_bid": 0.205,
+    "dmm_ask": 0.285
+   },
+   "D": {
+    "marketId": "368",
+    "exchangeId": "1057",
+    "title": "Will the Democratic Party win the Alaska Governor?",
+    "dmm_bid": 0.705,
+    "dmm_ask": 0.785
+   }
+  },
+  "('SEN', 'WY', None)": {
+   "R": {
+    "marketId": "366",
+    "exchangeId": "1055",
+    "title": "Will the Republican Party win the Wyoming Senate?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "365",
+    "exchangeId": "1054",
+    "title": "Will the Democratic Party win the Wyoming Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   }
+  },
+  "('SEN', 'VA', None)": {
+   "R": {
+    "marketId": "364",
+    "exchangeId": "1053",
+    "title": "Will the Republican Party win the Virginia Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "D": {
+    "marketId": "295",
+    "exchangeId": "984",
+    "title": "Will the Democratic Party win the Virginia Senate?",
+    "dmm_bid": 0.945,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'TN', None)": {
+   "R": {
+    "marketId": "363",
+    "exchangeId": "1052",
+    "title": "Will the Republican Party win the Tennessee Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "362",
+    "exchangeId": "1051",
+    "title": "Will the Democratic Party win the Tennessee Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.06
+   }
+  },
+  "('SEN', 'MN', None)": {
+   "R": {
+    "marketId": "361",
+    "exchangeId": "1050",
+    "title": "Will the Republican Party win the Minnesota Senate?",
+    "dmm_bid": 0.07,
+    "dmm_ask": 0.15
+   },
+   "D": {
+    "marketId": "360",
+    "exchangeId": "1049",
+    "title": "Will the Democratic Party win the Minnesota Senate?",
+    "dmm_bid": 0.845,
+    "dmm_ask": 0.925
+   }
+  },
+  "('SEN', 'MI', None)": {
+   "R": {
+    "marketId": "359",
+    "exchangeId": "1048",
+    "title": "Will the Republican Party win the Michigan Senate?",
+    "dmm_bid": 0.245,
+    "dmm_ask": 0.325
+   },
+   "D": {
+    "marketId": "358",
+    "exchangeId": "1047",
+    "title": "Will the Democratic Party win the Michigan Senate?",
+    "dmm_bid": 0.675,
+    "dmm_ask": 0.755
+   }
+  },
+  "('SEN', 'KS', None)": {
+   "R": {
+    "marketId": "357",
+    "exchangeId": "1046",
+    "title": "Will the Republican Party win the Kansas Senate?",
+    "dmm_bid": 0.665,
+    "dmm_ask": 0.745
+   },
+   "D": {
+    "marketId": "356",
+    "exchangeId": "1045",
+    "title": "Will the Democratic Party win the Kansas Senate?",
+    "dmm_bid": 0.255,
+    "dmm_ask": 0.335
+   }
+  },
+  "('SEN', 'FL', None)": {
+   "R": {
+    "marketId": "355",
+    "exchangeId": "1044",
+    "title": "Will the Republican Party win the Florida Senate?",
+    "dmm_bid": 0.87,
+    "dmm_ask": 0.95
+   },
+   "D": {
+    "marketId": "354",
+    "exchangeId": "1043",
+    "title": "Will the Democratic Party win the Florida Senate?",
+    "dmm_bid": 0.06,
+    "dmm_ask": 0.14
+   }
+  },
+  "('HOUSE', 'WI', 3)": {
+   "R": {
+    "marketId": "352",
+    "exchangeId": "1041",
+    "title": "Will the Republican Party win the WI-03 House race?",
+    "dmm_bid": 0.25,
+    "dmm_ask": 0.33
+   },
+   "D": {
+    "marketId": "351",
+    "exchangeId": "1040",
+    "title": "Will the Democratic Party win the WI-03 House race?",
+    "dmm_bid": 0.68,
+    "dmm_ask": 0.76
+   }
+  },
+  "('HOUSE', 'WI', 1)": {
+   "R": {
+    "marketId": "350",
+    "exchangeId": "1039",
+    "title": "Will the Republican Party win the WI-01 House race?",
+    "dmm_bid": 0.625,
+    "dmm_ask": 0.705
+   },
+   "D": {
+    "marketId": "349",
+    "exchangeId": "1038",
+    "title": "Will the Democratic Party win the WI-01 House race?",
+    "dmm_bid": 0.29,
+    "dmm_ask": 0.37
+   }
+  },
+  "('HOUSE', 'WA', 3)": {
+   "R": {
+    "marketId": "348",
+    "exchangeId": "1037",
+    "title": "Will the Republican Party win the WA-03 House race?",
+    "dmm_bid": 0.05,
+    "dmm_ask": 0.13
+   },
+   "D": {
+    "marketId": "347",
+    "exchangeId": "1036",
+    "title": "Will the Democratic Party win the WA-03 House race?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   }
+  },
+  "('HOUSE', 'VA', 7)": {
+   "R": {
+    "marketId": "346",
+    "exchangeId": "1035",
+    "title": "Will the Republican Party win the VA-07 House race?",
+    "dmm_bid": 0.025,
+    "dmm_ask": 0.105
+   },
+   "D": {
+    "marketId": "251",
+    "exchangeId": "940",
+    "title": "Will the Democratic Party win the VA-07 House race?",
+    "dmm_bid": 0.9,
+    "dmm_ask": 0.98
+   }
+  },
+  "('HOUSE', 'VA', 5)": {
+   "R": {
+    "marketId": "345",
+    "exchangeId": "1034",
+    "title": "Will the Republican Party win the VA-05 House race?",
+    "dmm_bid": 0.765,
+    "dmm_ask": 0.845
+   },
+   "D": {
+    "marketId": "344",
+    "exchangeId": "1033",
+    "title": "Will the Democratic Party win the VA-05 House race?",
+    "dmm_bid": 0.155,
+    "dmm_ask": 0.235
+   }
+  },
+  "('HOUSE', 'VA', 2)": {
+   "D": {
+    "marketId": "343",
+    "exchangeId": "1032",
+    "title": "Will the Democratic Party win the VA-02 House race?",
+    "dmm_bid": 0.76,
+    "dmm_ask": 0.84
+   },
+   "R": {
+    "marketId": "250",
+    "exchangeId": "939",
+    "title": "Will the Republican Party win the VA-02 House race?",
+    "dmm_bid": 0.145,
+    "dmm_ask": 0.225
+   }
+  },
+  "('HOUSE', 'VA', 1)": {
+   "D": {
+    "marketId": "342",
+    "exchangeId": "1031",
+    "title": "Will the Democratic Party win the VA-01 House race?",
+    "dmm_bid": 0.295,
+    "dmm_ask": 0.375
+   },
+   "R": {
+    "marketId": "249",
+    "exchangeId": "938",
+    "title": "Will the Republican Party win the VA-01 House race?",
+    "dmm_bid": 0.625,
+    "dmm_ask": 0.705
+   }
+  },
+  "('HOUSE', 'TN', 5)": {
+   "R": {
+    "marketId": "341",
+    "exchangeId": "1030",
+    "title": "Will the Republican Party win the TN-05 House race?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   },
+   "D": {
+    "marketId": "340",
+    "exchangeId": "1029",
+    "title": "Will the Democratic Party win the TN-05 House race?",
+    "dmm_bid": 0.055,
+    "dmm_ask": 0.135
+   }
+  },
+  "('HOUSE', 'MN', 5)": {
+   "R": {
+    "marketId": "339",
+    "exchangeId": "1028",
+    "title": "Will the Republican Party win the MN-05 House race?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   },
+   "D": {
+    "marketId": "338",
+    "exchangeId": "1027",
+    "title": "Will the Democratic Party win the MN-05 House race?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   }
+  },
+  "('HOUSE', 'MN', 2)": {
+   "R": {
+    "marketId": "337",
+    "exchangeId": "1026",
+    "title": "Will the Republican Party win the MN-02 House race?",
+    "dmm_bid": 0.04,
+    "dmm_ask": 0.12
+   },
+   "D": {
+    "marketId": "336",
+    "exchangeId": "1025",
+    "title": "Will the Democratic Party win the MN-02 House race?",
+    "dmm_bid": 0.88,
+    "dmm_ask": 0.96
+   }
+  },
+  "('HOUSE', 'MN', 1)": {
+   "R": {
+    "marketId": "335",
+    "exchangeId": "1024",
+    "title": "Will the Republican Party win the MN-01 House race?",
+    "dmm_bid": 0.725,
+    "dmm_ask": 0.805
+   },
+   "D": {
+    "marketId": "334",
+    "exchangeId": "1023",
+    "title": "Will the Democratic Party win the MN-01 House race?",
+    "dmm_bid": 0.2,
+    "dmm_ask": 0.28
+   }
+  },
+  "('HOUSE', 'MI', 10)": {
+   "R": {
+    "marketId": "333",
+    "exchangeId": "1022",
+    "title": "Will the Republican Party win the MI-10 House race?",
+    "dmm_bid": 0.305,
+    "dmm_ask": 0.385
+   },
+   "D": {
+    "marketId": "332",
+    "exchangeId": "1021",
+    "title": "Will the Democratic Party win the MI-10 House race?",
+    "dmm_bid": 0.615,
+    "dmm_ask": 0.695
+   }
+  },
+  "('HOUSE', 'MI', 7)": {
+   "R": {
+    "marketId": "331",
+    "exchangeId": "1020",
+    "title": "Will the Republican Party win the MI-07 House race?",
+    "dmm_bid": 0.375,
+    "dmm_ask": 0.455
+   },
+   "D": {
+    "marketId": "330",
+    "exchangeId": "1019",
+    "title": "Will the Democratic Party win the MI-07 House race?",
+    "dmm_bid": 0.565,
+    "dmm_ask": 0.645
+   }
+  },
+  "('HOUSE', 'FL', 22)": {
+   "R": {
+    "marketId": "329",
+    "exchangeId": "1018",
+    "title": "Will the Republican Party win the FL-22 House race?",
+    "dmm_bid": 0.435,
+    "dmm_ask": 0.515
+   },
+   "D": {
+    "marketId": "328",
+    "exchangeId": "1017",
+    "title": "Will the Democratic Party win the FL-22 House race?",
+    "dmm_bid": 0.475,
+    "dmm_ask": 0.555
+   }
+  },
+  "('HOUSE', 'FL', 20)": {
+   "R": {
+    "marketId": "327",
+    "exchangeId": "1016",
+    "title": "Will the Republican Party win the FL-20 House race?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   },
+   "D": {
+    "marketId": "326",
+    "exchangeId": "1015",
+    "title": "Will the Democratic Party win the FL-20 House race?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   }
+  },
+  "('HOUSE', 'FL', 16)": {
+   "R": {
+    "marketId": "325",
+    "exchangeId": "1014",
+    "title": "Will the Republican Party win the FL-16 House race?",
+    "dmm_bid": 0.785,
+    "dmm_ask": 0.865
+   },
+   "D": {
+    "marketId": "324",
+    "exchangeId": "1013",
+    "title": "Will the Democratic Party win the FL-16 House race?",
+    "dmm_bid": 0.125,
+    "dmm_ask": 0.205
+   }
+  },
+  "('HOUSE', 'FL', 13)": {
+   "D": {
+    "marketId": "323",
+    "exchangeId": "1012",
+    "title": "Will the Democratic Party win the FL-13 House race?",
+    "dmm_bid": 0.255,
+    "dmm_ask": 0.335
+   },
+   "R": {
+    "marketId": "212",
+    "exchangeId": "901",
+    "title": "Will the Republican Party win the FL-13 House race?",
+    "dmm_bid": 0.675,
+    "dmm_ask": 0.755
+   }
+  },
+  "('HOUSE', 'FL', 9)": {
+   "R": {
+    "marketId": "322",
+    "exchangeId": "1011",
+    "title": "Will the Republican Party win the FL-09 House race?",
+    "dmm_bid": 0.635,
+    "dmm_ask": 0.715
+   },
+   "D": {
+    "marketId": "211",
+    "exchangeId": "900",
+    "title": "Will the Democratic Party win the FL-09 House race?",
+    "dmm_bid": 0.28,
+    "dmm_ask": 0.36
+   }
+  },
+  "('HOUSE', 'FL', 7)": {
+   "R": {
+    "marketId": "321",
+    "exchangeId": "1010",
+    "title": "Will the Republican Party win the FL-07 House race?",
+    "dmm_bid": 0.64,
+    "dmm_ask": 0.72
+   },
+   "D": {
+    "marketId": "320",
+    "exchangeId": "1009",
+    "title": "Will the Democratic Party win the FL-07 House race?",
+    "dmm_bid": 0.285,
+    "dmm_ask": 0.365
+   }
+  },
+  "('HOUSE', 'AL', 2)": {
+   "R": {
+    "marketId": "319",
+    "exchangeId": "1008",
+    "title": "Will the Republican Party win the AL-02 House race?",
+    "dmm_bid": 0.725,
+    "dmm_ask": 0.805
+   },
+   "D": {
+    "marketId": "318",
+    "exchangeId": "1007",
+    "title": "Will the Democratic Party win the AL-02 House race?",
+    "dmm_bid": 0.2,
+    "dmm_ask": 0.28
+   }
+  },
+  "('GOV', 'WY', None)": {
+   "R": {
+    "marketId": "317",
+    "exchangeId": "1006",
+    "title": "Will the Republican Party win the Wyoming Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "316",
+    "exchangeId": "1005",
+    "title": "Will the Democratic Party win the Wyoming Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   }
+  },
+  "('GOV', 'WI', None)": {
+   "R": {
+    "marketId": "315",
+    "exchangeId": "1004",
+    "title": "Will the Republican Party win the Wisconsin Governor?",
+    "dmm_bid": 0.125,
+    "dmm_ask": 0.205
+   },
+   "D": {
+    "marketId": "314",
+    "exchangeId": "1003",
+    "title": "Will the Democratic Party win the Wisconsin Governor?",
+    "dmm_bid": 0.795,
+    "dmm_ask": 0.875
+   }
+  },
+  "('GOV', 'VT', None)": {
+   "R": {
+    "marketId": "313",
+    "exchangeId": "1002",
+    "title": "Will the Republican Party win the Vermont Governor?",
+    "dmm_bid": 0.805,
+    "dmm_ask": 0.885
+   },
+   "D": {
+    "marketId": "312",
+    "exchangeId": "1001",
+    "title": "Will the Democratic Party win the Vermont Governor?",
+    "dmm_bid": 0.115,
+    "dmm_ask": 0.195
+   }
+  },
+  "('GOV', 'TN', None)": {
+   "R": {
+    "marketId": "311",
+    "exchangeId": "1000",
+    "title": "Will the Republican Party win the Tennessee Governor?",
+    "dmm_bid": 0.885,
+    "dmm_ask": 0.965
+   },
+   "D": {
+    "marketId": "310",
+    "exchangeId": "999",
+    "title": "Will the Democratic Party win the Tennessee Governor?",
+    "dmm_bid": 0.03,
+    "dmm_ask": 0.11
+   }
+  },
+  "('GOV', 'SD', None)": {
+   "R": {
+    "marketId": "309",
+    "exchangeId": "998",
+    "title": "Will the Republican Party win the South Dakota Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "194",
+    "exchangeId": "883",
+    "title": "Will the Democratic Party win the South Dakota Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.07
+   }
+  },
+  "('GOV', 'MN', None)": {
+   "R": {
+    "marketId": "308",
+    "exchangeId": "997",
+    "title": "Will the Republican Party win the Minnesota Governor?",
+    "dmm_bid": 0.015,
+    "dmm_ask": 0.095
+   },
+   "D": {
+    "marketId": "307",
+    "exchangeId": "996",
+    "title": "Will the Democratic Party win the Minnesota Governor?",
+    "dmm_bid": 0.91,
+    "dmm_ask": 0.99
+   }
+  },
+  "('GOV', 'MI', None)": {
+   "R": {
+    "marketId": "306",
+    "exchangeId": "995",
+    "title": "Will the Republican Party win the Michigan Governor?",
+    "dmm_bid": 0.035,
+    "dmm_ask": 0.115
+   },
+   "D": {
+    "marketId": "305",
+    "exchangeId": "994",
+    "title": "Will the Democratic Party win the Michigan Governor?",
+    "dmm_bid": 0.885,
+    "dmm_ask": 0.965
+   }
+  },
+  "('GOV', 'KS', None)": {
+   "R": {
+    "marketId": "304",
+    "exchangeId": "993",
+    "title": "Will the Republican Party win the Kansas Governor?",
+    "dmm_bid": 0.695,
+    "dmm_ask": 0.775
+   },
+   "D": {
+    "marketId": "303",
+    "exchangeId": "992",
+    "title": "Will the Democratic Party win the Kansas Governor?",
+    "dmm_bid": 0.225,
+    "dmm_ask": 0.305
+   }
+  },
+  "('GOV', 'HI', None)": {
+   "R": {
+    "marketId": "302",
+    "exchangeId": "991",
+    "title": "Will the Republican Party win the Hawaii Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.07
+   },
+   "D": {
+    "marketId": "301",
+    "exchangeId": "990",
+    "title": "Will the Democratic Party win the Hawaii Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'FL', None)": {
+   "R": {
+    "marketId": "300",
+    "exchangeId": "989",
+    "title": "Will the Republican Party win the Florida Governor?",
+    "dmm_bid": 0.745,
+    "dmm_ask": 0.825
+   },
+   "D": {
+    "marketId": "299",
+    "exchangeId": "988",
+    "title": "Will the Democratic Party win the Florida Governor?",
+    "dmm_bid": 0.175,
+    "dmm_ask": 0.255
+   }
+  },
+  "('GOV', 'CT', None)": {
+   "D": {
+    "marketId": "298",
+    "exchangeId": "987",
+    "title": "Will the Democratic Party win the Connecticut Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   },
+   "R": {
+    "marketId": "165",
+    "exchangeId": "854",
+    "title": "Will the Republican Party win the Connecticut Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   }
+  },
+  "('SEN', 'WV', None)": {
+   "R": {
+    "marketId": "297",
+    "exchangeId": "986",
+    "title": "Will the Republican Party win the West Virginia Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "296",
+    "exchangeId": "985",
+    "title": "Will the Democratic Party win the West Virginia Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   }
+  },
+  "('SEN', 'TX', None)": {
+   "R": {
+    "marketId": "294",
+    "exchangeId": "983",
+    "title": "Will the Republican Party win the Texas Senate?",
+    "dmm_bid": 0.365,
+    "dmm_ask": 0.445
+   },
+   "D": {
+    "marketId": "293",
+    "exchangeId": "982",
+    "title": "Will the Democratic Party win the Texas Senate?",
+    "dmm_bid": 0.555,
+    "dmm_ask": 0.635
+   }
+  },
+  "('SEN', 'SD', None)": {
+   "R": {
+    "marketId": "292",
+    "exchangeId": "981",
+    "title": "Will the Republican Party win the South Dakota Senate?",
+    "dmm_bid": 0.875,
+    "dmm_ask": 0.955
+   },
+   "D": {
+    "marketId": "291",
+    "exchangeId": "980",
+    "title": "Will the Democratic Party win the South Dakota Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.045
+   }
+  },
+  "('SEN', 'SC', None)": {
+   "R": {
+    "marketId": "290",
+    "exchangeId": "979",
+    "title": "Will the Republican Party win the South Carolina Senate?",
+    "dmm_bid": 0.835,
+    "dmm_ask": 0.915
+   },
+   "D": {
+    "marketId": "289",
+    "exchangeId": "978",
+    "title": "Will the Democratic Party win the South Carolina Senate?",
+    "dmm_bid": 0.085,
+    "dmm_ask": 0.165
+   }
+  },
+  "('SEN', 'OR', None)": {
+   "R": {
+    "marketId": "288",
+    "exchangeId": "977",
+    "title": "Will the Republican Party win the Oregon Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.06
+   },
+   "D": {
+    "marketId": "287",
+    "exchangeId": "976",
+    "title": "Will the Democratic Party win the Oregon Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'NM', None)": {
+   "R": {
+    "marketId": "285",
+    "exchangeId": "974",
+    "title": "Will the Republican Party win the New Mexico Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "D": {
+    "marketId": "284",
+    "exchangeId": "973",
+    "title": "Will the Democratic Party win the New Mexico Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'NJ', None)": {
+   "R": {
+    "marketId": "283",
+    "exchangeId": "972",
+    "title": "Will the Republican Party win the New Jersey Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.06
+   },
+   "D": {
+    "marketId": "282",
+    "exchangeId": "971",
+    "title": "Will the Democratic Party win the New Jersey Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'NE', None)": {
+   "R": {
+    "marketId": "281",
+    "exchangeId": "970",
+    "title": "Will the Republican Party win the Nebraska Senate?",
+    "dmm_bid": 0.665,
+    "dmm_ask": 0.745
+   },
+   "I": {
+    "marketId": "280",
+    "exchangeId": "969",
+    "title": "Will the Independent Party win the Nebraska Senate?",
+    "dmm_bid": 0.255,
+    "dmm_ask": 0.335
+   },
+   "D": {
+    "marketId": "279",
+    "exchangeId": "968",
+    "title": "Will the Democratic Party win the Nebraska Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.04
+   }
+  },
+  "('SEN', 'NC', None)": {
+   "R": {
+    "marketId": "278",
+    "exchangeId": "967",
+    "title": "Will the Republican Party win the North Carolina Senate?",
+    "dmm_bid": 0.015,
+    "dmm_ask": 0.095
+   },
+   "D": {
+    "marketId": "277",
+    "exchangeId": "966",
+    "title": "Will the Democratic Party win the North Carolina Senate?",
+    "dmm_bid": 0.905,
+    "dmm_ask": 0.985
+   }
+  },
+  "('SEN', 'MT', None)": {
+   "I": {
+    "marketId": "276",
+    "exchangeId": "965",
+    "title": "Will the Independent Party win the Montana Senate?",
+    "dmm_bid": 0.045,
+    "dmm_ask": 0.125
+   },
+   "R": {
+    "marketId": "275",
+    "exchangeId": "964",
+    "title": "Will the Republican Party win the Montana Senate?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   },
+   "D": {
+    "marketId": "274",
+    "exchangeId": "963",
+    "title": "Will the Democratic Party win the Montana Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   }
+  },
+  "('SEN', 'MS', None)": {
+   "R": {
+    "marketId": "273",
+    "exchangeId": "962",
+    "title": "Will the Republican Party win the Mississippi Senate?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   },
+   "D": {
+    "marketId": "272",
+    "exchangeId": "961",
+    "title": "Will the Democratic Party win the Mississippi Senate?",
+    "dmm_bid": 0.06,
+    "dmm_ask": 0.14
+   }
+  },
+  "('SEN', 'ME', None)": {
+   "R": {
+    "marketId": "271",
+    "exchangeId": "960",
+    "title": "Will the Republican Party win the Maine Senate?",
+    "dmm_bid": 0.35,
+    "dmm_ask": 0.43
+   },
+   "D": {
+    "marketId": "270",
+    "exchangeId": "959",
+    "title": "Will the Democratic Party win the Maine Senate?",
+    "dmm_bid": 0.57,
+    "dmm_ask": 0.65
+   }
+  },
+  "('SEN', 'LA', None)": {
+   "R": {
+    "marketId": "269",
+    "exchangeId": "958",
+    "title": "Will the Republican Party win the Louisiana Senate?",
+    "dmm_bid": 0.875,
+    "dmm_ask": 0.955
+   },
+   "D": {
+    "marketId": "268",
+    "exchangeId": "957",
+    "title": "Will the Democratic Party win the Louisiana Senate?",
+    "dmm_bid": 0.045,
+    "dmm_ask": 0.125
+   }
+  },
+  "('SEN', 'KY', None)": {
+   "R": {
+    "marketId": "267",
+    "exchangeId": "956",
+    "title": "Will the Republican Party win the Kentucky Senate?",
+    "dmm_bid": 0.915,
+    "dmm_ask": 0.995
+   },
+   "D": {
+    "marketId": "266",
+    "exchangeId": "955",
+    "title": "Will the Democratic Party win the Kentucky Senate?",
+    "dmm_bid": 0.005,
+    "dmm_ask": 0.085
+   }
+  },
+  "('SEN', 'IL', None)": {
+   "R": {
+    "marketId": "265",
+    "exchangeId": "954",
+    "title": "Will the Republican Party win the Illinois Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.06
+   },
+   "D": {
+    "marketId": "264",
+    "exchangeId": "953",
+    "title": "Will the Democratic Party win the Illinois Senate?",
+    "dmm_bid": 0.94,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'ID', None)": {
+   "R": {
+    "marketId": "263",
+    "exchangeId": "952",
+    "title": "Will the Republican Party win the Idaho Senate?",
+    "dmm_bid": 0.88,
+    "dmm_ask": 0.96
+   },
+   "D": {
+    "marketId": "262",
+    "exchangeId": "951",
+    "title": "Will the Democratic Party win the Idaho Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.045
+   }
+  },
+  "('SEN', 'IA', None)": {
+   "R": {
+    "marketId": "261",
+    "exchangeId": "950",
+    "title": "Will the Republican Party win the Iowa Senate?",
+    "dmm_bid": 0.535,
+    "dmm_ask": 0.615
+   },
+   "D": {
+    "marketId": "260",
+    "exchangeId": "949",
+    "title": "Will the Democratic Party win the Iowa Senate?",
+    "dmm_bid": 0.375,
+    "dmm_ask": 0.455
+   }
+  },
+  "('SEN', 'GA', None)": {
+   "R": {
+    "marketId": "259",
+    "exchangeId": "948",
+    "title": "Will the Republican Party win the Georgia Senate?",
+    "dmm_bid": 0.01,
+    "dmm_ask": 0.09
+   },
+   "D": {
+    "marketId": "258",
+    "exchangeId": "947",
+    "title": "Will the Democratic Party win the Georgia Senate?",
+    "dmm_bid": 0.905,
+    "dmm_ask": 0.985
+   }
+  },
+  "('SEN', 'CO', None)": {
+   "R": {
+    "marketId": "257",
+    "exchangeId": "946",
+    "title": "Will the Republican Party win the Colorado Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.055
+   },
+   "D": {
+    "marketId": "256",
+    "exchangeId": "945",
+    "title": "Will the Democratic Party win the Colorado Senate?",
+    "dmm_bid": 0.945,
+    "dmm_ask": null
+   }
+  },
+  "('SEN', 'AR', None)": {
+   "R": {
+    "marketId": "255",
+    "exchangeId": "944",
+    "title": "Will the Republican Party win the Arkansas Senate?",
+    "dmm_bid": 0.89,
+    "dmm_ask": 0.97
+   },
+   "D": {
+    "marketId": "254",
+    "exchangeId": "943",
+    "title": "Will the Democratic Party win the Arkansas Senate?",
+    "dmm_bid": 0.03,
+    "dmm_ask": 0.11
+   }
+  },
+  "('SEN', 'AL', None)": {
+   "R": {
+    "marketId": "253",
+    "exchangeId": "942",
+    "title": "Will the Republican Party win the Alabama Senate?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "252",
+    "exchangeId": "941",
+    "title": "Will the Democratic Party win the Alabama Senate?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   }
+  },
+  "('HOUSE', 'TX', 28)": {
+   "R": {
+    "marketId": "248",
+    "exchangeId": "937",
+    "title": "Will the Republican Party win the TX-28 House race?",
+    "dmm_bid": 0.075,
+    "dmm_ask": 0.155
+   },
+   "D": {
+    "marketId": "247",
+    "exchangeId": "936",
+    "title": "Will the Democratic Party win the TX-28 House race?",
+    "dmm_bid": 0.835,
+    "dmm_ask": 0.915
+   }
+  },
+  "('HOUSE', 'TX', 23)": {
+   "R": {
+    "marketId": "246",
+    "exchangeId": "935",
+    "title": "Will the Republican Party win the TX-23 House race?",
+    "dmm_bid": 0.605,
+    "dmm_ask": 0.685
+   },
+   "D": {
+    "marketId": "245",
+    "exchangeId": "934",
+    "title": "Will the Democratic Party win the TX-23 House race?",
+    "dmm_bid": 0.325,
+    "dmm_ask": 0.405
+   }
+  },
+  "('HOUSE', 'TX', 15)": {
+   "R": {
+    "marketId": "244",
+    "exchangeId": "933",
+    "title": "Will the Republican Party win the TX-15 House race?",
+    "dmm_bid": 0.225,
+    "dmm_ask": 0.305
+   },
+   "D": {
+    "marketId": "243",
+    "exchangeId": "932",
+    "title": "Will the Democratic Party win the TX-15 House race?",
+    "dmm_bid": 0.705,
+    "dmm_ask": 0.785
+   }
+  },
+  "('HOUSE', 'SC', 1)": {
+   "R": {
+    "marketId": "242",
+    "exchangeId": "931",
+    "title": "Will the Republican Party win the SC-01 House race?",
+    "dmm_bid": 0.685,
+    "dmm_ask": 0.765
+   },
+   "D": {
+    "marketId": "241",
+    "exchangeId": "930",
+    "title": "Will the Democratic Party win the SC-01 House race?",
+    "dmm_bid": 0.245,
+    "dmm_ask": 0.325
+   }
+  },
+  "('HOUSE', 'PA', 10)": {
+   "R": {
+    "marketId": "240",
+    "exchangeId": "929",
+    "title": "Will the Republican Party win the PA-10 House race?",
+    "dmm_bid": 0.16,
+    "dmm_ask": 0.24
+   },
+   "D": {
+    "marketId": "239",
+    "exchangeId": "928",
+    "title": "Will the Democratic Party win the PA-10 House race?",
+    "dmm_bid": 0.76,
+    "dmm_ask": 0.84
+   }
+  },
+  "('HOUSE', 'PA', 8)": {
+   "R": {
+    "marketId": "238",
+    "exchangeId": "927",
+    "title": "Will the Republican Party win the PA-08 House race?",
+    "dmm_bid": 0.285,
+    "dmm_ask": 0.365
+   },
+   "D": {
+    "marketId": "237",
+    "exchangeId": "926",
+    "title": "Will the Democratic Party win the PA-08 House race?",
+    "dmm_bid": 0.625,
+    "dmm_ask": 0.705
+   }
+  },
+  "('HOUSE', 'PA', 7)": {
+   "R": {
+    "marketId": "236",
+    "exchangeId": "925",
+    "title": "Will the Republican Party win the PA-07 House race?",
+    "dmm_bid": 0.135,
+    "dmm_ask": 0.215
+   },
+   "D": {
+    "marketId": "235",
+    "exchangeId": "924",
+    "title": "Will the Democratic Party win the PA-07 House race?",
+    "dmm_bid": 0.785,
+    "dmm_ask": 0.865
+   }
+  },
+  "('HOUSE', 'PA', 1)": {
+   "R": {
+    "marketId": "234",
+    "exchangeId": "923",
+    "title": "Will the Republican Party win the PA-01 House race?",
+    "dmm_bid": 0.6,
+    "dmm_ask": 0.68
+   },
+   "D": {
+    "marketId": "233",
+    "exchangeId": "922",
+    "title": "Will the Democratic Party win the PA-01 House race?",
+    "dmm_bid": 0.325,
+    "dmm_ask": 0.405
+   }
+  },
+  "('HOUSE', 'NY', 17)": {
+   "R": {
+    "marketId": "232",
+    "exchangeId": "921",
+    "title": "Will the Republican Party win the NY-17 House race?",
+    "dmm_bid": 0.32,
+    "dmm_ask": 0.4
+   },
+   "D": {
+    "marketId": "231",
+    "exchangeId": "920",
+    "title": "Will the Democratic Party win the NY-17 House race?",
+    "dmm_bid": 0.605,
+    "dmm_ask": 0.685
+   }
+  },
+  "('HOUSE', 'NY', 13)": {
+   "R": {
+    "marketId": "230",
+    "exchangeId": "919",
+    "title": "Will the Republican Party win the NY-13 House race?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   },
+   "D": {
+    "marketId": "229",
+    "exchangeId": "918",
+    "title": "Will the Democratic Party win the NY-13 House race?",
+    "dmm_bid": 0.93,
+    "dmm_ask": null
+   }
+  },
+  "('HOUSE', 'NJ', 7)": {
+   "R": {
+    "marketId": "228",
+    "exchangeId": "917",
+    "title": "Will the Republican Party win the NJ-07 House race?",
+    "dmm_bid": 0.085,
+    "dmm_ask": 0.165
+   },
+   "D": {
+    "marketId": "227",
+    "exchangeId": "916",
+    "title": "Will the Democratic Party win the NJ-07 House race?",
+    "dmm_bid": 0.835,
+    "dmm_ask": 0.915
+   }
+  },
+  "('HOUSE', 'NE', 2)": {
+   "R": {
+    "marketId": "226",
+    "exchangeId": "915",
+    "title": "Will the Republican Party win the NE-02 House race?",
+    "dmm_bid": 0.03,
+    "dmm_ask": 0.11
+   },
+   "D": {
+    "marketId": "225",
+    "exchangeId": "914",
+    "title": "Will the Democratic Party win the NE-02 House race?",
+    "dmm_bid": 0.89,
+    "dmm_ask": 0.97
+   }
+  },
+  "('HOUSE', 'MT', 1)": {
+   "R": {
+    "marketId": "224",
+    "exchangeId": "913",
+    "title": "Will the Republican Party win the MT-01 House race?",
+    "dmm_bid": 0.66,
+    "dmm_ask": 0.74
+   },
+   "D": {
+    "marketId": "223",
+    "exchangeId": "912",
+    "title": "Will the Democratic Party win the MT-01 House race?",
+    "dmm_bid": 0.245,
+    "dmm_ask": 0.325
+   }
+  },
+  "('HOUSE', 'ME', 2)": {
+   "R": {
+    "marketId": "222",
+    "exchangeId": "911",
+    "title": "Will the Republican Party win the ME-02 House race?",
+    "dmm_bid": 0.615,
+    "dmm_ask": 0.695
+   },
+   "D": {
+    "marketId": "221",
+    "exchangeId": "910",
+    "title": "Will the Democratic Party win the ME-02 House race?",
+    "dmm_bid": 0.325,
+    "dmm_ask": 0.405
+   }
+  },
+  "('HOUSE', 'KY', 4)": {
+   "R": {
+    "marketId": "220",
+    "exchangeId": "909",
+    "title": "Will the Republican Party win the KY-04 House race?",
+    "dmm_bid": 0.9,
+    "dmm_ask": 0.98
+   },
+   "D": {
+    "marketId": "219",
+    "exchangeId": "908",
+    "title": "Will the Democratic Party win the KY-04 House race?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   }
+  },
+  "('HOUSE', 'IA', 3)": {
+   "R": {
+    "marketId": "218",
+    "exchangeId": "907",
+    "title": "Will the Republican Party win the IA-03 House race?",
+    "dmm_bid": 0.195,
+    "dmm_ask": 0.275
+   },
+   "D": {
+    "marketId": "217",
+    "exchangeId": "906",
+    "title": "Will the Democratic Party win the IA-03 House race?",
+    "dmm_bid": 0.715,
+    "dmm_ask": 0.795
+   }
+  },
+  "('HOUSE', 'IA', 2)": {
+   "R": {
+    "marketId": "216",
+    "exchangeId": "905",
+    "title": "Will the Republican Party win the IA-02 House race?",
+    "dmm_bid": 0.42,
+    "dmm_ask": 0.5
+   },
+   "D": {
+    "marketId": "215",
+    "exchangeId": "904",
+    "title": "Will the Democratic Party win the IA-02 House race?",
+    "dmm_bid": 0.515,
+    "dmm_ask": 0.595
+   }
+  },
+  "('HOUSE', 'IA', 1)": {
+   "R": {
+    "marketId": "214",
+    "exchangeId": "903",
+    "title": "Will the Republican Party win the IA-01 House race?",
+    "dmm_bid": 0.13,
+    "dmm_ask": 0.21
+   },
+   "D": {
+    "marketId": "213",
+    "exchangeId": "902",
+    "title": "Will the Democratic Party win the IA-01 House race?",
+    "dmm_bid": 0.78,
+    "dmm_ask": 0.86
+   }
+  },
+  "('HOUSE', 'CO', 8)": {
+   "R": {
+    "marketId": "210",
+    "exchangeId": "899",
+    "title": "Will the Republican Party win the CO-08 House race?",
+    "dmm_bid": 0.115,
+    "dmm_ask": 0.195
+   },
+   "D": {
+    "marketId": "209",
+    "exchangeId": "898",
+    "title": "Will the Democratic Party win the CO-08 House race?",
+    "dmm_bid": 0.805,
+    "dmm_ask": 0.885
+   }
+  },
+  "('HOUSE', 'CO', 4)": {
+   "R": {
+    "marketId": "208",
+    "exchangeId": "897",
+    "title": "Will the Republican Party win the CO-04 House race?",
+    "dmm_bid": 0.67,
+    "dmm_ask": 0.75
+   },
+   "D": {
+    "marketId": "207",
+    "exchangeId": "896",
+    "title": "Will the Democratic Party win the CO-04 House race?",
+    "dmm_bid": 0.255,
+    "dmm_ask": 0.335
+   }
+  },
+  "('HOUSE', 'CO', 3)": {
+   "R": {
+    "marketId": "206",
+    "exchangeId": "895",
+    "title": "Will the Republican Party win the CO-03 House race?",
+    "dmm_bid": 0.59,
+    "dmm_ask": 0.67
+   },
+   "D": {
+    "marketId": "205",
+    "exchangeId": "894",
+    "title": "Will the Democratic Party win the CO-03 House race?",
+    "dmm_bid": 0.33,
+    "dmm_ask": 0.41
+   }
+  },
+  "('HOUSE', 'CA', 48)": {
+   "R": {
+    "marketId": "204",
+    "exchangeId": "893",
+    "title": "Will the Republican Party win the CA-48 House race?",
+    "dmm_bid": 0.05,
+    "dmm_ask": 0.13
+   },
+   "D": {
+    "marketId": "203",
+    "exchangeId": "892",
+    "title": "Will the Democratic Party win the CA-48 House race?",
+    "dmm_bid": 0.87,
+    "dmm_ask": 0.95
+   }
+  },
+  "('HOUSE', 'CA', 22)": {
+   "R": {
+    "marketId": "202",
+    "exchangeId": "891",
+    "title": "Will the Republican Party win the CA-22 House race?",
+    "dmm_bid": 0.065,
+    "dmm_ask": 0.145
+   },
+   "D": {
+    "marketId": "201",
+    "exchangeId": "890",
+    "title": "Will the Democratic Party win the CA-22 House race?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   }
+  },
+  "('HOUSE', 'AZ', 6)": {
+   "R": {
+    "marketId": "200",
+    "exchangeId": "889",
+    "title": "Will the Republican Party win the AZ-06 House race?",
+    "dmm_bid": 0.125,
+    "dmm_ask": 0.205
+   },
+   "D": {
+    "marketId": "199",
+    "exchangeId": "888",
+    "title": "Will the Democratic Party win the AZ-06 House race?",
+    "dmm_bid": 0.805,
+    "dmm_ask": 0.885
+   }
+  },
+  "('HOUSE', 'AZ', 1)": {
+   "R": {
+    "marketId": "198",
+    "exchangeId": "887",
+    "title": "Will the Republican Party win the AZ-01 House race?",
+    "dmm_bid": 0.185,
+    "dmm_ask": 0.265
+   },
+   "D": {
+    "marketId": "197",
+    "exchangeId": "886",
+    "title": "Will the Democratic Party win the AZ-01 House race?",
+    "dmm_bid": 0.73,
+    "dmm_ask": 0.81
+   }
+  },
+  "('GOV', 'TX', None)": {
+   "R": {
+    "marketId": "196",
+    "exchangeId": "885",
+    "title": "Will the Republican Party win the Texas Governor?",
+    "dmm_bid": 0.775,
+    "dmm_ask": 0.855
+   },
+   "D": {
+    "marketId": "195",
+    "exchangeId": "884",
+    "title": "Will the Democratic Party win the Texas Governor?",
+    "dmm_bid": 0.155,
+    "dmm_ask": 0.235
+   }
+  },
+  "('GOV', 'SC', None)": {
+   "R": {
+    "marketId": "193",
+    "exchangeId": "882",
+    "title": "Will the Republican Party win the South Carolina Governor?",
+    "dmm_bid": 0.905,
+    "dmm_ask": 0.985
+   },
+   "D": {
+    "marketId": "192",
+    "exchangeId": "881",
+    "title": "Will the Democratic Party win the South Carolina Governor?",
+    "dmm_bid": 0.015,
+    "dmm_ask": 0.095
+   }
+  },
+  "('GOV', 'PA', None)": {
+   "R": {
+    "marketId": "190",
+    "exchangeId": "879",
+    "title": "Will the Republican Party win the Pennsylvania Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.065
+   },
+   "D": {
+    "marketId": "189",
+    "exchangeId": "878",
+    "title": "Will the Democratic Party win the Pennsylvania Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'OR', None)": {
+   "R": {
+    "marketId": "188",
+    "exchangeId": "877",
+    "title": "Will the Republican Party win the Oregon Governor?",
+    "dmm_bid": 0.165,
+    "dmm_ask": 0.245
+   },
+   "D": {
+    "marketId": "187",
+    "exchangeId": "876",
+    "title": "Will the Democratic Party win the Oregon Governor?",
+    "dmm_bid": 0.765,
+    "dmm_ask": 0.845
+   }
+  },
+  "('GOV', 'NY', None)": {
+   "R": {
+    "marketId": "185",
+    "exchangeId": "874",
+    "title": "Will the Republican Party win the New York Governor?",
+    "dmm_bid": 0.02,
+    "dmm_ask": 0.1
+   },
+   "D": {
+    "marketId": "184",
+    "exchangeId": "873",
+    "title": "Will the Democratic Party win the New York Governor?",
+    "dmm_bid": 0.905,
+    "dmm_ask": 0.985
+   }
+  },
+  "('GOV', 'NV', None)": {
+   "R": {
+    "marketId": "183",
+    "exchangeId": "872",
+    "title": "Will the Republican Party win the Nevada Governor?",
+    "dmm_bid": 0.495,
+    "dmm_ask": 0.575
+   },
+   "D": {
+    "marketId": "182",
+    "exchangeId": "871",
+    "title": "Will the Democratic Party win the Nevada Governor?",
+    "dmm_bid": 0.425,
+    "dmm_ask": 0.505
+   }
+  },
+  "('GOV', 'NM', None)": {
+   "R": {
+    "marketId": "181",
+    "exchangeId": "870",
+    "title": "Will the Republican Party win the New Mexico Governor?",
+    "dmm_bid": 0.03,
+    "dmm_ask": 0.11
+   },
+   "D": {
+    "marketId": "180",
+    "exchangeId": "869",
+    "title": "Will the Democratic Party win the New Mexico Governor?",
+    "dmm_bid": 0.89,
+    "dmm_ask": 0.97
+   }
+  },
+  "('GOV', 'NE', None)": {
+   "R": {
+    "marketId": "179",
+    "exchangeId": "868",
+    "title": "Will the Republican Party win the Nebraska Governor?",
+    "dmm_bid": 0.88,
+    "dmm_ask": 0.96
+   },
+   "D": {
+    "marketId": "178",
+    "exchangeId": "867",
+    "title": "Will the Democratic Party win the Nebraska Governor?",
+    "dmm_bid": 0.045,
+    "dmm_ask": 0.125
+   }
+  },
+  "('GOV', 'ME', None)": {
+   "R": {
+    "marketId": "177",
+    "exchangeId": "866",
+    "title": "Will the Republican Party win the Maine Governor?",
+    "dmm_bid": 0.015,
+    "dmm_ask": 0.095
+   },
+   "D": {
+    "marketId": "176",
+    "exchangeId": "865",
+    "title": "Will the Democratic Party win the Maine Governor?",
+    "dmm_bid": 0.905,
+    "dmm_ask": 0.985
+   }
+  },
+  "('GOV', 'MD', None)": {
+   "R": {
+    "marketId": "175",
+    "exchangeId": "864",
+    "title": "Will the Republican Party win the Maryland Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   },
+   "D": {
+    "marketId": "174",
+    "exchangeId": "863",
+    "title": "Will the Democratic Party win the Maryland Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'IL', None)": {
+   "R": {
+    "marketId": "173",
+    "exchangeId": "862",
+    "title": "Will the Republican Party win the Illinois Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.07
+   },
+   "D": {
+    "marketId": "172",
+    "exchangeId": "861",
+    "title": "Will the Democratic Party win the Illinois Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'ID', None)": {
+   "R": {
+    "marketId": "171",
+    "exchangeId": "860",
+    "title": "Will the Republican Party win the Idaho Governor?",
+    "dmm_bid": 0.935,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "170",
+    "exchangeId": "859",
+    "title": "Will the Democratic Party win the Idaho Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   }
+  },
+  "('GOV', 'IA', None)": {
+   "R": {
+    "marketId": "169",
+    "exchangeId": "858",
+    "title": "Will the Republican Party win the Iowa Governor?",
+    "dmm_bid": 0.105,
+    "dmm_ask": 0.185
+   },
+   "D": {
+    "marketId": "168",
+    "exchangeId": "857",
+    "title": "Will the Democratic Party win the Iowa Governor?",
+    "dmm_bid": 0.81,
+    "dmm_ask": 0.89
+   }
+  },
+  "('GOV', 'GA', None)": {
+   "R": {
+    "marketId": "167",
+    "exchangeId": "856",
+    "title": "Will the Republican Party win the Georgia Governor?",
+    "dmm_bid": 0.455,
+    "dmm_ask": 0.535
+   },
+   "D": {
+    "marketId": "166",
+    "exchangeId": "855",
+    "title": "Will the Democratic Party win the Georgia Governor?",
+    "dmm_bid": 0.465,
+    "dmm_ask": 0.545
+   }
+  },
+  "('GOV', 'CO', None)": {
+   "R": {
+    "marketId": "164",
+    "exchangeId": "853",
+    "title": "Will the Republican Party win the Colorado Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   },
+   "D": {
+    "marketId": "163",
+    "exchangeId": "852",
+    "title": "Will the Democratic Party win the Colorado Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'CA', None)": {
+   "R": {
+    "marketId": "162",
+    "exchangeId": "851",
+    "title": "Will the Republican Party win the California Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.075
+   },
+   "D": {
+    "marketId": "161",
+    "exchangeId": "850",
+    "title": "Will the Democratic Party win the California Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   }
+  },
+  "('GOV', 'AZ', None)": {
+   "R": {
+    "marketId": "160",
+    "exchangeId": "849",
+    "title": "Will the Republican Party win the Arizona Governor?",
+    "dmm_bid": 0.075,
+    "dmm_ask": 0.155
+   },
+   "D": {
+    "marketId": "159",
+    "exchangeId": "848",
+    "title": "Will the Democratic Party win the Arizona Governor?",
+    "dmm_bid": 0.845,
+    "dmm_ask": 0.925
+   }
+  },
+  "('GOV', 'AR', None)": {
+   "R": {
+    "marketId": "158",
+    "exchangeId": "847",
+    "title": "Will the Republican Party win the Arkansas Governor?",
+    "dmm_bid": 0.925,
+    "dmm_ask": null
+   },
+   "D": {
+    "marketId": "157",
+    "exchangeId": "846",
+    "title": "Will the Democratic Party win the Arkansas Governor?",
+    "dmm_bid": null,
+    "dmm_ask": 0.07
+   }
+  },
+  "('GOV', 'AL', None)": {
+   "R": {
+    "marketId": "156",
+    "exchangeId": "845",
+    "title": "Will the Republican Party win the Alabama Governor?",
+    "dmm_bid": 0.865,
+    "dmm_ask": 0.945
+   },
+   "D": {
+    "marketId": "155",
+    "exchangeId": "844",
+    "title": "Will the Democratic Party win the Alabama Governor?",
+    "dmm_bid": 0.06,
+    "dmm_ask": 0.14
+   }
+  },
+  "('CHAMBER', 'SENATE', None)": {
+   "R": {
+    "marketId": "154",
+    "exchangeId": "843",
+    "title": "Will the Republican Party win the U.S. Senate?",
+    "dmm_bid": 0.345,
+    "dmm_ask": 0.425
+   },
+   "D": {
+    "marketId": "153",
+    "exchangeId": "842",
+    "title": "Will the Democratic Party win the U.S. Senate?",
+    "dmm_bid": 0.575,
+    "dmm_ask": 0.655
+   }
+  },
+  "('CHAMBER', 'HOUSE', None)": {
+   "R": {
+    "marketId": "152",
+    "exchangeId": "841",
+    "title": "Will the Republican Party win the U.S. House?",
+    "dmm_bid": 0.045,
+    "dmm_ask": 0.125
+   },
+   "D": {
+    "marketId": "151",
+    "exchangeId": "840",
+    "title": "Will the Democratic Party win the U.S. House?",
+    "dmm_bid": 0.875,
+    "dmm_ask": 0.955
+   }
+  }
+ }
+}
