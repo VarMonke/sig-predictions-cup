@@ -1,7 +1,7 @@
 # sigbot: Predictions Cup write-up
 
 SIG's Predictions Cup ran from 2026-10-01 16:00 UTC to 2026-11-04 17:00 UTC on `sig.thesuper.market`, a play-money
-prediction market on the US midterms (100k SUSQies start, ~1,600 accounts). sigbot traded it live, unattended most
+prediction market on the US midterms (100k SUSQies start, ~2,000 accounts). sigbot traded it live, unattended most
 of the time, from a Hetzner VPS in Helsinki.
 
 **Result: 100,000 → 132,919 SUSQies (+32.9%)** after every market settled (Nov 5-7).
